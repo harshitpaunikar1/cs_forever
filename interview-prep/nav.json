@@ -89,6 +89,11 @@
                       "type":  "file",
                       "file":  "interview-prep/content/mcp.md",
                       "label":  "MCP"
+                  },
+                  {
+                      "type":  "file",
+                      "file":  "interview-prep/content/mlops.md",
+                      "label":  "MLOps"
                   }
               ],
     "defaultFile":  "interview-prep/README.md"
