@@ -1541,6 +1541,36 @@
       var container = document.getElementById('nav-container');
       container.innerHTML = '';
 
+      if (navData.items) {
+        var flatList = document.createElement('ul');
+        flatList.className = 'nav-items';
+
+        navData.items.forEach(function(item, ii) {
+          var li = document.createElement('li');
+          li.className = 'nav-item' + (ii === 0 ? ' active' : '');
+          li.textContent = item.label;
+
+          if (item.type === 'file') {
+            li.setAttribute('data-file', item.file);
+            li.onclick = function() { navClick(li); };
+          } else if (item.type === 'anchor') {
+            li.setAttribute('data-anchor', item.anchor);
+            li.setAttribute('data-readme', item.readme);
+            li.onclick = function() { scrollToSection(li); };
+          } else if (item.type === 'pdf') {
+            li.setAttribute('data-pdf', item.file);
+            li.setAttribute('data-title', item.label);
+            if (item.topic) li.setAttribute('data-topic', item.topic);
+            li.onclick = function() { navClickPDF(li); };
+          }
+
+          flatList.appendChild(li);
+        });
+
+        container.appendChild(flatList);
+        return;
+      }
+
       navData.sections.forEach(function(section, si) {
         var div = document.createElement('div');
         div.className = 'nav-section';
