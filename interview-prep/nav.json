@@ -18,7 +18,7 @@
                                        {
                                            "type":  "file",
                                            "file":  "interview-prep/content/large-language-models.md",
-                                           "label":  "100 Questions \u0026 Answers"
+                                           "label":  "Large Language Models"
                                        }
                                    ]
                      },
@@ -29,7 +29,7 @@
                                        {
                                            "type":  "file",
                                            "file":  "interview-prep/content/python-on-azure.md",
-                                           "label":  "100 Questions \u0026 Answers"
+                                           "label":  "Python on Azure"
                                        }
                                    ]
                      },
@@ -40,7 +40,7 @@
                                        {
                                            "type":  "file",
                                            "file":  "interview-prep/content/ai-agents-workflow-integration.md",
-                                           "label":  "100 Questions \u0026 Answers"
+                                           "label":  "AI Agents and Workflow Integration"
                                        }
                                    ]
                      },
@@ -51,7 +51,7 @@
                                        {
                                            "type":  "file",
                                            "file":  "interview-prep/content/microsoft-azure-ai-foundry.md",
-                                           "label":  "100 Questions \u0026 Answers"
+                                           "label":  "Microsoft Azure AI Foundry"
                                        }
                                    ]
                      },
@@ -62,7 +62,7 @@
                                        {
                                            "type":  "file",
                                            "file":  "interview-prep/content/software-development-methodologies-agile-practices.md",
-                                           "label":  "100 Questions \u0026 Answers"
+                                           "label":  "Software Development and Agile"
                                        }
                                    ]
                      },
@@ -73,7 +73,7 @@
                                        {
                                            "type":  "file",
                                            "file":  "interview-prep/content/modern-programming-languages-frameworks.md",
-                                           "label":  "100 Questions \u0026 Answers"
+                                           "label":  "Modern Programming and Frameworks"
                                        }
                                    ]
                      },
@@ -84,7 +84,7 @@
                                        {
                                            "type":  "file",
                                            "file":  "interview-prep/content/complex-problem-analysis-effective-solutions.md",
-                                           "label":  "100 Questions \u0026 Answers"
+                                           "label":  "Complex Problem Analysis"
                                        }
                                    ]
                      }
