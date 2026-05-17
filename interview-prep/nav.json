@@ -1,12 +1,93 @@
 {
-  "sections": [
-    {
-      "id": "sec-interview-prep-overview",
-      "label": "Overview",
-      "items": [
-        { "type": "file", "file": "interview-prep/README.md", "label": "Study Guide" }
-      ]
-    }
-  ],
-  "defaultFile": "interview-prep/README.md"
+    "sections":  [
+                     {
+                         "id":  "sec-interview-prep-overview",
+                         "label":  "Overview",
+                         "items":  [
+                                       {
+                                           "type":  "file",
+                                           "file":  "interview-prep/README.md",
+                                           "label":  "Study Guide"
+                                       }
+                                   ]
+                     },
+                     {
+                         "id":  "sec-llms",
+                         "label":  "Large Language Models (LLMs)",
+                         "items":  [
+                                       {
+                                           "type":  "file",
+                                           "file":  "interview-prep/content/large-language-models.md",
+                                           "label":  "100 Questions \u0026 Answers"
+                                       }
+                                   ]
+                     },
+                     {
+                         "id":  "sec-python-azure",
+                         "label":  "Python on Azure",
+                         "items":  [
+                                       {
+                                           "type":  "file",
+                                           "file":  "interview-prep/content/python-on-azure.md",
+                                           "label":  "100 Questions \u0026 Answers"
+                                       }
+                                   ]
+                     },
+                     {
+                         "id":  "sec-ai-agents",
+                         "label":  "AI Agents \u0026 Workflow Integration",
+                         "items":  [
+                                       {
+                                           "type":  "file",
+                                           "file":  "interview-prep/content/ai-agents-workflow-integration.md",
+                                           "label":  "100 Questions \u0026 Answers"
+                                       }
+                                   ]
+                     },
+                     {
+                         "id":  "sec-azure-ai-foundry",
+                         "label":  "Microsoft Azure AI Foundry",
+                         "items":  [
+                                       {
+                                           "type":  "file",
+                                           "file":  "interview-prep/content/microsoft-azure-ai-foundry.md",
+                                           "label":  "100 Questions \u0026 Answers"
+                                       }
+                                   ]
+                     },
+                     {
+                         "id":  "sec-agile-practices",
+                         "label":  "Software Development Methodologies \u0026 Agile Practices",
+                         "items":  [
+                                       {
+                                           "type":  "file",
+                                           "file":  "interview-prep/content/software-development-methodologies-agile-practices.md",
+                                           "label":  "100 Questions \u0026 Answers"
+                                       }
+                                   ]
+                     },
+                     {
+                         "id":  "sec-modern-programming",
+                         "label":  "Modern Programming Languages \u0026 Frameworks",
+                         "items":  [
+                                       {
+                                           "type":  "file",
+                                           "file":  "interview-prep/content/modern-programming-languages-frameworks.md",
+                                           "label":  "100 Questions \u0026 Answers"
+                                       }
+                                   ]
+                     },
+                     {
+                         "id":  "sec-problem-analysis",
+                         "label":  "Complex Problem Analysis \u0026 Effective Solutions",
+                         "items":  [
+                                       {
+                                           "type":  "file",
+                                           "file":  "interview-prep/content/complex-problem-analysis-effective-solutions.md",
+                                           "label":  "100 Questions \u0026 Answers"
+                                       }
+                                   ]
+                     }
+                 ],
+    "defaultFile":  "interview-prep/README.md"
 }
