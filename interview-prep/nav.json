@@ -1,0 +1,12 @@
+{
+  "sections": [
+    {
+      "id": "sec-interview-prep-overview",
+      "label": "Overview",
+      "items": [
+        { "type": "file", "file": "interview-prep/README.md", "label": "Study Guide" }
+      ]
+    }
+  ],
+  "defaultFile": "interview-prep/README.md"
+}
