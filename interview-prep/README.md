@@ -23,3 +23,8 @@ This section contains the interview question bank from `LLM_Azure_AI_Interview_7
 - [MCP](content/mcp.md) - 200 questions
 - [MLOps](content/mlops.md) - 200 questions
 - [Explainable AI](content/explainable-ai.md) - 200 questions
+- [DevOps](content/devops.md) - 200 questions
+- [Docker](content/docker.md) - 200 questions
+- [Kubernetes](content/kubernetes.md) - 200 questions
+- [Helm Charts](content/helmcharts.md) - 200 questions
+- [DevSecOps](content/devsecops.md) - 200 questions

@@ -99,6 +99,31 @@
                       "type":  "file",
                       "file":  "interview-prep/content/explainable-ai.md",
                       "label":  "Explainable AI"
+                  },
+                  {
+                      "type":  "file",
+                      "file":  "interview-prep/content/devops.md",
+                      "label":  "DevOps"
+                  },
+                  {
+                      "type":  "file",
+                      "file":  "interview-prep/content/docker.md",
+                      "label":  "Docker"
+                  },
+                  {
+                      "type":  "file",
+                      "file":  "interview-prep/content/kubernetes.md",
+                      "label":  "Kubernetes"
+                  },
+                  {
+                      "type":  "file",
+                      "file":  "interview-prep/content/helmcharts.md",
+                      "label":  "Helm Charts"
+                  },
+                  {
+                      "type":  "file",
+                      "file":  "interview-prep/content/devsecops.md",
+                      "label":  "DevSecOps"
                   }
               ],
     "defaultFile":  "interview-prep/README.md"
