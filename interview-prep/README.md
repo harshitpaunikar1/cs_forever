@@ -15,3 +15,6 @@ This section contains the interview question bank from `LLM_Azure_AI_Interview_7
 - [LangChain](content/langchain.md) - 100 questions
 - [LangGraph](content/langgraph.md) - 100 questions
 - [TensorFlow](content/tensorflow.md) - 100 questions
+- [AI Team Lead](content/ai-team-lead.md) - 200 questions
+- [AI Manager](content/ai-manager.md) - 200 questions
+- [Situational Based](content/situational-based.md) - 200 questions

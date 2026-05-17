@@ -59,6 +59,21 @@
                       "type":  "file",
                       "file":  "interview-prep/content/tensorflow.md",
                       "label":  "TensorFlow"
+                  },
+                  {
+                      "type":  "file",
+                      "file":  "interview-prep/content/ai-team-lead.md",
+                      "label":  "AI Team Lead"
+                  },
+                  {
+                      "type":  "file",
+                      "file":  "interview-prep/content/ai-manager.md",
+                      "label":  "AI Manager"
+                  },
+                  {
+                      "type":  "file",
+                      "file":  "interview-prep/content/situational-based.md",
+                      "label":  "Situational Based"
                   }
               ],
     "defaultFile":  "interview-prep/README.md"
