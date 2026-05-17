@@ -74,6 +74,21 @@
                       "type":  "file",
                       "file":  "interview-prep/content/situational-based.md",
                       "label":  "Situational Based"
+                  },
+                  {
+                      "type":  "file",
+                      "file":  "interview-prep/content/genai.md",
+                      "label":  "GenAI"
+                  },
+                  {
+                      "type":  "file",
+                      "file":  "interview-prep/content/agentic-ai.md",
+                      "label":  "Agentic AI"
+                  },
+                  {
+                      "type":  "file",
+                      "file":  "interview-prep/content/mcp.md",
+                      "label":  "MCP"
                   }
               ],
     "defaultFile":  "interview-prep/README.md"

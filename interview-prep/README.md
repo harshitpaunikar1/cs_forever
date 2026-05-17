@@ -18,3 +18,6 @@ This section contains the interview question bank from `LLM_Azure_AI_Interview_7
 - [AI Team Lead](content/ai-team-lead.md) - 200 questions
 - [AI Manager](content/ai-manager.md) - 200 questions
 - [Situational Based](content/situational-based.md) - 200 questions
+- [GenAI](content/genai.md) - 200 questions
+- [Agentic AI](content/agentic-ai.md) - 200 questions
+- [MCP](content/mcp.md) - 200 questions
