@@ -1,45 +1,65 @@
 {
-  "items": [
-    {
-      "type": "file",
-      "file": "interview-prep/README.md",
-      "label": "Study Guide"
-    },
-    {
-      "type": "file",
-      "file": "interview-prep/content/large-language-models.md",
-      "label": "Large Language Models"
-    },
-    {
-      "type": "file",
-      "file": "interview-prep/content/python-on-azure.md",
-      "label": "Python on Azure"
-    },
-    {
-      "type": "file",
-      "file": "interview-prep/content/ai-agents-workflow-integration.md",
-      "label": "AI Agents and Workflow Integration"
-    },
-    {
-      "type": "file",
-      "file": "interview-prep/content/microsoft-azure-ai-foundry.md",
-      "label": "Microsoft Azure AI Foundry"
-    },
-    {
-      "type": "file",
-      "file": "interview-prep/content/software-development-methodologies-agile-practices.md",
-      "label": "Software Development and Agile"
-    },
-    {
-      "type": "file",
-      "file": "interview-prep/content/modern-programming-languages-frameworks.md",
-      "label": "Modern Programming and Frameworks"
-    },
-    {
-      "type": "file",
-      "file": "interview-prep/content/complex-problem-analysis-effective-solutions.md",
-      "label": "Complex Problem Analysis"
-    }
-  ],
-  "defaultFile": "interview-prep/README.md"
+    "items":  [
+                  {
+                      "type":  "file",
+                      "file":  "interview-prep/README.md",
+                      "label":  "Study Guide"
+                  },
+                  {
+                      "type":  "file",
+                      "file":  "interview-prep/content/large-language-models.md",
+                      "label":  "Large Language Models"
+                  },
+                  {
+                      "type":  "file",
+                      "file":  "interview-prep/content/python-on-azure.md",
+                      "label":  "Python on Azure"
+                  },
+                  {
+                      "type":  "file",
+                      "file":  "interview-prep/content/ai-agents-workflow-integration.md",
+                      "label":  "AI Agents and Workflow Integration"
+                  },
+                  {
+                      "type":  "file",
+                      "file":  "interview-prep/content/microsoft-azure-ai-foundry.md",
+                      "label":  "Microsoft Azure AI Foundry"
+                  },
+                  {
+                      "type":  "file",
+                      "file":  "interview-prep/content/software-development-methodologies-agile-practices.md",
+                      "label":  "Software Development and Agile"
+                  },
+                  {
+                      "type":  "file",
+                      "file":  "interview-prep/content/modern-programming-languages-frameworks.md",
+                      "label":  "Modern Programming and Frameworks"
+                  },
+                  {
+                      "type":  "file",
+                      "file":  "interview-prep/content/complex-problem-analysis-effective-solutions.md",
+                      "label":  "Complex Problem Analysis"
+                  },
+                  {
+                      "type":  "file",
+                      "file":  "interview-prep/content/rag.md",
+                      "label":  "RAG"
+                  },
+                  {
+                      "type":  "file",
+                      "file":  "interview-prep/content/langchain.md",
+                      "label":  "LangChain"
+                  },
+                  {
+                      "type":  "file",
+                      "file":  "interview-prep/content/langgraph.md",
+                      "label":  "LangGraph"
+                  },
+                  {
+                      "type":  "file",
+                      "file":  "interview-prep/content/tensorflow.md",
+                      "label":  "TensorFlow"
+                  }
+              ],
+    "defaultFile":  "interview-prep/README.md"
 }

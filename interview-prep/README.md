@@ -11,3 +11,7 @@ This section contains the interview question bank from `LLM_Azure_AI_Interview_7
 - [Software Development Methodologies & Agile Practices](content/software-development-methodologies-agile-practices.md) - 100 questions
 - [Modern Programming Languages & Frameworks](content/modern-programming-languages-frameworks.md) - 100 questions
 - [Complex Problem Analysis & Effective Solutions](content/complex-problem-analysis-effective-solutions.md) - 100 questions
+- [RAG](content/rag.md) - 100 questions
+- [LangChain](content/langchain.md) - 100 questions
+- [LangGraph](content/langgraph.md) - 100 questions
+- [TensorFlow](content/tensorflow.md) - 100 questions
