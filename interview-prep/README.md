@@ -22,3 +22,4 @@ This section contains the interview question bank from `LLM_Azure_AI_Interview_7
 - [Agentic AI](content/agentic-ai.md) - 200 questions
 - [MCP](content/mcp.md) - 200 questions
 - [MLOps](content/mlops.md) - 200 questions
+- [Explainable AI](content/explainable-ai.md) - 200 questions

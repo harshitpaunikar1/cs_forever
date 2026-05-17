@@ -94,6 +94,11 @@
                       "type":  "file",
                       "file":  "interview-prep/content/mlops.md",
                       "label":  "MLOps"
+                  },
+                  {
+                      "type":  "file",
+                      "file":  "interview-prep/content/explainable-ai.md",
+                      "label":  "Explainable AI"
                   }
               ],
     "defaultFile":  "interview-prep/README.md"
