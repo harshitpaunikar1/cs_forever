@@ -1,0 +1,69 @@
+{
+  "sections": [
+    {
+      "id": "sec-micro-overview",
+      "label": "Overview",
+      "items": [
+        { "type": "file", "file": "microeconomics-for-managers/README.md", "label": "Study Guide" }
+      ]
+    },
+    {
+      "id": "sec-micro-foundations",
+      "label": "Foundations",
+      "items": [
+        { "type": "file", "file": "microeconomics-for-managers/content/01-analyzing-economic-problems.md", "label": "Analyzing Economic Problems" },
+        { "type": "file", "file": "microeconomics-for-managers/content/02-demand-supply-equilibrium.md",   "label": "Demand, Supply & Equilibrium" },
+        { "type": "file", "file": "microeconomics-for-managers/content/03-elasticity.md",                  "label": "Elasticity" }
+      ]
+    },
+    {
+      "id": "sec-micro-consumer",
+      "label": "Consumer Theory",
+      "items": [
+        { "type": "file", "file": "microeconomics-for-managers/content/04-consumer-preferences-utility.md", "label": "Consumer Preferences & Utility" },
+        { "type": "file", "file": "microeconomics-for-managers/content/05-consumer-choice.md",              "label": "Consumer Choice" },
+        { "type": "file", "file": "microeconomics-for-managers/content/06-theory-of-demand.md",             "label": "Theory of Demand" }
+      ]
+    },
+    {
+      "id": "sec-micro-production",
+      "label": "Production & Costs",
+      "items": [
+        { "type": "file", "file": "microeconomics-for-managers/content/07-inputs-production-functions.md", "label": "Inputs & Production Functions" },
+        { "type": "file", "file": "microeconomics-for-managers/content/08-costs-cost-minimization.md",     "label": "Costs & Cost Minimization" },
+        { "type": "file", "file": "microeconomics-for-managers/content/09-cost-curves.md",                 "label": "Cost Curves" }
+      ]
+    },
+    {
+      "id": "sec-micro-markets",
+      "label": "Market Structures",
+      "items": [
+        { "type": "file", "file": "microeconomics-for-managers/content/10-perfect-competition.md",            "label": "Perfect Competition" },
+        { "type": "file", "file": "microeconomics-for-managers/content/11-competitive-market-applications.md","label": "Competitive Market Applications" },
+        { "type": "file", "file": "microeconomics-for-managers/content/12-monopoly-monopsony.md",             "label": "Monopoly & Monopsony" },
+        { "type": "file", "file": "microeconomics-for-managers/content/13-capturing-surplus.md",              "label": "Capturing Surplus" },
+        { "type": "file", "file": "microeconomics-for-managers/content/14-market-structure-competition.md",   "label": "Market Structure & Competition" }
+      ]
+    },
+    {
+      "id": "sec-micro-strategy",
+      "label": "Strategy & Information",
+      "items": [
+        { "type": "file", "file": "microeconomics-for-managers/content/15-game-theory.md",           "label": "Game Theory & Strategic Behavior" },
+        { "type": "file", "file": "microeconomics-for-managers/content/16-risk-and-information.md",  "label": "Risk & Information" },
+        { "type": "file", "file": "microeconomics-for-managers/content/17-general-equilibrium.md",   "label": "General Equilibrium Theory" },
+        { "type": "file", "file": "microeconomics-for-managers/content/18-externalities-public-goods.md", "label": "Externalities & Public Goods" }
+      ]
+    },
+    {
+      "id": "sec-micro-qa",
+      "label": "Practice Q&A",
+      "items": [
+        { "type": "file", "file": "microeconomics-for-managers/content/19-qa-basic.md",        "label": "Basic — Q1 to Q70" },
+        { "type": "file", "file": "microeconomics-for-managers/content/20-qa-intermediate.md", "label": "Intermediate — Q71 to Q140" },
+        { "type": "file", "file": "microeconomics-for-managers/content/21-qa-advanced.md",     "label": "Advanced — Q141 to Q210" }
+      ]
+    }
+  ],
+  "defaultFile": "microeconomics-for-managers/README.md"
+}

@@ -1,0 +1,51 @@
+{
+  "sections": [
+    {
+      "id": "sec-bf-overview",
+      "label": "Overview",
+      "items": [
+        { "type": "file", "file": "business-forecasting/README.md", "label": "Study Guide" }
+      ]
+    },
+    {
+      "id": "sec-bf-forecasting-methods",
+      "label": "Forecasting Methods",
+      "items": [
+        { "type": "file", "file": "business-forecasting/content/01-time-series-analysis.md", "label": "Time Series Analysis" },
+        { "type": "file", "file": "business-forecasting/content/02-trend-and-seasonality.md", "label": "Trend and Seasonality" },
+        { "type": "file", "file": "business-forecasting/content/03-moving-averages.md", "label": "Moving Averages" },
+        { "type": "file", "file": "business-forecasting/content/04-exponential-smoothing.md", "label": "Exponential Smoothing" }
+      ]
+    },
+    {
+      "id": "sec-bf-statistical-techniques",
+      "label": "Statistical Techniques",
+      "items": [
+        { "type": "file", "file": "business-forecasting/content/05-regression-analysis.md", "label": "Regression Analysis" },
+        { "type": "file", "file": "business-forecasting/content/06-predictive-modeling.md", "label": "Predictive Modeling" },
+        { "type": "file", "file": "business-forecasting/content/07-forecast-accuracy-measures.md", "label": "Forecast Accuracy Measures" },
+        { "type": "file", "file": "business-forecasting/content/08-error-analysis.md", "label": "Error Analysis" }
+      ]
+    },
+    {
+      "id": "sec-bf-advanced-forecasting",
+      "label": "Advanced Forecasting",
+      "items": [
+        { "type": "file", "file": "business-forecasting/content/09-demand-forecasting.md", "label": "Demand Forecasting" },
+        { "type": "file", "file": "business-forecasting/content/10-sales-forecasting.md", "label": "Sales Forecasting" },
+        { "type": "file", "file": "business-forecasting/content/11-scenario-planning.md", "label": "Scenario Planning" },
+        { "type": "file", "file": "business-forecasting/content/12-sensitivity-analysis.md", "label": "Sensitivity Analysis" }
+      ]
+    },
+    {
+      "id": "sec-bf-qa",
+      "label": "Practice Q&A",
+      "items": [
+        { "type": "file", "file": "business-forecasting/content/13-qa-basic.md", "label": "Basic — Q1 to Q70" },
+        { "type": "file", "file": "business-forecasting/content/14-qa-intermediate.md", "label": "Intermediate — Q71 to Q140" },
+        { "type": "file", "file": "business-forecasting/content/15-qa-advanced.md", "label": "Advanced — Q141 to Q210" }
+      ]
+    }
+  ],
+  "defaultFile": "business-forecasting/README.md"
+}

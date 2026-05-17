@@ -1,0 +1,91 @@
+{
+  "sections": [
+    {
+      "id": "sec-lab-overview",
+      "label": "Overview",
+      "items": [
+        { "type": "file", "file": "legal-aspects-of-business/README.md", "label": "Study Guide" }
+      ]
+    },
+    {
+      "id": "sec-lab-contract-law",
+      "label": "Contract Law",
+      "items": [
+        { "type": "file", "file": "legal-aspects-of-business/content/01-intro-law-business.md",    "label": "Intro to Law & Business" },
+        { "type": "file", "file": "legal-aspects-of-business/content/02-intro-contract-law.md",   "label": "Intro to Contract Law" },
+        { "type": "file", "file": "legal-aspects-of-business/content/03-formation-of-agreement.md","label": "Formation of Agreement" },
+        { "type": "file", "file": "legal-aspects-of-business/content/04-contracts-signing-terms.md","label": "Signing & Incorporation of Terms" },
+        { "type": "file", "file": "legal-aspects-of-business/content/05-electronic-contracts.md", "label": "Electronic Contracts" },
+        { "type": "file", "file": "legal-aspects-of-business/content/06-acceptance-revocation.md","label": "Acceptance & Revocation" },
+        { "type": "file", "file": "legal-aspects-of-business/content/07-battle-of-forms.md",      "label": "Battle of Forms, Auction & Tender" },
+        { "type": "file", "file": "legal-aspects-of-business/content/08-consideration.md",        "label": "Consideration" },
+        { "type": "file", "file": "legal-aspects-of-business/content/09-discharge-of-contracts.md","label": "Discharge of Contracts" },
+        { "type": "file", "file": "legal-aspects-of-business/content/10-damages.md",              "label": "Damages" },
+        { "type": "file", "file": "legal-aspects-of-business/content/11-setting-contract-aside.md","label": "Setting the Contract Aside" }
+      ]
+    },
+    {
+      "id": "sec-lab-sale-special",
+      "label": "Sale & Special Contracts",
+      "items": [
+        { "type": "file", "file": "legal-aspects-of-business/content/12-sale-transfer-ownership.md","label": "Sale & Transfer of Ownership" },
+        { "type": "file", "file": "legal-aspects-of-business/content/13-sale-quality-goods.md",   "label": "Sale & Quality of Goods" },
+        { "type": "file", "file": "legal-aspects-of-business/content/14-performance-sale-contract.md","label": "Performance of Sale Contract" },
+        { "type": "file", "file": "legal-aspects-of-business/content/15-sale-service-mixed.md",   "label": "Sale, Service & Mixed Goods" },
+        { "type": "file", "file": "legal-aspects-of-business/content/16-bailment.md",             "label": "Bailment" },
+        { "type": "file", "file": "legal-aspects-of-business/content/17-pledge-hypothecation.md", "label": "Pledge & Hypothecation" },
+        { "type": "file", "file": "legal-aspects-of-business/content/18-lien.md",                 "label": "Lien" },
+        { "type": "file", "file": "legal-aspects-of-business/content/19-negotiable-instruments.md","label": "Negotiable Instruments" },
+        { "type": "file", "file": "legal-aspects-of-business/content/20-letters-of-credit.md",    "label": "Letters of Credit" },
+        { "type": "file", "file": "legal-aspects-of-business/content/21-indemnity-guarantee.md",  "label": "Indemnity & Guarantee" },
+        { "type": "file", "file": "legal-aspects-of-business/content/22-bank-performance-guarantee.md","label": "Bank & Performance Guarantees" },
+        { "type": "file", "file": "legal-aspects-of-business/content/23-contract-of-insurance.md","label": "Contract of Insurance" },
+        { "type": "file", "file": "legal-aspects-of-business/content/24-agent-agency-principal.md","label": "Agent, Agency & Principal" },
+        { "type": "file", "file": "legal-aspects-of-business/content/25-agency-rights-duties.md", "label": "Agency: Rights & Duties" }
+      ]
+    },
+    {
+      "id": "sec-lab-business-structure",
+      "label": "Business Structure & Regulation",
+      "items": [
+        { "type": "file", "file": "legal-aspects-of-business/content/26-partnership.md",          "label": "Partnership" },
+        { "type": "file", "file": "legal-aspects-of-business/content/27-consumer-protection.md",  "label": "Consumer Protection" },
+        { "type": "file", "file": "legal-aspects-of-business/content/28-advertising-unfair-trade.md","label": "Advertising & Unfair Trade" },
+        { "type": "file", "file": "legal-aspects-of-business/content/29-competition-act.md",      "label": "The Competition Act" }
+      ]
+    },
+    {
+      "id": "sec-lab-company-law",
+      "label": "Company Law",
+      "items": [
+        { "type": "file", "file": "legal-aspects-of-business/content/30-intro-company-law.md",    "label": "Intro to Company Law" },
+        { "type": "file", "file": "legal-aspects-of-business/content/31-incorporation-of-companies.md","label": "Incorporation of Companies" },
+        { "type": "file", "file": "legal-aspects-of-business/content/32-corporate-personality.md","label": "Corporate Personality" },
+        { "type": "file", "file": "legal-aspects-of-business/content/33-constitution-meetings.md","label": "Constitution & Meetings" },
+        { "type": "file", "file": "legal-aspects-of-business/content/34-share-capital-debentures.md","label": "Share Capital & Debentures" },
+        { "type": "file", "file": "legal-aspects-of-business/content/35-directors-powers-duties.md","label": "Directors: Powers & Duties" }
+      ]
+    },
+    {
+      "id": "sec-lab-ip-cyber",
+      "label": "IP, Property & Cyber Law",
+      "items": [
+        { "type": "file", "file": "legal-aspects-of-business/content/36-patents-copyrights-designs.md","label": "Patents, Copyrights & Designs" },
+        { "type": "file", "file": "legal-aspects-of-business/content/37-trademark-passing-off.md","label": "Trademark & Passing Off" },
+        { "type": "file", "file": "legal-aspects-of-business/content/38-business-fundamental-rights.md","label": "Business & Fundamental Rights" },
+        { "type": "file", "file": "legal-aspects-of-business/content/39-sale-mortgage-immovable.md","label": "Sale & Mortgage of Property" },
+        { "type": "file", "file": "legal-aspects-of-business/content/40-it-act-cyber-law.md",     "label": "IT Act & Cyber Law" }
+      ]
+    },
+    {
+      "id": "sec-lab-qa",
+      "label": "Practice Q&A",
+      "items": [
+        { "type": "file", "file": "legal-aspects-of-business/content/41-qa-basic.md",        "label": "Basic — Q1 to Q67" },
+        { "type": "file", "file": "legal-aspects-of-business/content/42-qa-intermediate.md", "label": "Intermediate — Q68 to Q136" },
+        { "type": "file", "file": "legal-aspects-of-business/content/43-qa-advanced.md",     "label": "Advanced — Q137 to Q205" }
+      ]
+    }
+  ],
+  "defaultFile": "legal-aspects-of-business/README.md"
+}

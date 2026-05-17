@@ -1,0 +1,69 @@
+{
+  "sections": [
+    {
+      "id": "sec-psf-overview",
+      "label": "Overview",
+      "items": [
+        { "type": "file", "file": "project-structuring-financing/README.md", "label": "Study Guide" }
+      ]
+    },
+    {
+      "id": "sec-psf-foundations",
+      "label": "Foundations",
+      "items": [
+        { "type": "file", "file": "project-structuring-financing/content/01-introduction-to-project-finance.md", "label": "Project Finance Intro" },
+        { "type": "file", "file": "project-structuring-financing/content/02-project-structuring-fundamentals.md", "label": "Structuring Fundamentals" }
+      ]
+    },
+    {
+      "id": "sec-psf-risk",
+      "label": "Risk & Modeling",
+      "items": [
+        { "type": "file", "file": "project-structuring-financing/content/03-risk-identification-allocation.md", "label": "Risk Allocation" },
+        { "type": "file", "file": "project-structuring-financing/content/04-financial-modeling-projects.md", "label": "Financial Modeling" }
+      ]
+    },
+    {
+      "id": "sec-psf-instruments",
+      "label": "Financing Instruments",
+      "items": [
+        { "type": "file", "file": "project-structuring-financing/content/05-debt-financing-syndication.md", "label": "Debt & Syndication" },
+        { "type": "file", "file": "project-structuring-financing/content/06-equity-mezzanine-financing.md", "label": "Equity & Mezzanine" }
+      ]
+    },
+    {
+      "id": "sec-psf-delivery",
+      "label": "Project Delivery",
+      "items": [
+        { "type": "file", "file": "project-structuring-financing/content/07-public-private-partnerships.md", "label": "PPPs" },
+        { "type": "file", "file": "project-structuring-financing/content/08-concession-agreements-bot.md", "label": "Concessions & BOT" }
+      ]
+    },
+    {
+      "id": "sec-psf-analysis",
+      "label": "Analysis & Control",
+      "items": [
+        { "type": "file", "file": "project-structuring-financing/content/09-project-cash-flow-analysis.md", "label": "Cash Flow Analysis" },
+        { "type": "file", "file": "project-structuring-financing/content/10-credit-enhancement-guarantees.md", "label": "Credit Enhancement" }
+      ]
+    },
+    {
+      "id": "sec-psf-governance",
+      "label": "Governance & Oversight",
+      "items": [
+        { "type": "file", "file": "project-structuring-financing/content/11-regulatory-legal-frameworks.md", "label": "Regulatory & Legal" },
+        { "type": "file", "file": "project-structuring-financing/content/12-project-monitoring-restructuring.md", "label": "Monitoring & Restructuring" }
+      ]
+    },
+    {
+      "id": "sec-psf-qa",
+      "label": "Practice Q&A",
+      "items": [
+        { "type": "file", "file": "project-structuring-financing/content/13-qa-basic.md", "label": "Basic — Q1 to Q70" },
+        { "type": "file", "file": "project-structuring-financing/content/14-qa-intermediate.md", "label": "Intermediate — Q71 to Q140" },
+        { "type": "file", "file": "project-structuring-financing/content/15-qa-advanced.md", "label": "Advanced — Q141 to Q210" }
+      ]
+    }
+  ],
+  "defaultFile": "project-structuring-financing/README.md"
+}

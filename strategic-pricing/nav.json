@@ -1,0 +1,55 @@
+{
+  "sections": [
+    {
+      "id": "sec-strategic-pricing-overview",
+      "label": "Overview",
+      "items": [
+        { "type": "file", "file": "strategic-pricing/README.md", "label": "Study Guide" }
+      ]
+    },
+    {
+      "id": "sec-strategic-pricing-fundamentals",
+      "label": "Pricing Fundamentals",
+      "items": [
+        { "type": "file", "file": "strategic-pricing/content/01-pricing-methods-and-analytics.md", "label": "Methods & Analytics" },
+        { "type": "file", "file": "strategic-pricing/content/02-cost-plus-vs-value-based-pricing.md", "label": "Cost-Plus vs Value-Based" },
+        { "type": "file", "file": "strategic-pricing/content/03-competition-based-pricing.md", "label": "Competition-Based" },
+        { "type": "file", "file": "strategic-pricing/content/04-psychological-pricing-approaches.md", "label": "Psychological Pricing" }
+      ]
+    },
+    {
+      "id": "sec-strategic-pricing-advanced",
+      "label": "Advanced Pricing",
+      "items": [
+        { "type": "file", "file": "strategic-pricing/content/05-ai-and-ml-in-predictive-pricing-models.md", "label": "AI & ML Models" },
+        { "type": "file", "file": "strategic-pricing/content/06-price-elasticity-modeling.md", "label": "Elasticity Modeling" },
+        { "type": "file", "file": "strategic-pricing/content/07-dynamic-pricing.md", "label": "Dynamic Pricing" },
+        { "type": "file", "file": "strategic-pricing/content/08-revenue-management-strategies.md", "label": "Revenue Management" }
+      ]
+    },
+    {
+      "id": "sec-strategic-pricing-strategy",
+      "label": "Pricing Strategy",
+      "items": [
+        { "type": "file", "file": "strategic-pricing/content/09-new-product-launch-pricing.md", "label": "New Product Launch" },
+        { "type": "file", "file": "strategic-pricing/content/10-competitor-price-monitoring-tools.md", "label": "Competitor Monitoring" },
+        { "type": "file", "file": "strategic-pricing/content/11-pricing-for-customer-segments.md", "label": "Customer Segments" },
+        { "type": "file", "file": "strategic-pricing/content/12-b2b-vs-b2c-pricing-differences.md", "label": "B2B vs B2C" }
+      ]
+    },
+    {
+      "id": "sec-strategic-pricing-qa",
+      "label": "Practice Q&A",
+      "items": [
+        { "type": "file", "file": "strategic-pricing/content/13-qa-basic.md",        "label": "Basic — Q1 to Q70" },
+        { "type": "file", "file": "strategic-pricing/content/14-qa-intermediate.md", "label": "Intermediate — Q71 to Q140" },
+        { "type": "file", "file": "strategic-pricing/content/15-qa-advanced.md",     "label": "Advanced — Q141 to Q210" }
+      ]
+    }
+  ],
+  "defaultFile": "strategic-pricing/README.md",
+  "sidebar": {
+    "label": "Strategic\nPricing",
+    "icon": "fa-solid fa-tags"
+  }
+}

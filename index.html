@@ -1,0 +1,1116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tech Primer — Start</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Spectral:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <script>
+    (function () {
+      if (localStorage.getItem('theme') === 'code') {
+        document.documentElement.setAttribute('data-theme', 'code');
+      }
+    })();
+  </script>
+  <style>
+    /* ═══════════════════════════════════════════
+       DESIGN TOKENS — Start Screen
+       Light (day)  → Claude-style cream canvas
+       Dark  (night) → Antigravity IDE charcoal
+       ═══════════════════════════════════════════ */
+    :root {
+      /* Claude light */
+      --l-bg-app:        #FAF9F5;
+      --l-bg-sidebar:    #F5F3EC;
+      --l-bg-card:       #FFFFFF;
+      --l-bg-hover:      #EDEAE1;
+      --l-bg-active:     #E5E2D8;
+      --l-text-primary:  #1A1A1A;
+      --l-text-secondary:#5B5A54;
+      --l-text-muted:    #8E8C85;
+      --l-border-light:  #E5E2D8;
+      --l-border-mid:    #D8D4C8;
+      --l-accent:        #1F1F1F;
+      --l-btn-primary:   #1A1A1A;
+      --l-btn-primary-t: #FFFFFF;
+
+      /* Antigravity dark */
+      --d-bg-app:        #1A1A1B;
+      --d-bg-activity:   #202021;
+      --d-bg-side:       #202022;
+      --d-bg-main:       #1A1A1B;
+      --d-bg-panel:      #202022;
+      --d-bg-card:       #26262A;
+      --d-bg-hover:      #2A2A2E;
+      --d-text-primary:  #D4D4D4;
+      --d-text-secondary:#9A9A9A;
+      --d-text-muted:    #6F6F6F;
+      --d-border:        #2E2E32;
+      --d-border-soft:   #252528;
+      --d-accent-blue:   #2F6FEB;
+      --d-accent-blue-h: #3A7AF0;
+      --d-accent-subtle: #2A3656;
+      --d-status-bg:     #1A1A1B;
+
+      /* shared */
+      --font-body: 'Inter', system-ui, -apple-system, sans-serif;
+      --font-brand: 'Spectral', Georgia, serif;
+      --radius-xs: 4px;
+      --radius-sm: 6px;
+      --radius-md: 8px;
+      --radius-lg: 12px;
+      --ease-out: cubic-bezier(0.22, 1, 0.36, 1);
+    }
+
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    html, body { height: 100%; width: 100%; overflow: hidden; }
+    html { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }
+    body {
+      font-family: var(--font-body);
+      font-size: 13px;
+      color: var(--l-text-primary);
+      background: var(--l-bg-app);
+    }
+    button { font-family: inherit; cursor: pointer; border: none; background: none; color: inherit; }
+    input, textarea { font-family: inherit; }
+    a { color: inherit; text-decoration: none; }
+
+    /* ── Screen visibility by theme ── */
+    .screen { display: none; }
+    #light-screen { display: grid; }
+    [data-theme="code"] #light-screen { display: none; }
+    [data-theme="code"] #dark-screen  { display: grid; }
+
+    /* ══════════════════════════════════════════════════════════════════
+       LIGHT / DAY — Claude settings layout
+       ══════════════════════════════════════════════════════════════════ */
+    #light-screen {
+      grid-template-columns: 260px 1fr;
+      height: 100vh;
+      background: var(--l-bg-app);
+      color: var(--l-text-primary);
+    }
+
+    .cl-sidebar {
+      background: var(--l-bg-sidebar);
+      border-right: 1px solid var(--l-border-light);
+      display: flex;
+      flex-direction: column;
+      padding: 14px 0 0 0;
+      overflow: hidden;
+    }
+    .cl-brand {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 4px 16px 14px;
+    }
+    .cl-brand-title {
+      font-family: var(--font-brand);
+      font-size: 22px;
+      font-weight: 600;
+      letter-spacing: -0.01em;
+    }
+    .cl-brand-collapse {
+      color: var(--l-text-secondary);
+      font-size: 14px;
+      width: 26px; height: 26px;
+      display: grid; place-items: center;
+      border-radius: var(--radius-sm);
+    }
+    .cl-brand-collapse:hover { background: var(--l-bg-hover); }
+
+    .cl-nav { padding: 4px 8px; display: flex; flex-direction: column; gap: 1px; }
+    .cl-nav-item {
+      display: flex;
+      align-items: center;
+      gap: 11px;
+      padding: 7px 10px;
+      border-radius: var(--radius-sm);
+      font-size: 13.5px;
+      color: var(--l-text-primary);
+      cursor: pointer;
+    }
+    .cl-nav-item:hover { background: var(--l-bg-hover); }
+    .cl-nav-item .ic {
+      width: 18px;
+      display: inline-flex;
+      justify-content: center;
+      font-size: 14px;
+      color: var(--l-text-secondary);
+    }
+    .cl-nav-item.home .ic { color: var(--l-text-primary); }
+
+    .cl-recents-head {
+      padding: 16px 18px 6px;
+      font-size: 11.5px;
+      color: var(--l-text-muted);
+      letter-spacing: 0.02em;
+    }
+    .cl-recents {
+      flex: 1;
+      overflow-y: auto;
+      padding: 0 8px 8px;
+      display: flex;
+      flex-direction: column;
+      gap: 0px;
+    }
+    .cl-recent {
+      padding: 6px 10px;
+      border-radius: var(--radius-sm);
+      font-size: 13px;
+      color: var(--l-text-primary);
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      cursor: pointer;
+    }
+    .cl-recent:hover { background: var(--l-bg-hover); }
+
+    .cl-user {
+      margin-top: auto;
+      padding: 10px 12px;
+      border-top: 1px solid var(--l-border-light);
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+    .cl-avatar {
+      width: 28px; height: 28px;
+      border-radius: 50%;
+      background: #1A1A1A;
+      color: #fff;
+      display: grid; place-items: center;
+      font-size: 11px;
+      font-weight: 600;
+    }
+    .cl-user-info { display: flex; flex-direction: column; line-height: 1.1; flex: 1; min-width: 0; }
+    .cl-user-name { font-size: 13px; font-weight: 500; }
+    .cl-user-plan { font-size: 11.5px; color: var(--l-text-muted); margin-top: 2px; }
+    .cl-user-actions {
+      display: flex;
+      align-items: center;
+      gap: 2px;
+      color: var(--l-text-secondary);
+    }
+    .cl-user-actions button {
+      width: 26px; height: 26px;
+      display: grid; place-items: center;
+      border-radius: var(--radius-sm);
+      font-size: 12px;
+      color: var(--l-text-secondary);
+    }
+    .cl-user-actions button:hover { background: var(--l-bg-hover); }
+
+    /* Main settings area */
+    .cl-main {
+      overflow-y: auto;
+      padding: 48px 56px 60px;
+      background: var(--l-bg-app);
+    }
+    .cl-main-inner { max-width: 1040px; margin: 0 auto; }
+    .cl-settings-title {
+      font-family: var(--font-brand);
+      font-size: 34px;
+      font-weight: 500;
+      margin-bottom: 30px;
+      color: var(--l-text-primary);
+    }
+    .cl-settings-grid {
+      display: grid;
+      grid-template-columns: 190px 1fr;
+      gap: 44px;
+      align-items: start;
+    }
+    .cl-settings-tabs {
+      display: flex;
+      flex-direction: column;
+      gap: 2px;
+    }
+    .cl-tab {
+      padding: 8px 12px;
+      border-radius: var(--radius-sm);
+      font-size: 13.5px;
+      color: var(--l-text-secondary);
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+    .cl-tab:hover { background: var(--l-bg-hover); color: var(--l-text-primary); }
+    .cl-tab.active { background: var(--l-bg-sidebar); color: var(--l-text-primary); font-weight: 500; }
+    .cl-tab .beta {
+      margin-left: auto;
+      font-size: 10.5px;
+      background: var(--l-bg-hover);
+      color: var(--l-text-secondary);
+      padding: 1px 6px;
+      border-radius: 10px;
+    }
+
+    .cl-section { padding-bottom: 36px; border-bottom: 1px solid var(--l-border-light); margin-bottom: 36px; }
+    .cl-section:last-child { border-bottom: none; }
+    .cl-section-title {
+      font-size: 17px;
+      font-weight: 600;
+      margin-bottom: 22px;
+      color: var(--l-text-primary);
+    }
+    .cl-row-2 { display: grid; grid-template-columns: 1fr 1fr; gap: 28px; }
+    .cl-field { display: flex; flex-direction: column; gap: 8px; margin-bottom: 22px; }
+    .cl-label { font-size: 13px; color: var(--l-text-primary); }
+    .cl-label .req { color: var(--l-text-primary); margin-left: 2px; }
+    .cl-sublabel-link { color: var(--l-text-primary); text-decoration: underline; text-decoration-color: var(--l-border-mid); text-underline-offset: 2px; }
+    .cl-help {
+      font-size: 12.5px;
+      color: var(--l-text-secondary);
+      margin-top: -2px;
+    }
+    .cl-help a { text-decoration: underline; text-decoration-color: var(--l-border-mid); }
+
+    .cl-input {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      border: 1px solid var(--l-border-mid);
+      border-radius: var(--radius-md);
+      background: var(--l-bg-card);
+      padding: 9px 12px;
+      font-size: 13.5px;
+      min-height: 40px;
+    }
+    .cl-input input {
+      border: none;
+      outline: none;
+      background: transparent;
+      flex: 1;
+      font-size: 13.5px;
+      color: var(--l-text-primary);
+    }
+    .cl-input .cl-avatar-sm {
+      width: 22px; height: 22px;
+      border-radius: 50%;
+      background: #1A1A1A;
+      color: #fff;
+      display: grid; place-items: center;
+      font-size: 10px;
+      font-weight: 600;
+    }
+    .cl-select {
+      border: 1px solid var(--l-border-mid);
+      border-radius: var(--radius-md);
+      background: var(--l-bg-card);
+      padding: 10px 14px;
+      font-size: 13.5px;
+      color: var(--l-text-muted);
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      min-height: 42px;
+    }
+    .cl-select i { color: var(--l-text-secondary); font-size: 11px; }
+    .cl-textarea {
+      border: 1px solid var(--l-border-mid);
+      border-radius: var(--radius-md);
+      background: var(--l-bg-card);
+      padding: 12px 14px;
+      font-size: 13.5px;
+      color: var(--l-text-muted);
+      min-height: 78px;
+      resize: none;
+      width: 100%;
+      outline: none;
+    }
+
+    .cl-toggle-row {
+      display: flex;
+      align-items: flex-start;
+      justify-content: space-between;
+      gap: 32px;
+      padding: 14px 0;
+      border-bottom: 1px solid var(--l-border-light);
+    }
+    .cl-toggle-row:last-child { border-bottom: none; }
+    .cl-toggle-text { flex: 1; }
+    .cl-toggle-title { font-size: 13.5px; color: var(--l-text-primary); margin-bottom: 4px; }
+    .cl-toggle-desc { font-size: 12.5px; color: var(--l-text-secondary); line-height: 1.5; }
+    .cl-toggle {
+      width: 32px;
+      height: 18px;
+      background: #D1CEC2;
+      border-radius: 100px;
+      position: relative;
+      flex-shrink: 0;
+      margin-top: 2px;
+    }
+    .cl-toggle::after {
+      content: '';
+      position: absolute;
+      top: 2px; left: 2px;
+      width: 14px; height: 14px;
+      border-radius: 50%;
+      background: #fff;
+      box-shadow: 0 1px 2px rgba(0,0,0,0.15);
+    }
+
+    /* ══════════════════════════════════════════════════════════════════
+       DARK / NIGHT — Antigravity IDE welcome layout
+       ══════════════════════════════════════════════════════════════════ */
+    #dark-screen {
+      grid-template-columns: 48px 280px 1fr 420px;
+      grid-template-rows: 1fr 24px;
+      height: 100vh;
+      background: var(--d-bg-app);
+      color: var(--d-text-primary);
+      font-size: 12.5px;
+    }
+    .ag-activity {
+      grid-row: 1 / 2;
+      background: var(--d-bg-activity);
+      border-right: 1px solid var(--d-border-soft);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding-top: 8px;
+      gap: 2px;
+    }
+    .ag-ic {
+      width: 40px; height: 40px;
+      display: grid; place-items: center;
+      color: var(--d-text-muted);
+      font-size: 16px;
+      border-radius: 4px;
+      cursor: pointer;
+      position: relative;
+    }
+    .ag-ic:hover { color: var(--d-text-primary); }
+    .ag-ic.active { color: var(--d-text-primary); }
+    .ag-ic.active::before {
+      content: '';
+      position: absolute;
+      left: 0; top: 8px; bottom: 8px;
+      width: 2px;
+      background: var(--d-text-primary);
+    }
+
+    .ag-explorer {
+      background: var(--d-bg-side);
+      border-right: 1px solid var(--d-border-soft);
+      display: flex;
+      flex-direction: column;
+      overflow: hidden;
+    }
+    .ag-panel-head {
+      padding: 8px 16px 8px 20px;
+      font-size: 11px;
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+      color: var(--d-text-secondary);
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      height: 35px;
+    }
+    .ag-panel-head .ag-dots {
+      color: var(--d-text-secondary);
+      cursor: pointer;
+      padding: 2px 6px;
+      font-size: 13px;
+    }
+    .ag-explorer-body {
+      padding: 0 20px 12px;
+      flex: 1;
+      overflow-y: auto;
+      font-size: 12.5px;
+      color: var(--d-text-secondary);
+    }
+    .ag-exp-section {
+      display: flex;
+      align-items: center;
+      gap: 4px;
+      padding: 4px 0;
+      color: var(--d-text-primary);
+      font-weight: 500;
+      font-size: 11.5px;
+      text-transform: uppercase;
+      letter-spacing: 0.04em;
+    }
+    .ag-exp-section i { font-size: 10px; }
+    .ag-exp-text {
+      padding: 10px 0 12px;
+      line-height: 1.55;
+      color: var(--d-text-secondary);
+      font-size: 12.5px;
+    }
+    .ag-btn {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: var(--d-accent-blue);
+      color: #fff;
+      font-size: 12.5px;
+      font-weight: 400;
+      padding: 7px 12px;
+      border-radius: 3px;
+      width: 100%;
+      cursor: pointer;
+      margin-bottom: 12px;
+      transition: background 0.15s var(--ease-out);
+    }
+    .ag-btn:hover { background: var(--d-accent-blue-h); }
+    .ag-btn.secondary {
+      background: var(--d-bg-hover);
+      color: var(--d-text-primary);
+      border: 1px solid var(--d-border);
+    }
+    .ag-btn.secondary:hover { background: var(--d-border); }
+    .ag-exp-link {
+      color: var(--d-accent-blue);
+      text-decoration: none;
+    }
+    .ag-exp-link:hover { text-decoration: underline; }
+
+    .ag-panels-bottom {
+      border-top: 1px solid var(--d-border-soft);
+      display: flex;
+      flex-direction: column;
+    }
+    .ag-panels-bottom .ag-collapsed {
+      padding: 6px 20px;
+      font-size: 11px;
+      text-transform: uppercase;
+      letter-spacing: 0.04em;
+      color: var(--d-text-secondary);
+      border-bottom: 1px solid var(--d-border-soft);
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      cursor: pointer;
+    }
+    .ag-panels-bottom .ag-collapsed:last-child { border-bottom: none; }
+    .ag-panels-bottom .ag-collapsed i { font-size: 9px; }
+
+    /* Main welcome */
+    .ag-main {
+      background: var(--d-bg-main);
+      display: flex;
+      flex-direction: column;
+      overflow: hidden;
+      border-right: 1px solid var(--d-border-soft);
+    }
+    .ag-tabs {
+      height: 36px;
+      background: var(--d-bg-activity);
+      border-bottom: 1px solid var(--d-border-soft);
+      display: flex;
+      align-items: center;
+      padding: 0 12px;
+      gap: 10px;
+    }
+    .ag-tab-plus, .ag-tab-hist, .ag-tab-close {
+      color: var(--d-text-muted);
+      font-size: 12px;
+      padding: 4px 6px;
+      cursor: pointer;
+    }
+    .ag-tab-close { margin-left: auto; }
+    .ag-welcome {
+      flex: 1;
+      overflow-y: auto;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 40px 24px 80px;
+    }
+    .ag-welcome-inner {
+      width: 100%;
+      max-width: 540px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    .ag-logo {
+      width: 72px; height: 72px;
+      display: grid; place-items: center;
+      margin-bottom: 18px;
+      color: var(--d-text-primary);
+    }
+    .ag-logo svg { width: 62px; height: 62px; }
+    .ag-title {
+      font-size: 20px;
+      font-weight: 400;
+      color: var(--d-text-primary);
+      margin-bottom: 40px;
+      letter-spacing: 0.01em;
+    }
+    .ag-primary-btn {
+      width: 100%;
+      max-width: 420px;
+      background: var(--d-accent-blue);
+      color: #fff;
+      font-size: 13.5px;
+      padding: 10px 16px;
+      border-radius: 4px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 8px;
+      margin-bottom: 10px;
+      cursor: pointer;
+    }
+    .ag-primary-btn:hover { background: var(--d-accent-blue-h); }
+    .ag-secondary-row {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 10px;
+      width: 100%;
+      max-width: 420px;
+      margin-bottom: 40px;
+    }
+    .ag-secondary-btn {
+      background: var(--d-bg-card);
+      color: var(--d-text-primary);
+      border: 1px solid var(--d-border);
+      font-size: 13px;
+      padding: 9px 12px;
+      border-radius: 4px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 8px;
+      cursor: pointer;
+    }
+    .ag-secondary-btn:hover { background: var(--d-bg-hover); }
+    .ag-workspaces { width: 100%; max-width: 420px; }
+    .ag-workspaces-title {
+      font-size: 12.5px;
+      color: var(--d-text-secondary);
+      margin-bottom: 10px;
+      letter-spacing: 0.02em;
+    }
+    .ag-ws {
+      background: var(--d-bg-card);
+      border: 1px solid var(--d-border);
+      border-radius: 4px;
+      padding: 10px 14px;
+      margin-bottom: 8px;
+      cursor: pointer;
+      transition: border-color 0.15s var(--ease-out);
+    }
+    .ag-ws:hover { border-color: var(--d-accent-blue); }
+    .ag-ws-name {
+      font-size: 13px;
+      color: var(--d-text-primary);
+      line-height: 1.3;
+    }
+    .ag-ws-path {
+      font-size: 11.5px;
+      color: var(--d-text-muted);
+      margin-top: 2px;
+    }
+    .ag-show-more {
+      text-align: center;
+      font-size: 12.5px;
+      color: var(--d-text-secondary);
+      padding: 16px 0 0;
+      cursor: pointer;
+    }
+    .ag-show-more:hover { color: var(--d-text-primary); }
+
+    /* Agent right panel */
+    .ag-agent {
+      background: var(--d-bg-panel);
+      display: flex;
+      flex-direction: column;
+      overflow: hidden;
+    }
+    .ag-agent-head {
+      height: 36px;
+      border-bottom: 1px solid var(--d-border-soft);
+      display: flex;
+      align-items: center;
+      padding: 0 14px;
+      justify-content: space-between;
+    }
+    .ag-agent-head .title { font-size: 12.5px; color: var(--d-text-secondary); }
+    .ag-agent-head .ctrls { display: flex; gap: 2px; }
+    .ag-agent-head .ctrls button {
+      width: 26px; height: 26px;
+      display: grid; place-items: center;
+      color: var(--d-text-muted);
+      font-size: 12px;
+      border-radius: 3px;
+    }
+    .ag-agent-head .ctrls button:hover { background: var(--d-bg-hover); color: var(--d-text-primary); }
+
+    .ag-agent-body {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      padding: 0 22px;
+    }
+    .ag-agent-brand {
+      font-size: 13.5px;
+      color: var(--d-text-secondary);
+      margin-bottom: 12px;
+    }
+    .ag-composer {
+      background: var(--d-bg-card);
+      border: 1px solid var(--d-border);
+      border-radius: 8px;
+      padding: 12px 14px;
+      display: flex;
+      flex-direction: column;
+      gap: 14px;
+    }
+    .ag-composer-input {
+      font-size: 13px;
+      color: var(--d-text-muted);
+      min-height: 20px;
+    }
+    .ag-composer-row {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      color: var(--d-text-secondary);
+      font-size: 12px;
+    }
+    .ag-composer-left { display: flex; align-items: center; gap: 6px; }
+    .ag-chip {
+      display: inline-flex;
+      align-items: center;
+      gap: 4px;
+      padding: 3px 8px;
+      border-radius: 12px;
+      font-size: 11.5px;
+    }
+    .ag-chip:hover { background: var(--d-bg-hover); }
+    .ag-chip i { font-size: 9px; }
+    .ag-composer-right { display: flex; align-items: center; gap: 6px; }
+    .ag-composer-right button {
+      width: 26px; height: 26px;
+      display: grid; place-items: center;
+      border-radius: 50%;
+      color: var(--d-text-secondary);
+      font-size: 11px;
+    }
+    .ag-composer-right button.send {
+      background: var(--d-bg-hover);
+    }
+    .ag-composer-right button.send:hover { background: var(--d-border); color: var(--d-text-primary); }
+
+    .ag-agent-footer {
+      padding: 14px 22px 18px;
+      font-size: 11.5px;
+      color: var(--d-text-muted);
+      text-align: center;
+      border-top: 1px solid var(--d-border-soft);
+    }
+
+    /* Status bar */
+    .ag-status {
+      grid-column: 1 / -1;
+      background: var(--d-status-bg);
+      border-top: 1px solid var(--d-border-soft);
+      display: flex;
+      align-items: center;
+      padding: 0 10px;
+      font-size: 11.5px;
+      color: var(--d-text-secondary);
+      gap: 12px;
+    }
+    .ag-status .status-left, .ag-status .status-right {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+    .ag-status .status-right { margin-left: auto; }
+    .ag-status .s-item { display: inline-flex; align-items: center; gap: 5px; cursor: pointer; }
+    .ag-status .s-item:hover { color: var(--d-text-primary); }
+    .ag-status .s-item i { font-size: 11px; }
+
+    /* ── Theme toggle (floating) ── */
+    #theme-toggle {
+      position: fixed;
+      top: 14px; right: 14px;
+      width: 36px; height: 36px;
+      border-radius: 8px;
+      display: grid; place-items: center;
+      font-size: 14px;
+      z-index: 200;
+      transition: background 0.2s var(--ease-out), transform 0.2s var(--ease-out);
+    }
+    #theme-toggle {
+      background: var(--l-bg-card);
+      color: var(--l-text-primary);
+      border: 1px solid var(--l-border-mid);
+      box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+    }
+    #theme-toggle:hover { background: var(--l-bg-hover); transform: translateY(-1px); }
+    [data-theme="code"] #theme-toggle {
+      background: var(--d-bg-card);
+      color: var(--d-text-primary);
+      border: 1px solid var(--d-border);
+      box-shadow: 0 2px 8px rgba(0,0,0,0.4);
+    }
+    [data-theme="code"] #theme-toggle:hover { background: var(--d-bg-hover); transform: translateY(-1px); }
+    #theme-toggle .fa-moon { display: none; }
+    #theme-toggle .fa-sun { display: inline; }
+    [data-theme="code"] #theme-toggle .fa-moon { display: inline; }
+    [data-theme="code"] #theme-toggle .fa-sun { display: none; }
+
+    /* Scrollbars */
+    ::-webkit-scrollbar { width: 10px; height: 10px; }
+    ::-webkit-scrollbar-track { background: transparent; }
+    ::-webkit-scrollbar-thumb { background: #D8D4C8; border-radius: 6px; }
+    ::-webkit-scrollbar-thumb:hover { background: #C5BDB4; }
+    [data-theme="code"] ::-webkit-scrollbar-thumb { background: #3A3A3E; border-radius: 6px; }
+    [data-theme="code"] ::-webkit-scrollbar-thumb:hover { background: #4A4A4E; }
+  </style>
+</head>
+<body>
+
+  <!-- ═══════════════════════════════════════════
+       LIGHT / DAY — Claude-style start screen
+       ═══════════════════════════════════════════ -->
+  <div class="screen" id="light-screen">
+    <aside class="cl-sidebar">
+      <div class="cl-brand">
+        <div class="cl-brand-title">Claude</div>
+        <button class="cl-brand-collapse" aria-label="Collapse sidebar"><i class="far fa-window-maximize"></i></button>
+      </div>
+
+      <nav class="cl-nav">
+        <div class="cl-nav-item home">
+          <span class="ic"><i class="fas fa-home"></i></span>
+          <span>Home</span>
+        </div>
+        <div class="cl-nav-item" onclick="window.location.href='/app.html';">
+          <span class="ic"><i class="fas fa-book-open"></i></span>
+          <span>Tech Primer</span>
+        </div>
+        <div class="cl-nav-item">
+          <span class="ic"><i class="fas fa-plus"></i></span>
+          <span>New chat</span>
+        </div>
+        <div class="cl-nav-item">
+          <span class="ic"><i class="fas fa-search"></i></span>
+          <span>Search</span>
+        </div>
+        <div class="cl-nav-item">
+          <span class="ic"><i class="fas fa-briefcase"></i></span>
+          <span>Customize</span>
+        </div>
+        <div class="cl-nav-item">
+          <span class="ic"><i class="far fa-comment"></i></span>
+          <span>Chats</span>
+        </div>
+        <div class="cl-nav-item">
+          <span class="ic"><i class="far fa-folder"></i></span>
+          <span>Projects</span>
+        </div>
+        <div class="cl-nav-item">
+          <span class="ic"><i class="fas fa-cube"></i></span>
+          <span>Artifacts</span>
+        </div>
+        <div class="cl-nav-item">
+          <span class="ic"><i class="fas fa-code"></i></span>
+          <span>Code</span>
+        </div>
+      </nav>
+
+      <div class="cl-recents-head">Recents</div>
+      <div class="cl-recents">
+        <div class="cl-recent">Vulnerability level assessment an…</div>
+        <div class="cl-recent">Greeting</div>
+        <div class="cl-recent">Integration feedback and resoluti…</div>
+        <div class="cl-recent">Greeting</div>
+        <div class="cl-recent">Extract URLs and create Excel sh…</div>
+        <div class="cl-recent">Refining proposal with TensorGo P…</div>
+        <div class="cl-recent">Automated microservices setup s…</div>
+        <div class="cl-recent">Vulnerability level counts and totals</div>
+        <div class="cl-recent">Timesheet creation for January to…</div>
+        <div class="cl-recent">Testing TensorGo app connection</div>
+        <div class="cl-recent">Greeting</div>
+        <div class="cl-recent">Python script for text file table ex…</div>
+        <div class="cl-recent">Converting content into structure…</div>
+        <div class="cl-recent">OpenSSL vulnerability status clari…</div>
+        <div class="cl-recent">Converting vulnerability table to …</div>
+        <div class="cl-recent">Converting vulnerability table to …</div>
+        <div class="cl-recent">Your first chat with Claude</div>
+      </div>
+
+      <div class="cl-user">
+        <div class="cl-avatar">T</div>
+        <div class="cl-user-info">
+          <div class="cl-user-name">TensorGo</div>
+          <div class="cl-user-plan">Max plan</div>
+        </div>
+        <div class="cl-user-actions">
+          <button aria-label="Download"><i class="fas fa-arrow-down"></i></button>
+          <button aria-label="Switch"><i class="fas fa-sort"></i></button>
+        </div>
+      </div>
+    </aside>
+
+    <main class="cl-main">
+      <div class="cl-main-inner">
+        <h1 class="cl-settings-title">Settings</h1>
+
+        <div class="cl-settings-grid">
+          <nav class="cl-settings-tabs">
+            <div class="cl-tab active">General</div>
+            <div class="cl-tab">Account</div>
+            <div class="cl-tab">Privacy</div>
+            <div class="cl-tab">Billing</div>
+            <div class="cl-tab">Usage</div>
+            <div class="cl-tab">Capabilities</div>
+            <div class="cl-tab">Connectors</div>
+            <div class="cl-tab">Claude Code</div>
+            <div class="cl-tab">Claude in Chrome <span class="beta">Beta</span></div>
+          </nav>
+
+          <div class="cl-settings-body">
+            <section class="cl-section">
+              <h2 class="cl-section-title">Profile</h2>
+
+              <div class="cl-row-2">
+                <div class="cl-field">
+                  <label class="cl-label">Full name</label>
+                  <div class="cl-input">
+                    <div class="cl-avatar-sm">T</div>
+                    <input type="text" value="TensorGo" readonly>
+                  </div>
+                </div>
+                <div class="cl-field">
+                  <label class="cl-label">What should Claude call you? <span class="req">*</span></label>
+                  <div class="cl-input">
+                    <input type="text" value="TensorGo" readonly>
+                  </div>
+                </div>
+              </div>
+
+              <div class="cl-field">
+                <label class="cl-label">What best describes your work?</label>
+                <div class="cl-select">
+                  <span>Select your work function</span>
+                  <i class="fas fa-chevron-down"></i>
+                </div>
+              </div>
+
+              <div class="cl-field">
+                <label class="cl-label">
+                  What <a href="#" class="cl-sublabel-link">personal preferences</a> should Claude consider in responses?
+                </label>
+                <div class="cl-help">Your preferences will apply to all conversations, within <a href="#">Anthropic's guidelines</a>.</div>
+                <textarea class="cl-textarea" placeholder="e.g. I primarily code in Python (not a coding beginner)" readonly></textarea>
+              </div>
+            </section>
+
+            <section class="cl-section">
+              <h2 class="cl-section-title">Notifications</h2>
+
+              <div class="cl-toggle-row">
+                <div class="cl-toggle-text">
+                  <div class="cl-toggle-title">Response completions</div>
+                  <div class="cl-toggle-desc">Get notified when Claude has finished a response. Most useful for long-running tasks like tool calls, Research, and Claude Code on the web.</div>
+                </div>
+                <div class="cl-toggle" aria-label="Off"></div>
+              </div>
+
+              <div class="cl-toggle-row">
+                <div class="cl-toggle-text">
+                  <div class="cl-toggle-title">Emails from Claude Code on the web</div>
+                  <div class="cl-toggle-desc">Get an email when Claude Code on the web has finished building or needs your response.</div>
+                </div>
+                <div class="cl-toggle" aria-label="Off"></div>
+              </div>
+
+              <div class="cl-toggle-row">
+                <div class="cl-toggle-text">
+                  <div class="cl-toggle-title">Dispatch messages</div>
+                  <div class="cl-toggle-desc">Get a push notification on your phone when Claude messages you in Dispatch.</div>
+                </div>
+                <div class="cl-toggle" aria-label="Off"></div>
+              </div>
+            </section>
+
+            <section class="cl-section">
+              <h2 class="cl-section-title">Appearance</h2>
+              <div class="cl-label" style="margin-bottom: 12px;">Color mode</div>
+            </section>
+          </div>
+        </div>
+      </div>
+    </main>
+  </div>
+
+  <!-- ═══════════════════════════════════════════
+       DARK / NIGHT — Antigravity-style start screen
+       ═══════════════════════════════════════════ -->
+  <div class="screen" id="dark-screen">
+    <aside class="ag-activity">
+      <button class="ag-ic" title="Home"><i class="fas fa-home"></i></button>
+      <button class="ag-ic" title="Tech Primer" onclick="window.location.href='/app.html';"><i class="fas fa-book-open"></i></button>
+      <button class="ag-ic active" title="Explorer"><i class="far fa-copy"></i></button>
+      <button class="ag-ic" title="Search"><i class="fas fa-search"></i></button>
+      <button class="ag-ic" title="Source Control"><i class="fas fa-code-branch"></i></button>
+      <button class="ag-ic" title="Run"><i class="fas fa-play"></i></button>
+      <button class="ag-ic" title="Remote"><i class="fas fa-desktop"></i></button>
+      <button class="ag-ic" title="Extensions"><i class="fas fa-th-large"></i></button>
+      <button class="ag-ic" title="Antigravity"><i class="fas fa-asterisk"></i></button>
+    </aside>
+
+    <aside class="ag-explorer">
+      <div class="ag-panel-head">
+        <span>Explorer</span>
+        <span class="ag-dots">…</span>
+      </div>
+      <div class="ag-explorer-body">
+        <div class="ag-exp-section">
+          <i class="fas fa-caret-down"></i>
+          <span>No Folder Opened</span>
+        </div>
+        <div class="ag-exp-text">You have not yet opened a folder.</div>
+        <button class="ag-btn">Open Folder</button>
+        <div class="ag-exp-text">You can clone a repository locally.</div>
+        <button class="ag-btn">Clone Repository</button>
+        <div class="ag-exp-text">
+          To learn more about how to use Git and source control in the IDE <a href="#" class="ag-exp-link">read our docs</a>.
+        </div>
+        <div class="ag-exp-text">
+          You can also <a href="#" class="ag-exp-link">open a Java project folder</a>, or create a new Java project by clicking the button below.
+        </div>
+        <button class="ag-btn">Create Java Project</button>
+      </div>
+      <div class="ag-panels-bottom">
+        <div class="ag-collapsed"><i class="fas fa-caret-right"></i><span>Outline</span></div>
+        <div class="ag-collapsed"><i class="fas fa-caret-right"></i><span>Timeline</span></div>
+        <div class="ag-collapsed"><i class="fas fa-caret-right"></i><span>Maven</span></div>
+      </div>
+    </aside>
+
+    <main class="ag-main">
+      <div class="ag-tabs">
+        <span class="ag-tab-plus"><i class="fas fa-plus"></i></span>
+        <span class="ag-tab-hist"><i class="fas fa-history"></i></span>
+        <span class="ag-tab-close"><i class="fas fa-times"></i></span>
+      </div>
+      <div class="ag-welcome">
+        <div class="ag-welcome-inner">
+          <div class="ag-logo">
+            <svg viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M50 10 L88 88 L70 88 L62 70 L38 70 L30 88 L12 88 Z M44 58 L56 58 L50 34 Z" fill="currentColor"/>
+            </svg>
+          </div>
+          <div class="ag-title">Antigravity</div>
+
+          <button class="ag-primary-btn">
+            <i class="far fa-folder-open"></i>
+            <span>Open Folder</span>
+          </button>
+          <div class="ag-secondary-row">
+            <button class="ag-secondary-btn">
+              <i class="fas fa-user-cog"></i>
+              <span>Open Agent Manager</span>
+            </button>
+            <button class="ag-secondary-btn">
+              <i class="far fa-copy"></i>
+              <span>Clone Repository</span>
+            </button>
+          </div>
+
+          <div class="ag-workspaces">
+            <div class="ag-workspaces-title">Workspaces</div>
+            <div class="ag-ws">
+              <div class="ag-ws-name">system_design</div>
+              <div class="ag-ws-path">~/Documents</div>
+            </div>
+            <div class="ag-ws">
+              <div class="ag-ws-name">GOX_UI_OPTIMIZED</div>
+              <div class="ag-ws-path">~/Documents</div>
+            </div>
+            <div class="ag-ws">
+              <div class="ag-ws-name">timesheet extension</div>
+              <div class="ag-ws-path">~/Documents</div>
+            </div>
+            <div class="ag-show-more">Show More…</div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <aside class="ag-agent">
+      <div class="ag-agent-head">
+        <span class="title">Agent</span>
+        <div class="ctrls">
+          <button aria-label="New"><i class="fas fa-plus"></i></button>
+          <button aria-label="History"><i class="fas fa-history"></i></button>
+          <button aria-label="More"><i class="fas fa-ellipsis-h"></i></button>
+          <button aria-label="Close"><i class="fas fa-times"></i></button>
+        </div>
+      </div>
+      <div class="ag-agent-body">
+        <div class="ag-agent-brand">Antigravity</div>
+        <div class="ag-composer">
+          <div class="ag-composer-input">Ask anything, @ to mention, / for workflows</div>
+          <div class="ag-composer-row">
+            <div class="ag-composer-left">
+              <button class="ag-chip" aria-label="Add"><i class="fas fa-plus"></i></button>
+              <button class="ag-chip"><i class="fas fa-chevron-down"></i><span>Fast</span></button>
+              <button class="ag-chip"><i class="fas fa-chevron-down"></i><span>Claude Sonnet 4.6 (Thinking)</span></button>
+            </div>
+            <div class="ag-composer-right">
+              <button aria-label="Voice"><i class="fas fa-microphone"></i></button>
+              <button class="send" aria-label="Send"><i class="fas fa-arrow-right"></i></button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="ag-agent-footer">AI may make mistakes. Double-check all generated code.</div>
+    </aside>
+
+    <footer class="ag-status">
+      <div class="status-left">
+        <span class="s-item"><i class="fas fa-times-circle"></i></span>
+        <span class="s-item"><i class="fas fa-times"></i>0</span>
+        <span class="s-item"><i class="fas fa-exclamation-triangle"></i>0</span>
+      </div>
+      <div class="status-right">
+        <span class="s-item"><i class="fas fa-broadcast-tower"></i>Go Live</span>
+        <span class="s-item">Antigravity - Settings</span>
+        <span class="s-item"><i class="far fa-bell"></i></span>
+      </div>
+    </footer>
+  </div>
+
+  <!-- Floating theme toggle -->
+  <button id="theme-toggle" aria-label="Toggle theme">
+    <i class="fas fa-moon"></i>
+    <i class="fas fa-sun"></i>
+  </button>
+
+  <script>
+    (function () {
+      var root = document.documentElement;
+      var btn = document.getElementById('theme-toggle');
+
+      btn.addEventListener('click', function () {
+        var isCode = root.getAttribute('data-theme') === 'code';
+        if (isCode) {
+          root.removeAttribute('data-theme');
+          try { localStorage.removeItem('theme'); } catch (e) {}
+        } else {
+          root.setAttribute('data-theme', 'code');
+          try { localStorage.setItem('theme', 'code'); } catch (e) {}
+        }
+      });
+    })();
+  </script>
+</body>
+</html>

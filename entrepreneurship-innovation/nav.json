@@ -1,0 +1,51 @@
+{
+  "sections": [
+    {
+      "id": "sec-ei-overview",
+      "label": "Overview",
+      "items": [
+        { "type": "file", "file": "entrepreneurship-innovation/README.md", "label": "Study Guide" }
+      ]
+    },
+    {
+      "id": "sec-ei-mindset",
+      "label": "Entrepreneurial Mindset",
+      "items": [
+        { "type": "file", "file": "entrepreneurship-innovation/content/01-innovation-and-opportunity-recognition.md", "label": "Innovation & Opportunity" },
+        { "type": "file", "file": "entrepreneurship-innovation/content/02-entrepreneurial-ecosystem.md", "label": "Entrepreneurial Ecosystem" },
+        { "type": "file", "file": "entrepreneurship-innovation/content/03-risk-taking-and-resilience.md", "label": "Risk-Taking & Resilience" },
+        { "type": "file", "file": "entrepreneurship-innovation/content/04-creative-problem-solving.md", "label": "Creative Problem Solving" }
+      ]
+    },
+    {
+      "id": "sec-ei-innovation",
+      "label": "Innovation Management",
+      "items": [
+        { "type": "file", "file": "entrepreneurship-innovation/content/05-types-of-innovation.md", "label": "Types of Innovation" },
+        { "type": "file", "file": "entrepreneurship-innovation/content/06-innovation-process.md", "label": "Innovation Process" },
+        { "type": "file", "file": "entrepreneurship-innovation/content/07-design-thinking.md", "label": "Design Thinking" },
+        { "type": "file", "file": "entrepreneurship-innovation/content/08-open-innovation.md", "label": "Open Innovation" }
+      ]
+    },
+    {
+      "id": "sec-ei-venture",
+      "label": "Venture Creation",
+      "items": [
+        { "type": "file", "file": "entrepreneurship-innovation/content/09-business-planning.md", "label": "Business Planning" },
+        { "type": "file", "file": "entrepreneurship-innovation/content/10-resource-acquisition.md", "label": "Resource Acquisition" },
+        { "type": "file", "file": "entrepreneurship-innovation/content/11-scaling-ventures.md", "label": "Scaling Ventures" },
+        { "type": "file", "file": "entrepreneurship-innovation/content/12-exit-strategies.md", "label": "Exit Strategies" }
+      ]
+    },
+    {
+      "id": "sec-ei-qa",
+      "label": "Practice Q&A",
+      "items": [
+        { "type": "file", "file": "entrepreneurship-innovation/content/13-qa-basic.md",        "label": "Basic — Q1 to Q70" },
+        { "type": "file", "file": "entrepreneurship-innovation/content/14-qa-intermediate.md", "label": "Intermediate — Q71 to Q140" },
+        { "type": "file", "file": "entrepreneurship-innovation/content/15-qa-advanced.md",     "label": "Advanced — Q141 to Q210" }
+      ]
+    }
+  ],
+  "defaultFile": "entrepreneurship-innovation/README.md"
+}

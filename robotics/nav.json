@@ -1,0 +1,196 @@
+{
+  "sections": [
+    {
+      "id": "sec-robotics-overview",
+      "label": "Overview",
+      "items": [
+        {
+          "type": "file",
+          "file": "robotics/README.md",
+          "label": "Study Guide"
+        },
+        {
+          "type": "file",
+          "file": "robotics/NAVIGATION.md",
+          "label": "Navigation Map"
+        }
+      ]
+    },
+    {
+      "id": "sec-robotics-foundation",
+      "label": "Foundation",
+      "items": [
+        {
+          "type": "file",
+          "file": "robotics/01_Foundation/00_Overview.md",
+          "label": "Foundation"
+        },
+        {
+          "type": "file",
+          "file": "robotics/01_Foundation/01_Start_Here/01_Curriculum_Overview.md",
+          "label": "Curriculum Overview"
+        },
+        {
+          "type": "file",
+          "file": "robotics/01_Foundation/01_Start_Here/02_Learning_Roadmap.md",
+          "label": "Learning Roadmap"
+        },
+        {
+          "type": "file",
+          "file": "robotics/01_Foundation/02_Engineering_Workflow/01_Linux_Git_Python_Cpp_for_Robotics.md",
+          "label": "Linux, Git, Python, C++ for Robotics"
+        },
+        {
+          "type": "file",
+          "file": "robotics/01_Foundation/03_ROS_2_Fundamentals/01_ROS_2_Foundations_and_Core_Concepts.md",
+          "label": "ROS 2 Foundations and Core Concepts"
+        },
+        {
+          "type": "file",
+          "file": "robotics/01_Foundation/03_ROS_2_Fundamentals/02_URDF_tf2_Launch_and_Robot_Description.md",
+          "label": "URDF, tf2, Launch, and Robot Description"
+        },
+        {
+          "type": "file",
+          "file": "robotics/01_Foundation/04_Simulation_and_Modeling/01_Gazebo_Simulation_and_First_Robot_Setup.md",
+          "label": "Gazebo Simulation and First Robot Setup"
+        }
+      ]
+    },
+    {
+      "id": "sec-robotics-core",
+      "label": "Core Robotics",
+      "items": [
+        {
+          "type": "file",
+          "file": "robotics/02_Core_Robotics/00_Overview.md",
+          "label": "Core Robotics"
+        },
+        {
+          "type": "file",
+          "file": "robotics/02_Core_Robotics/01_Robotics_Software_Architecture/01_ROS_2_Nodes_Topics_Services_Actions_and_QoS.md",
+          "label": "ROS 2 Nodes, Topics, Services, Actions, and QoS"
+        },
+        {
+          "type": "file",
+          "file": "robotics/02_Core_Robotics/02_Navigation_and_Mobile_Robotics/01_Localization_SLAM_and_Nav2.md",
+          "label": "Localization, SLAM, and Nav2"
+        },
+        {
+          "type": "file",
+          "file": "robotics/02_Core_Robotics/03_Manipulation_and_Motion_Planning/01_MoveIt_2_Kinematics_and_Pick_and_Place.md",
+          "label": "MoveIt 2, Kinematics, and Pick and Place"
+        },
+        {
+          "type": "file",
+          "file": "robotics/02_Core_Robotics/04_Control_and_Hardware_Interfaces/01_ros2_control_and_Hardware_Abstractions.md",
+          "label": "ros2_control and Hardware Abstractions"
+        },
+        {
+          "type": "file",
+          "file": "robotics/02_Core_Robotics/05_Perception_and_Robot_Vision/01_OpenCV_Calibration_Perception_and_Pose_Estimation.md",
+          "label": "OpenCV Calibration, Perception, and Pose Estimation"
+        },
+        {
+          "type": "file",
+          "file": "robotics/02_Core_Robotics/06_Robotics_Algorithms/01_PythonRobotics_Planning_Localization_and_Control.md",
+          "label": "PythonRobotics, Planning, Localization, and Control"
+        }
+      ]
+    },
+    {
+      "id": "sec-robotics-advanced",
+      "label": "Advanced",
+      "items": [
+        {
+          "type": "file",
+          "file": "robotics/03_Advanced/00_Overview.md",
+          "label": "Advanced"
+        },
+        {
+          "type": "file",
+          "file": "robotics/03_Advanced/01_Embedded_and_Real_Time_Robotics/01_micro_ROS_RTOS_and_MCU_Integration.md",
+          "label": "micro-ROS, RTOS, and MCU Integration"
+        },
+        {
+          "type": "file",
+          "file": "robotics/03_Advanced/01_Embedded_and_Real_Time_Robotics/02_Embedded_Linux_Sensor_Buses_and_Device_Interfaces.md",
+          "label": "Embedded Linux Sensor Buses and Device Interfaces"
+        },
+        {
+          "type": "file",
+          "file": "robotics/03_Advanced/02_Industrial_Robotics/01_ROS_Industrial_Workcells_and_Deployment.md",
+          "label": "ROS-Industrial Workcells and Deployment"
+        },
+        {
+          "type": "file",
+          "file": "robotics/03_Advanced/03_Aerial_Robotics/01_PX4_ROS_2_and_Offboard_Control.md",
+          "label": "PX4, ROS 2, and Offboard Control"
+        },
+        {
+          "type": "file",
+          "file": "robotics/03_Advanced/04_Robot_Learning_and_Embodied_AI/01_LeRobot_Isaac_Lab_and_Modern_Robot_Learning.md",
+          "label": "LeRobot, Isaac Lab, and Modern Robot Learning"
+        },
+        {
+          "type": "file",
+          "file": "robotics/03_Advanced/05_System_Integration_and_Deployment/01_Docker_CI_and_Production_Robotics_Workflows.md",
+          "label": "Docker, CI, and Production Robotics Workflows"
+        },
+        {
+          "type": "file",
+          "file": "robotics/03_Advanced/06_Dynamics_and_Advanced_Control/01_Modern_Robotics_Underactuated_and_Manipulation_Systems.md",
+          "label": "Modern Robotics, Underactuated, and Manipulation Systems"
+        }
+      ]
+    },
+    {
+      "id": "sec-robotics-projects",
+      "label": "Projects",
+      "items": [
+        {
+          "type": "file",
+          "file": "robotics/04_Projects/00_Overview.md",
+          "label": "Projects"
+        },
+        {
+          "type": "file",
+          "file": "robotics/04_Projects/Beginner/01_Beginner_Project_Path.md",
+          "label": "Beginner Project Path"
+        },
+        {
+          "type": "file",
+          "file": "robotics/04_Projects/Intermediate/01_Intermediate_Project_Path.md",
+          "label": "Intermediate Project Path"
+        },
+        {
+          "type": "file",
+          "file": "robotics/04_Projects/Advanced/01_Advanced_Project_Path.md",
+          "label": "Advanced Project Path"
+        }
+      ]
+    },
+    {
+      "id": "sec-robotics-resources",
+      "label": "Resources",
+      "items": [
+        {
+          "type": "file",
+          "file": "robotics/05_Resources/Cheatsheets/Course_Index.md",
+          "label": "Course Index"
+        },
+        {
+          "type": "file",
+          "file": "robotics/05_Resources/Cheatsheets/Tooling_Index.md",
+          "label": "Tooling Index"
+        },
+        {
+          "type": "file",
+          "file": "robotics/05_Resources/Cheatsheets/Portfolio_Checklist.md",
+          "label": "Portfolio Checklist"
+        }
+      ]
+    }
+  ]
+}
+

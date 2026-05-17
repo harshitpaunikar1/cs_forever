@@ -1,0 +1,266 @@
+{
+  "sections": [
+    {
+      "id": "sec-cs-overview",
+      "label": "Overview",
+      "items": [
+        {
+          "type": "file",
+          "file": "Computer_Science/README.md",
+          "label": "Study Guide"
+        },
+        {
+          "type": "file",
+          "file": "Computer_Science/NAVIGATION.md",
+          "label": "Navigation Map"
+        }
+      ]
+    },
+    {
+      "id": "sec-cs-foundation",
+      "label": "Foundation",
+      "items": [
+        {
+          "type": "file",
+          "file": "Computer_Science/01_Foundation/00_Overview.md",
+          "label": "Foundation"
+        },
+        {
+          "type": "file",
+          "file": "Computer_Science/01_Foundation/01_Start_Here/01_Curriculum_Overview.md",
+          "label": "Curriculum Overview"
+        },
+        {
+          "type": "file",
+          "file": "Computer_Science/01_Foundation/01_Start_Here/02_Learning_Roadmap.md",
+          "label": "Learning Roadmap"
+        },
+        {
+          "type": "file",
+          "file": "Computer_Science/01_Foundation/02_Programming_Basics/01_Computational_Thinking_and_Programming_Basics.md",
+          "label": "Computational Thinking and Programming Basics"
+        },
+        {
+          "type": "file",
+          "file": "Computer_Science/01_Foundation/02_Programming_Basics/02_Git_Shell_and_Linux_Workflow.md",
+          "label": "Git, Shell, and Linux Workflow"
+        },
+        {
+          "type": "file",
+          "file": "Computer_Science/01_Foundation/03_C_Programming/01_C_Fundamentals_and_Data_Layout.md",
+          "label": "C Fundamentals and Data Layout"
+        },
+        {
+          "type": "file",
+          "file": "Computer_Science/01_Foundation/04_Python_Fundamentals/01_Python_Fundamentals.md",
+          "label": "Python Fundamentals"
+        },
+        {
+          "type": "file",
+          "file": "Computer_Science/01_Foundation/04_Python_Fundamentals/02_Python_Data_Structures_and_Classes.md",
+          "label": "Python Data Structures and Classes"
+        },
+        {
+          "type": "file",
+          "file": "Computer_Science/01_Foundation/05_Rust_Fundamentals/01_Rust_Fundamentals.md",
+          "label": "Rust Fundamentals"
+        },
+        {
+          "type": "file",
+          "file": "Computer_Science/01_Foundation/06_Computer_Basics/01_How_Computers_Fit_Together.md",
+          "label": "How Computers Fit Together"
+        }
+      ]
+    },
+    {
+      "id": "sec-cs-core",
+      "label": "Core CS",
+      "items": [
+        {
+          "type": "file",
+          "file": "Computer_Science/02_Core_CS/00_Overview.md",
+          "label": "Core CS"
+        },
+        {
+          "type": "file",
+          "file": "Computer_Science/02_Core_CS/01_Data_Structures_and_Algorithms/01_Data_Structures_and_Algorithmic_Thinking.md",
+          "label": "Data Structures and Algorithmic Thinking"
+        },
+        {
+          "type": "file",
+          "file": "Computer_Science/02_Core_CS/02_Computer_Architecture/01_Instruction_Sets_CPU_Architecture_and_Memory_Models.md",
+          "label": "Instruction Sets, CPU Architecture, and Memory Models"
+        },
+        {
+          "type": "file",
+          "file": "Computer_Science/02_Core_CS/02_Computer_Architecture/02_GPU_Execution_and_CUDA_Basics.md",
+          "label": "GPU Execution and CUDA Basics"
+        },
+        {
+          "type": "file",
+          "file": "Computer_Science/02_Core_CS/03_Operating_Systems/01_Operating_System_Foundations.md",
+          "label": "Operating System Foundations"
+        },
+        {
+          "type": "file",
+          "file": "Computer_Science/02_Core_CS/03_Operating_Systems/02_Processes_Scheduling_and_Memory_Virtualization.md",
+          "label": "Processes, Scheduling, and Memory Virtualization"
+        },
+        {
+          "type": "file",
+          "file": "Computer_Science/02_Core_CS/03_Operating_Systems/03_Filesystems_Persistence_and_Linux_Interfaces.md",
+          "label": "Filesystems, Persistence, and Linux Interfaces"
+        },
+        {
+          "type": "file",
+          "file": "Computer_Science/02_Core_CS/04_DBMS/01_SQL_SQLite_and_PostgreSQL_Foundations.md",
+          "label": "SQL, SQLite, and PostgreSQL Foundations"
+        },
+        {
+          "type": "file",
+          "file": "Computer_Science/02_Core_CS/05_Computer_Networks/01_Network_Foundations_and_Socket_Programming.md",
+          "label": "Network Foundations and Socket Programming"
+        },
+        {
+          "type": "file",
+          "file": "Computer_Science/02_Core_CS/05_Computer_Networks/02_HTTP_TLS_and_Network_Performance.md",
+          "label": "HTTP, TLS, and Network Performance"
+        },
+        {
+          "type": "file",
+          "file": "Computer_Science/02_Core_CS/06_Backend_Systems/01_Backend_Services_Reverse_Proxies_and_Queues.md",
+          "label": "Backend Services, Reverse Proxies, and Queues"
+        }
+      ]
+    },
+    {
+      "id": "sec-cs-advanced",
+      "label": "Advanced",
+      "items": [
+        {
+          "type": "file",
+          "file": "Computer_Science/03_Advanced/00_Overview.md",
+          "label": "Advanced"
+        },
+        {
+          "type": "file",
+          "file": "Computer_Science/03_Advanced/01_Distributed_Systems/01_Course_and_Lab_Flow.md",
+          "label": "Distributed Systems Course and Labs"
+        },
+        {
+          "type": "file",
+          "file": "Computer_Science/03_Advanced/01_Distributed_Systems/02_MapReduce_Raft_and_Replicated_Key_Value_Systems.md",
+          "label": "MapReduce, Raft, and Replicated Key-Value Systems"
+        },
+        {
+          "type": "file",
+          "file": "Computer_Science/03_Advanced/01_Distributed_Systems/03_Distributed_Systems_Papers_and_Reading_Notes.md",
+          "label": "Distributed Systems Papers and Reading Notes"
+        },
+        {
+          "type": "file",
+          "file": "Computer_Science/03_Advanced/02_Security/01_Web_Security_Fundamentals_and_Vulnerability_Patterns.md",
+          "label": "Web Security Fundamentals and Vulnerability Patterns"
+        },
+        {
+          "type": "file",
+          "file": "Computer_Science/03_Advanced/02_Security/02_Security_Testing_Guides_and_Standards.md",
+          "label": "Security Testing Guides and Standards"
+        },
+        {
+          "type": "file",
+          "file": "Computer_Science/03_Advanced/03_Cloud_DevOps/01_Docker_and_Container_Workflows.md",
+          "label": "Docker and Container Workflows"
+        },
+        {
+          "type": "file",
+          "file": "Computer_Science/03_Advanced/03_Cloud_DevOps/02_Kubernetes_Core_Concepts.md",
+          "label": "Kubernetes Core Concepts"
+        },
+        {
+          "type": "file",
+          "file": "Computer_Science/03_Advanced/03_Cloud_DevOps/03_Observability_and_OpenTelemetry.md",
+          "label": "Observability and OpenTelemetry"
+        },
+        {
+          "type": "file",
+          "file": "Computer_Science/03_Advanced/04_AI_Infrastructure/01_AI_Infrastructure_and_GPU_Operations.md",
+          "label": "AI Infrastructure and GPU Operations"
+        },
+        {
+          "type": "file",
+          "file": "Computer_Science/03_Advanced/05_Kernel_Internals/01_xv6_Kernel_Reading.md",
+          "label": "xv6 Kernel Reading"
+        },
+        {
+          "type": "file",
+          "file": "Computer_Science/03_Advanced/05_Kernel_Internals/02_Linux_Kernel_Labs.md",
+          "label": "Linux Kernel Labs"
+        },
+        {
+          "type": "file",
+          "file": "Computer_Science/03_Advanced/05_Kernel_Internals/03_Performance_Profiling_and_Flame_Graphs.md",
+          "label": "Performance Profiling and Flame Graphs"
+        },
+        {
+          "type": "file",
+          "file": "Computer_Science/03_Advanced/06_Media_Systems/01_FFmpeg_and_Media_Tooling.md",
+          "label": "FFmpeg and Media Tooling"
+        },
+        {
+          "type": "file",
+          "file": "Computer_Science/03_Advanced/06_Media_Systems/02_AV1_and_Streaming_Pipelines.md",
+          "label": "AV1 and Streaming Pipelines"
+        }
+      ]
+    },
+    {
+      "id": "sec-cs-projects",
+      "label": "Projects",
+      "items": [
+        {
+          "type": "file",
+          "file": "Computer_Science/04_Projects/00_Overview.md",
+          "label": "Projects"
+        },
+        {
+          "type": "file",
+          "file": "Computer_Science/04_Projects/Advanced/01_Advanced_Project_Path.md",
+          "label": "Advanced Project Path"
+        },
+        {
+          "type": "file",
+          "file": "Computer_Science/04_Projects/Beginner/01_Beginner_Project_Path.md",
+          "label": "Beginner Project Path"
+        },
+        {
+          "type": "file",
+          "file": "Computer_Science/04_Projects/Intermediate/01_Intermediate_Project_Path.md",
+          "label": "Intermediate Project Path"
+        }
+      ]
+    },
+    {
+      "id": "sec-cs-resources",
+      "label": "Resources",
+      "items": [
+        {
+          "type": "file",
+          "file": "Computer_Science/05_Resources/Cheatsheets/Image_Index.md",
+          "label": "Image Index"
+        },
+        {
+          "type": "file",
+          "file": "Computer_Science/05_Resources/Cheatsheets/PDF_Index.md",
+          "label": "PDF Index"
+        },
+        {
+          "type": "file",
+          "file": "Computer_Science/05_Resources/Cheatsheets/Source_Notes_Index.md",
+          "label": "Source Notes Index"
+        }
+      ]
+    }
+  ],
+  "defaultFile": "Computer_Science/README.md"
+}

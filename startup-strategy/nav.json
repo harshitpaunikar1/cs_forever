@@ -1,0 +1,51 @@
+{
+  "sections": [
+    {
+      "id": "sec-startup-overview",
+      "label": "Overview",
+      "items": [
+        { "type": "file", "file": "startup-strategy/README.md", "label": "Study Guide" }
+      ]
+    },
+    {
+      "id": "sec-startup-fundamentals",
+      "label": "Startup Fundamentals",
+      "items": [
+        { "type": "file", "file": "startup-strategy/content/01-entrepreneurial-mindset.md", "label": "Entrepreneurial Mindset" },
+        { "type": "file", "file": "startup-strategy/content/02-opportunity-identification.md", "label": "Opportunity Identification" },
+        { "type": "file", "file": "startup-strategy/content/03-business-model-canvas.md", "label": "Business Model Canvas" },
+        { "type": "file", "file": "startup-strategy/content/04-lean-startup-methodology.md", "label": "Lean Startup Methodology" }
+      ]
+    },
+    {
+      "id": "sec-startup-growth",
+      "label": "Growth Strategies",
+      "items": [
+        { "type": "file", "file": "startup-strategy/content/05-customer-acquisition-strategies.md", "label": "Customer Acquisition" },
+        { "type": "file", "file": "startup-strategy/content/06-product-market-fit.md", "label": "Product-Market Fit" },
+        { "type": "file", "file": "startup-strategy/content/07-scaling-operations.md", "label": "Scaling Operations" },
+        { "type": "file", "file": "startup-strategy/content/08-funding-strategies.md", "label": "Funding Strategies" }
+      ]
+    },
+    {
+      "id": "sec-startup-competitive",
+      "label": "Competitive Strategy",
+      "items": [
+        { "type": "file", "file": "startup-strategy/content/09-competitive-positioning.md", "label": "Competitive Positioning" },
+        { "type": "file", "file": "startup-strategy/content/10-market-entry-strategies.md", "label": "Market Entry Strategies" },
+        { "type": "file", "file": "startup-strategy/content/11-pivot-strategies.md", "label": "Pivot Strategies" },
+        { "type": "file", "file": "startup-strategy/content/12-strategic-partnerships.md", "label": "Strategic Partnerships" }
+      ]
+    },
+    {
+      "id": "sec-startup-qa",
+      "label": "Practice Q&A",
+      "items": [
+        { "type": "file", "file": "startup-strategy/content/13-qa-basic.md",        "label": "Basic — Q1 to Q70" },
+        { "type": "file", "file": "startup-strategy/content/14-qa-intermediate.md", "label": "Intermediate — Q71 to Q140" },
+        { "type": "file", "file": "startup-strategy/content/15-qa-advanced.md",     "label": "Advanced — Q141 to Q210" }
+      ]
+    }
+  ],
+  "defaultFile": "startup-strategy/README.md"
+}

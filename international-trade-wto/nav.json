@@ -1,0 +1,61 @@
+{
+  "sections": [
+    {
+      "id": "sec-trade-overview",
+      "label": "Overview",
+      "items": [
+        { "type": "file", "file": "international-trade-wto/README.md", "label": "Study Guide" }
+      ]
+    },
+    {
+      "id": "sec-trade-intro",
+      "label": "Introduction to International Trade",
+      "items": [
+        { "type": "file", "file": "international-trade-wto/content/01-world-trade-patterns.md", "label": "World Trade Patterns" },
+        { "type": "file", "file": "international-trade-wto/content/02-theory-of-comparative-advantage.md", "label": "Comparative Advantage" },
+        { "type": "file", "file": "international-trade-wto/content/03-international-trade-agreements.md", "label": "Trade Agreements" },
+        { "type": "file", "file": "international-trade-wto/content/04-economic-effects-of-trade.md", "label": "Economic Effects of Trade" }
+      ]
+    },
+    {
+      "id": "sec-trade-wto",
+      "label": "WTO Framework",
+      "items": [
+        { "type": "file", "file": "international-trade-wto/content/05-wto-background-legal-nature-and-functions.md", "label": "WTO Background & Functions" },
+        { "type": "file", "file": "international-trade-wto/content/06-gatt-1994-basic-principles.md", "label": "GATT 1994 Principles" },
+        { "type": "file", "file": "international-trade-wto/content/07-most-favored-nation-treatment.md", "label": "Most Favored Nation" },
+        { "type": "file", "file": "international-trade-wto/content/08-national-treatment-in-internal-regulation.md", "label": "National Treatment" }
+      ]
+    },
+    {
+      "id": "sec-trade-mechanisms",
+      "label": "Trade Mechanisms",
+      "items": [
+        { "type": "file", "file": "international-trade-wto/content/09-dispute-settlement-understanding.md", "label": "Dispute Settlement (DSU)" },
+        { "type": "file", "file": "international-trade-wto/content/10-trade-remedies.md", "label": "Trade Remedies" },
+        { "type": "file", "file": "international-trade-wto/content/11-regional-trade-agreements.md", "label": "Regional Trade Agreements" },
+        { "type": "file", "file": "international-trade-wto/content/12-trade-policy-and-domestic-regulation-tensions.md", "label": "Trade Policy Tensions" }
+      ]
+    },
+    {
+      "id": "sec-trade-contemporary",
+      "label": "Contemporary Issues",
+      "items": [
+        { "type": "file", "file": "international-trade-wto/content/13-chinas-wto-entry-effects.md", "label": "China's WTO Entry" },
+        { "type": "file", "file": "international-trade-wto/content/14-global-capital-flows-and-trade.md", "label": "Global Capital Flows" },
+        { "type": "file", "file": "international-trade-wto/content/15-trade-and-environmental-concerns.md", "label": "Trade & Environment" },
+        { "type": "file", "file": "international-trade-wto/content/16-international-labor-standards.md", "label": "International Labor Standards" }
+      ]
+    },
+    {
+      "id": "sec-trade-qa",
+      "label": "Practice Q&A",
+      "items": [
+        { "type": "file", "file": "international-trade-wto/content/17-qa-basic.md",        "label": "Basic — Q1 to Q70" },
+        { "type": "file", "file": "international-trade-wto/content/18-qa-intermediate.md", "label": "Intermediate — Q71 to Q140" },
+        { "type": "file", "file": "international-trade-wto/content/19-qa-advanced.md",     "label": "Advanced — Q141 to Q210" }
+      ]
+    }
+  ],
+  "defaultFile": "international-trade-wto/README.md"
+}

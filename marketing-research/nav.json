@@ -1,0 +1,49 @@
+{
+  "sections": [
+    {
+      "id": "sec-mr-overview",
+      "label": "Overview",
+      "items": [
+        { "type": "file", "file": "marketing-research/README.md", "label": "Study Guide" }
+      ]
+    },
+    {
+      "id": "sec-mr-fundamentals",
+      "label": "Fundamentals",
+      "items": [
+        { "type": "file", "file": "marketing-research/content/01-research-environment.md",    "label": "Research Environment" },
+        { "type": "file", "file": "marketing-research/content/02-problem-formulation.md",    "label": "Problem Formulation" },
+        { "type": "file", "file": "marketing-research/content/03-research-design.md",        "label": "Research Design" },
+        { "type": "file", "file": "marketing-research/content/04-qualitative-research.md",   "label": "Qualitative Research" }
+      ]
+    },
+    {
+      "id": "sec-mr-measurement",
+      "label": "Measurement & Design",
+      "items": [
+        { "type": "file", "file": "marketing-research/content/05-measurement-scales.md",     "label": "Measurement Scales" },
+        { "type": "file", "file": "marketing-research/content/06-questionnaire-design.md",   "label": "Questionnaire Design" },
+        { "type": "file", "file": "marketing-research/content/07-sampling-procedures.md",    "label": "Sampling Procedures" }
+      ]
+    },
+    {
+      "id": "sec-mr-implementation",
+      "label": "Implementation",
+      "items": [
+        { "type": "file", "file": "marketing-research/content/08-fieldwork-data-collection.md", "label": "Fieldwork & Data Collection" },
+        { "type": "file", "file": "marketing-research/content/09-data-preparation.md",          "label": "Data Preparation" },
+        { "type": "file", "file": "marketing-research/content/10-statistics-tests.md",          "label": "Statistics & Tests" }
+      ]
+    },
+    {
+      "id": "sec-mr-qa",
+      "label": "Practice Q&A",
+      "items": [
+        { "type": "file", "file": "marketing-research/content/11-qa-basic.md",        "label": "Basic — Q1 to Q70" },
+        { "type": "file", "file": "marketing-research/content/12-qa-intermediate.md", "label": "Intermediate — Q71 to Q140" },
+        { "type": "file", "file": "marketing-research/content/13-qa-advanced.md",     "label": "Advanced — Q141 to Q210" }
+      ]
+    }
+  ],
+  "defaultFile": "marketing-research/README.md"
+}

@@ -1,0 +1,57 @@
+{
+  "sections": [
+    {
+      "id": "sec-pi-overview",
+      "label": "Overview",
+      "items": [
+        { "type": "file", "file": "persuasion-influence/README.md", "label": "Study Guide" }
+      ]
+    },
+    {
+      "id": "sec-pi-foundations",
+      "label": "Persuasion Foundations",
+      "items": [
+        { "type": "file", "file": "persuasion-influence/content/01-foundations-of-persuasion.md", "label": "Foundations" },
+        { "type": "file", "file": "persuasion-influence/content/02-cialdini-principles-influence.md", "label": "Cialdini's Principles" },
+        { "type": "file", "file": "persuasion-influence/content/03-building-credibility-trust.md", "label": "Credibility & Trust" }
+      ]
+    },
+    {
+      "id": "sec-pi-skills",
+      "label": "Persuasion Skills",
+      "items": [
+        { "type": "file", "file": "persuasion-influence/content/04-emotional-intelligence-persuasion.md", "label": "Emotional Intelligence" },
+        { "type": "file", "file": "persuasion-influence/content/05-storytelling-persuasion-tool.md", "label": "Storytelling" },
+        { "type": "file", "file": "persuasion-influence/content/06-negotiation-and-persuasion.md", "label": "Negotiation" }
+      ]
+    },
+    {
+      "id": "sec-pi-workplace",
+      "label": "Workplace Application",
+      "items": [
+        { "type": "file", "file": "persuasion-influence/content/07-persuasion-teams-meetings.md", "label": "Teams & Meetings" },
+        { "type": "file", "file": "persuasion-influence/content/08-influencing-without-authority.md", "label": "Influencing Without Authority" },
+        { "type": "file", "file": "persuasion-influence/content/09-cross-cultural-persuasion.md", "label": "Cross-Cultural" }
+      ]
+    },
+    {
+      "id": "sec-pi-modern",
+      "label": "Modern Persuasion",
+      "items": [
+        { "type": "file", "file": "persuasion-influence/content/10-digital-persuasion-communication.md", "label": "Digital Persuasion" },
+        { "type": "file", "file": "persuasion-influence/content/11-ethical-boundaries-influence.md", "label": "Ethics of Influence" },
+        { "type": "file", "file": "persuasion-influence/content/12-measuring-persuasion-effectiveness.md", "label": "Measuring Effectiveness" }
+      ]
+    },
+    {
+      "id": "sec-pi-qa",
+      "label": "Practice Q&A",
+      "items": [
+        { "type": "file", "file": "persuasion-influence/content/13-qa-basic.md", "label": "Basic — Q1 to Q70" },
+        { "type": "file", "file": "persuasion-influence/content/14-qa-intermediate.md", "label": "Intermediate — Q71 to Q140" },
+        { "type": "file", "file": "persuasion-influence/content/15-qa-advanced.md", "label": "Advanced — Q141 to Q210" }
+      ]
+    }
+  ],
+  "defaultFile": "persuasion-influence/README.md"
+}

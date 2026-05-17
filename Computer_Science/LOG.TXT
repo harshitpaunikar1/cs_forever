@@ -1,0 +1,107 @@
+================================================================================
+STUDY GUIDE REWRITE LOG
+================================================================================
+Started: 2026-04-17
+Last Updated: 2026-04-17
+Scope: Rewrite the visible Computer_Science study-guide pages so they are
+       professional, structured, and human-readable without changing the
+       left-menu navigation names.
+
+STATUS SUMMARY
+================================================================================
+Completed visible guide pages in this pass: 45
+Remaining visible guide pages from the tracked set: 0
+Tracked scope: root guide pages, Foundation, Core CS, Advanced, Projects,
+               and the three resource index pages.
+Not rewritten in this pass: compatibility/support files outside the main
+                            tracked navigation path such as extras,
+                            coursepages, and legacy helper docs.
+
+CONTENT STANDARD USED
+================================================================================
+- Clear overview and study purpose
+- Ordered topic flow instead of raw source dumps
+- Practical milestones, pitfalls, and next steps
+- Official or primary-source references where appropriate
+- Navigation names preserved exactly
+
+COMPLETED FILES
+================================================================================
+SECTION 0: ROOT GUIDE PAGES (2 files)
+--------------------------------------------------------------------------------
+[x] README.md
+[x] NAVIGATION.md
+
+SECTION 1: FOUNDATION (10 files)
+--------------------------------------------------------------------------------
+[x] 01_Foundation/00_Overview.md
+[x] 01_Foundation/01_Start_Here/01_Curriculum_Overview.md
+[x] 01_Foundation/01_Start_Here/02_Learning_Roadmap.md
+[x] 01_Foundation/02_Programming_Basics/01_Computational_Thinking_and_Programming_Basics.md
+[x] 01_Foundation/02_Programming_Basics/02_Git_Shell_and_Linux_Workflow.md
+[x] 01_Foundation/03_C_Programming/01_C_Fundamentals_and_Data_Layout.md
+[x] 01_Foundation/04_Python_Fundamentals/01_Python_Fundamentals.md
+[x] 01_Foundation/04_Python_Fundamentals/02_Python_Data_Structures_and_Classes.md
+[x] 01_Foundation/05_Rust_Fundamentals/01_Rust_Fundamentals.md
+[x] 01_Foundation/06_Computer_Basics/01_How_Computers_Fit_Together.md
+
+SECTION 2: CORE CS (11 files)
+--------------------------------------------------------------------------------
+[x] 02_Core_CS/00_Overview.md
+[x] 02_Core_CS/01_Data_Structures_and_Algorithms/01_Data_Structures_and_Algorithmic_Thinking.md
+[x] 02_Core_CS/02_Computer_Architecture/01_Instruction_Sets_CPU_Architecture_and_Memory_Models.md
+[x] 02_Core_CS/02_Computer_Architecture/02_GPU_Execution_and_CUDA_Basics.md
+[x] 02_Core_CS/03_Operating_Systems/01_Operating_System_Foundations.md
+[x] 02_Core_CS/03_Operating_Systems/02_Processes_Scheduling_and_Memory_Virtualization.md
+[x] 02_Core_CS/03_Operating_Systems/03_Filesystems_Persistence_and_Linux_Interfaces.md
+[x] 02_Core_CS/04_DBMS/01_SQL_SQLite_and_PostgreSQL_Foundations.md
+[x] 02_Core_CS/05_Computer_Networks/01_Network_Foundations_and_Socket_Programming.md
+[x] 02_Core_CS/05_Computer_Networks/02_HTTP_TLS_and_Network_Performance.md
+[x] 02_Core_CS/06_Backend_Systems/01_Backend_Services_Reverse_Proxies_and_Queues.md
+
+SECTION 3: ADVANCED (15 files)
+--------------------------------------------------------------------------------
+[x] 03_Advanced/00_Overview.md
+[x] 03_Advanced/01_Distributed_Systems/01_Course_and_Lab_Flow.md
+[x] 03_Advanced/01_Distributed_Systems/02_MapReduce_Raft_and_Replicated_Key_Value_Systems.md
+[x] 03_Advanced/01_Distributed_Systems/03_Distributed_Systems_Papers_and_Reading_Notes.md
+[x] 03_Advanced/02_Security/01_Web_Security_Fundamentals_and_Vulnerability_Patterns.md
+[x] 03_Advanced/02_Security/02_Security_Testing_Guides_and_Standards.md
+[x] 03_Advanced/03_Cloud_DevOps/01_Docker_and_Container_Workflows.md
+[x] 03_Advanced/03_Cloud_DevOps/02_Kubernetes_Core_Concepts.md
+[x] 03_Advanced/03_Cloud_DevOps/03_Observability_and_OpenTelemetry.md
+[x] 03_Advanced/04_AI_Infrastructure/01_AI_Infrastructure_and_GPU_Operations.md
+[x] 03_Advanced/05_Kernel_Internals/01_xv6_Kernel_Reading.md
+[x] 03_Advanced/05_Kernel_Internals/02_Linux_Kernel_Labs.md
+[x] 03_Advanced/05_Kernel_Internals/03_Performance_Profiling_and_Flame_Graphs.md
+[x] 03_Advanced/06_Media_Systems/01_FFmpeg_and_Media_Tooling.md
+[x] 03_Advanced/06_Media_Systems/02_AV1_and_Streaming_Pipelines.md
+
+SECTION 4: PROJECTS (4 files)
+--------------------------------------------------------------------------------
+[x] 04_Projects/00_Overview.md
+[x] 04_Projects/Beginner/01_Beginner_Project_Path.md
+[x] 04_Projects/Intermediate/01_Intermediate_Project_Path.md
+[x] 04_Projects/Advanced/01_Advanced_Project_Path.md
+
+SECTION 5: RESOURCE INDEXES (3 files)
+--------------------------------------------------------------------------------
+[x] 05_Resources/Cheatsheets/Image_Index.md
+[x] 05_Resources/Cheatsheets/PDF_Index.md
+[x] 05_Resources/Cheatsheets/Source_Notes_Index.md
+
+COMPLETION NOTES
+================================================================================
+- Replaced large scraped-source dumps with curated study-guide content.
+- Preserved page titles and navigation labels used by the app.
+- Reworked index pages into grouped, readable archives.
+- Added this log so future passes can continue from a known state.
+
+
+FULL TOPIC EXPANSION PASS
+================================================================================
+Date: 2026-04-17
+Scope:
+- Expanded the 43 visible topic/index pages in Foundation, Core CS, Advanced, Projects, and the 3 curated Resources index pages.
+- Preserved original page bodies and appended the full requested page-level structure.
+- Left `05_Resources/Source_Notes/**` unchanged.

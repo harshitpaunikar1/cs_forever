@@ -1,0 +1,51 @@
+{
+  "sections": [
+    {
+      "id": "sec-scm-overview",
+      "label": "Overview",
+      "items": [
+        { "type": "file", "file": "supply-chain-management/README.md", "label": "Study Guide" }
+      ]
+    },
+    {
+      "id": "sec-scm-fundamentals",
+      "label": "Fundamentals",
+      "items": [
+        { "type": "file", "file": "supply-chain-management/content/01-introduction-to-scm.md",  "label": "Introduction to SCM" },
+        { "type": "file", "file": "supply-chain-management/content/02-beer-game-simulation.md", "label": "Beer Game Simulation" },
+        { "type": "file", "file": "supply-chain-management/content/03-information-flow.md",     "label": "Information Flow" },
+        { "type": "file", "file": "supply-chain-management/content/04-bullwhip-effect.md",      "label": "Bullwhip Effect" }
+      ]
+    },
+    {
+      "id": "sec-scm-inventory",
+      "label": "Inventory Management",
+      "items": [
+        { "type": "file", "file": "supply-chain-management/content/05-demand-forecasting.md",        "label": "Demand Forecasting" },
+        { "type": "file", "file": "supply-chain-management/content/06-short-lifecycle-inventory.md", "label": "Short-Life-Cycle Products" },
+        { "type": "file", "file": "supply-chain-management/content/07-long-horizon-inventory.md",    "label": "Long-Horizon Inventory" },
+        { "type": "file", "file": "supply-chain-management/content/08-multi-echelon-inventory.md",   "label": "Multi-Echelon Inventory" }
+      ]
+    },
+    {
+      "id": "sec-scm-network",
+      "label": "Network & Distribution",
+      "items": [
+        { "type": "file", "file": "supply-chain-management/content/09-distribution-planning.md", "label": "Distribution Planning" },
+        { "type": "file", "file": "supply-chain-management/content/10-network-planning.md",      "label": "Network Planning" },
+        { "type": "file", "file": "supply-chain-management/content/11-transportation-networks.md","label": "Transportation Networks" },
+        { "type": "file", "file": "supply-chain-management/content/12-uncertainty-planning.md",  "label": "Planning Under Uncertainty" }
+      ]
+    },
+    {
+      "id": "sec-scm-qa",
+      "label": "Practice Q&A",
+      "items": [
+        { "type": "file", "file": "supply-chain-management/content/13-qa-basic.md",        "label": "Basic — Q1 to Q70" },
+        { "type": "file", "file": "supply-chain-management/content/14-qa-intermediate.md", "label": "Intermediate — Q71 to Q140" },
+        { "type": "file", "file": "supply-chain-management/content/15-qa-advanced.md",     "label": "Advanced — Q141 to Q210" }
+      ]
+    }
+  ],
+  "defaultFile": "supply-chain-management/README.md"
+}

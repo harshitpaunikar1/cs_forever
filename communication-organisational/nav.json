@@ -1,0 +1,51 @@
+{
+  "sections": [
+    {
+      "id": "sec-comms-overview",
+      "label": "Overview",
+      "items": [
+        { "type": "file", "file": "communication-organisational/README.md", "label": "Study Guide" }
+      ]
+    },
+    {
+      "id": "sec-comms-foundations",
+      "label": "Foundations of Org Communication",
+      "items": [
+        { "type": "file", "file": "communication-organisational/content/01-nature-of-organizations-and-communication-processes.md", "label": "Nature of Organizations" },
+        { "type": "file", "file": "communication-organisational/content/02-behavioral-sciences-in-organizational-communication.md", "label": "Behavioral Sciences" },
+        { "type": "file", "file": "communication-organisational/content/03-developing-diagnostic-abilities-for-human-problems.md", "label": "Diagnostic Abilities" },
+        { "type": "file", "file": "communication-organisational/content/04-administrative-decision-making-practice.md", "label": "Administrative Decision-Making" }
+      ]
+    },
+    {
+      "id": "sec-comms-individual-group",
+      "label": "Individual and Group Behavior",
+      "items": [
+        { "type": "file", "file": "communication-organisational/content/05-individual-characteristics-in-organizations.md", "label": "Individual Characteristics" },
+        { "type": "file", "file": "communication-organisational/content/06-work-motivation-and-leadership-concepts.md", "label": "Work Motivation & Leadership" },
+        { "type": "file", "file": "communication-organisational/content/07-work-group-behavior.md", "label": "Work Group Behavior" },
+        { "type": "file", "file": "communication-organisational/content/08-inter-group-relations-and-role-relationships.md", "label": "Inter-Group Relations" }
+      ]
+    },
+    {
+      "id": "sec-comms-structure",
+      "label": "Organizational Structure",
+      "items": [
+        { "type": "file", "file": "communication-organisational/content/09-socio-technical-systems.md", "label": "Socio-Technical Systems" },
+        { "type": "file", "file": "communication-organisational/content/10-organization-of-work-and-structural-considerations.md", "label": "Organization of Work" },
+        { "type": "file", "file": "communication-organisational/content/11-change-management-in-organizations.md", "label": "Change Management" },
+        { "type": "file", "file": "communication-organisational/content/12-managers-task-in-problem-solving.md", "label": "Manager's Task" }
+      ]
+    },
+    {
+      "id": "sec-comms-qa",
+      "label": "Practice Q&A",
+      "items": [
+        { "type": "file", "file": "communication-organisational/content/13-qa-basic.md",        "label": "Basic — Q1 to Q70" },
+        { "type": "file", "file": "communication-organisational/content/14-qa-intermediate.md", "label": "Intermediate — Q71 to Q140" },
+        { "type": "file", "file": "communication-organisational/content/15-qa-advanced.md",     "label": "Advanced — Q141 to Q210" }
+      ]
+    }
+  ],
+  "defaultFile": "communication-organisational/README.md"
+}

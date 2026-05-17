@@ -1,0 +1,57 @@
+{
+  "sections": [
+    {
+      "id": "sec-power-overview",
+      "label": "Overview",
+      "items": [
+        { "type": "file", "file": "power-shifts-corporate-strategy/README.md", "label": "Study Guide" }
+      ]
+    },
+    {
+      "id": "sec-power-foundations",
+      "label": "Power Foundations",
+      "items": [
+        { "type": "file", "file": "power-shifts-corporate-strategy/content/01-understanding-power-dynamics.md", "label": "Power Dynamics" },
+        { "type": "file", "file": "power-shifts-corporate-strategy/content/02-geopolitical-shifts-business.md", "label": "Geopolitical Shifts" },
+        { "type": "file", "file": "power-shifts-corporate-strategy/content/03-technology-driven-disruption.md", "label": "Tech Disruption" }
+      ]
+    },
+    {
+      "id": "sec-power-strategic",
+      "label": "Strategic Power",
+      "items": [
+        { "type": "file", "file": "power-shifts-corporate-strategy/content/04-stakeholder-power-analysis.md", "label": "Stakeholder Analysis" },
+        { "type": "file", "file": "power-shifts-corporate-strategy/content/05-corporate-political-strategy.md", "label": "Political Strategy" },
+        { "type": "file", "file": "power-shifts-corporate-strategy/content/06-platform-power-network-effects.md", "label": "Platform Power" }
+      ]
+    },
+    {
+      "id": "sec-power-leadership",
+      "label": "Leadership & Governance",
+      "items": [
+        { "type": "file", "file": "power-shifts-corporate-strategy/content/07-strategic-alliances-power.md", "label": "Strategic Alliances" },
+        { "type": "file", "file": "power-shifts-corporate-strategy/content/08-leadership-power-transitions.md", "label": "Power Transitions" },
+        { "type": "file", "file": "power-shifts-corporate-strategy/content/09-institutional-power-governance.md", "label": "Institutional Power" }
+      ]
+    },
+    {
+      "id": "sec-power-resilient",
+      "label": "Resilient Strategy",
+      "items": [
+        { "type": "file", "file": "power-shifts-corporate-strategy/content/10-power-information-data.md", "label": "Information Power" },
+        { "type": "file", "file": "power-shifts-corporate-strategy/content/11-negotiation-influence-strategy.md", "label": "Negotiation & Influence" },
+        { "type": "file", "file": "power-shifts-corporate-strategy/content/12-resilient-strategy-uncertainty.md", "label": "Resilient Strategy" }
+      ]
+    },
+    {
+      "id": "sec-power-qa",
+      "label": "Practice Q&A",
+      "items": [
+        { "type": "file", "file": "power-shifts-corporate-strategy/content/13-qa-basic.md", "label": "Basic — Q1 to Q70" },
+        { "type": "file", "file": "power-shifts-corporate-strategy/content/14-qa-intermediate.md", "label": "Intermediate — Q71 to Q140" },
+        { "type": "file", "file": "power-shifts-corporate-strategy/content/15-qa-advanced.md", "label": "Advanced — Q141 to Q210" }
+      ]
+    }
+  ],
+  "defaultFile": "power-shifts-corporate-strategy/README.md"
+}

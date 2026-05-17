@@ -1,0 +1,61 @@
+{
+  "sections": [
+    {
+      "id": "sec-ma-overview",
+      "label": "Overview",
+      "items": [
+        { "type": "file", "file": "mergers-acquisitions/README.md", "label": "Study Guide" }
+      ]
+    },
+    {
+      "id": "sec-ma-strategy",
+      "label": "M&A Strategy",
+      "items": [
+        { "type": "file", "file": "mergers-acquisitions/content/01-introduction-to-ma-strategy.md", "label": "Intro to M&A Strategy" },
+        { "type": "file", "file": "mergers-acquisitions/content/02-motivations-for-acquisitions.md", "label": "Motivations for Acquisitions" },
+        { "type": "file", "file": "mergers-acquisitions/content/03-buyouts-vs-acquisitions.md", "label": "Buyouts vs. Acquisitions" },
+        { "type": "file", "file": "mergers-acquisitions/content/04-hostile-bids-and-cross-border.md", "label": "Hostile Bids & Cross-Border" }
+      ]
+    },
+    {
+      "id": "sec-ma-valuation",
+      "label": "Valuation and Deal Structuring",
+      "items": [
+        { "type": "file", "file": "mergers-acquisitions/content/05-valuation-methodologies.md", "label": "Valuation Methodologies" },
+        { "type": "file", "file": "mergers-acquisitions/content/06-dcf-and-multiples-valuation.md", "label": "DCF & Multiples Valuation" },
+        { "type": "file", "file": "mergers-acquisitions/content/07-pricing-mechanisms.md", "label": "Pricing Mechanisms" },
+        { "type": "file", "file": "mergers-acquisitions/content/08-term-sheets-and-provisions.md", "label": "Term Sheets & Provisions" }
+      ]
+    },
+    {
+      "id": "sec-ma-execution",
+      "label": "Deal Execution",
+      "items": [
+        { "type": "file", "file": "mergers-acquisitions/content/09-merger-process-and-scheme.md", "label": "Merger Process" },
+        { "type": "file", "file": "mergers-acquisitions/content/10-company-law-and-sebi-provisions.md", "label": "Company Law & SEBI" },
+        { "type": "file", "file": "mergers-acquisitions/content/11-due-diligence-review.md", "label": "Due Diligence" },
+        { "type": "file", "file": "mergers-acquisitions/content/12-representations-and-warranties.md", "label": "Representations & Warranties" }
+      ]
+    },
+    {
+      "id": "sec-ma-integration",
+      "label": "Post-Merger Integration",
+      "items": [
+        { "type": "file", "file": "mergers-acquisitions/content/13-integration-planning-and-governance.md", "label": "Integration Planning" },
+        { "type": "file", "file": "mergers-acquisitions/content/14-synergy-realization.md", "label": "Synergy Realization" },
+        { "type": "file", "file": "mergers-acquisitions/content/15-cultural-integration.md", "label": "Cultural Integration" },
+        { "type": "file", "file": "mergers-acquisitions/content/16-performance-monitoring-post-acquisition.md", "label": "Post-Acquisition Monitoring" }
+      ]
+    },
+    {
+      "id": "sec-ma-qa",
+      "label": "Practice Q&A",
+      "items": [
+        { "type": "file", "file": "mergers-acquisitions/content/17-qa-basic.md",        "label": "Basic — Q1 to Q70" },
+        { "type": "file", "file": "mergers-acquisitions/content/18-qa-intermediate.md", "label": "Intermediate — Q71 to Q140" },
+        { "type": "file", "file": "mergers-acquisitions/content/19-qa-advanced.md",     "label": "Advanced — Q141 to Q210" }
+      ]
+    }
+  ],
+  "defaultFile": "mergers-acquisitions/README.md"
+}

@@ -1,0 +1,31 @@
+{
+  "domain": "drones_uav",
+  "focus": [
+    "px4",
+    "ardupilot",
+    "ros2",
+    "gazebo",
+    "jsbsim",
+    "mavlink",
+    "qgroundcontrol",
+    "controls",
+    "estimation",
+    "perception",
+    "nuttx",
+    "simulation",
+    "uav operations"
+  ],
+  "project_paths": [
+    "beginner",
+    "intermediate",
+    "advanced"
+  ],
+  "status_note": {
+    "verified_date": "2026-04-17",
+    "latest_stable_ros2": "Kilted Kaiju",
+    "current_lts_ros2": "Jazzy Jalisco",
+    "gazebo_lts_for_ros2_jazzy": "Harmonic",
+    "gazebo_jetty_eol": "2030-09",
+    "gazebo_harmonic_eol": "2028-09"
+  }
+}

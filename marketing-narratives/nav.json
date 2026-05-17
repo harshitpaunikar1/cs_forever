@@ -1,0 +1,51 @@
+{
+  "sections": [
+    {
+      "id": "sec-mktg-narr-overview",
+      "label": "Overview",
+      "items": [
+        { "type": "file", "file": "marketing-narratives/README.md", "label": "Study Guide" }
+      ]
+    },
+    {
+      "id": "sec-mktg-narr-storytelling",
+      "label": "Brand Storytelling",
+      "items": [
+        { "type": "file", "file": "marketing-narratives/content/01-brand-narrative-development.md", "label": "Brand Narrative Development" },
+        { "type": "file", "file": "marketing-narratives/content/02-consumer-engagement-through-stories.md", "label": "Consumer Engagement" },
+        { "type": "file", "file": "marketing-narratives/content/03-emotional-connections-in-marketing.md", "label": "Emotional Connections" },
+        { "type": "file", "file": "marketing-narratives/content/04-brand-differentiation-through-narratives.md", "label": "Brand Differentiation" }
+      ]
+    },
+    {
+      "id": "sec-mktg-narr-content",
+      "label": "Content Strategy",
+      "items": [
+        { "type": "file", "file": "marketing-narratives/content/05-content-marketing-frameworks.md", "label": "Content Marketing Frameworks" },
+        { "type": "file", "file": "marketing-narratives/content/06-multi-channel-narrative-consistency.md", "label": "Multi-Channel Consistency" },
+        { "type": "file", "file": "marketing-narratives/content/07-digital-storytelling-techniques.md", "label": "Digital Storytelling" },
+        { "type": "file", "file": "marketing-narratives/content/08-measuring-narrative-effectiveness.md", "label": "Measuring Effectiveness" }
+      ]
+    },
+    {
+      "id": "sec-mktg-narr-campaigns",
+      "label": "Campaign Development",
+      "items": [
+        { "type": "file", "file": "marketing-narratives/content/09-narrative-driven-campaigns.md", "label": "Narrative-Driven Campaigns" },
+        { "type": "file", "file": "marketing-narratives/content/10-customer-journey-storytelling.md", "label": "Customer Journey Storytelling" },
+        { "type": "file", "file": "marketing-narratives/content/11-social-media-narratives.md", "label": "Social Media Narratives" },
+        { "type": "file", "file": "marketing-narratives/content/12-influencer-storytelling-partnerships.md", "label": "Influencer Partnerships" }
+      ]
+    },
+    {
+      "id": "sec-mktg-narr-qa",
+      "label": "Practice Q&A",
+      "items": [
+        { "type": "file", "file": "marketing-narratives/content/13-qa-basic.md",        "label": "Basic — Q1 to Q70" },
+        { "type": "file", "file": "marketing-narratives/content/14-qa-intermediate.md", "label": "Intermediate — Q71 to Q140" },
+        { "type": "file", "file": "marketing-narratives/content/15-qa-advanced.md",     "label": "Advanced — Q141 to Q210" }
+      ]
+    }
+  ],
+  "defaultFile": "marketing-narratives/README.md"
+}

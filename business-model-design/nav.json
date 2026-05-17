@@ -1,0 +1,51 @@
+{
+  "sections": [
+    {
+      "id": "sec-bmd-overview",
+      "label": "Overview",
+      "items": [
+        { "type": "file", "file": "business-model-design/README.md", "label": "Study Guide" }
+      ]
+    },
+    {
+      "id": "sec-bmd-fundamentals",
+      "label": "Business Model Fundamentals",
+      "items": [
+        { "type": "file", "file": "business-model-design/content/01-business-model-canvas.md", "label": "Business Model Canvas" },
+        { "type": "file", "file": "business-model-design/content/02-value-proposition-design.md", "label": "Value Proposition Design" },
+        { "type": "file", "file": "business-model-design/content/03-customer-segments.md", "label": "Customer Segments" },
+        { "type": "file", "file": "business-model-design/content/04-revenue-streams.md", "label": "Revenue Streams" }
+      ]
+    },
+    {
+      "id": "sec-bmd-patterns",
+      "label": "Business Model Patterns",
+      "items": [
+        { "type": "file", "file": "business-model-design/content/05-platform-business-models.md", "label": "Platform Business Models" },
+        { "type": "file", "file": "business-model-design/content/06-subscription-models.md", "label": "Subscription Models" },
+        { "type": "file", "file": "business-model-design/content/07-freemium-models.md", "label": "Freemium Models" },
+        { "type": "file", "file": "business-model-design/content/08-multi-sided-platforms.md", "label": "Multi-Sided Platforms" }
+      ]
+    },
+    {
+      "id": "sec-bmd-innovation",
+      "label": "Business Model Innovation",
+      "items": [
+        { "type": "file", "file": "business-model-design/content/09-disrupting-existing-models.md", "label": "Disrupting Existing Models" },
+        { "type": "file", "file": "business-model-design/content/10-digital-transformation-of-business-models.md", "label": "Digital Transformation" },
+        { "type": "file", "file": "business-model-design/content/11-scalability-analysis.md", "label": "Scalability Analysis" },
+        { "type": "file", "file": "business-model-design/content/12-business-model-testing.md", "label": "Business Model Testing" }
+      ]
+    },
+    {
+      "id": "sec-bmd-qa",
+      "label": "Practice Q&A",
+      "items": [
+        { "type": "file", "file": "business-model-design/content/13-qa-basic.md", "label": "Basic — Q1 to Q70" },
+        { "type": "file", "file": "business-model-design/content/14-qa-intermediate.md", "label": "Intermediate — Q71 to Q140" },
+        { "type": "file", "file": "business-model-design/content/15-qa-advanced.md", "label": "Advanced — Q141 to Q210" }
+      ]
+    }
+  ],
+  "defaultFile": "business-model-design/README.md"
+}

@@ -1,0 +1,63 @@
+{
+  "sections": [
+    {
+      "id": "sec-sf-overview",
+      "label": "Overview",
+      "items": [
+        { "type": "file", "file": "sustainable-finance/README.md", "label": "Study Guide" }
+      ]
+    },
+    {
+      "id": "sec-sf-foundations",
+      "label": "Foundations",
+      "items": [
+        { "type": "file", "file": "sustainable-finance/content/01-introduction-sustainable-finance.md", "label": "Introduction" },
+        { "type": "file", "file": "sustainable-finance/content/02-esg-criteria-frameworks.md", "label": "ESG Frameworks" }
+      ]
+    },
+    {
+      "id": "sec-sf-green",
+      "label": "Green Instruments",
+      "items": [
+        { "type": "file", "file": "sustainable-finance/content/03-green-bonds-lending.md", "label": "Green Bonds" },
+        { "type": "file", "file": "sustainable-finance/content/04-climate-risk-financial-impact.md", "label": "Climate Risk" }
+      ]
+    },
+    {
+      "id": "sec-sf-investment",
+      "label": "Investment Approaches",
+      "items": [
+        { "type": "file", "file": "sustainable-finance/content/05-impact-investing.md", "label": "Impact Investing" },
+        { "type": "file", "file": "sustainable-finance/content/06-sustainable-supply-chain-finance.md", "label": "Supply Chain Finance" }
+      ]
+    },
+    {
+      "id": "sec-sf-markets",
+      "label": "Markets & Standards",
+      "items": [
+        { "type": "file", "file": "sustainable-finance/content/07-carbon-markets-emissions-trading.md", "label": "Carbon Markets" },
+        { "type": "file", "file": "sustainable-finance/content/08-socially-responsible-investing.md", "label": "SRI" },
+        { "type": "file", "file": "sustainable-finance/content/09-esg-reporting-disclosure.md", "label": "ESG Reporting" }
+      ]
+    },
+    {
+      "id": "sec-sf-governance",
+      "label": "Governance & Regulation",
+      "items": [
+        { "type": "file", "file": "sustainable-finance/content/10-sustainable-corporate-governance.md", "label": "Corporate Governance" },
+        { "type": "file", "file": "sustainable-finance/content/11-transition-finance.md", "label": "Transition Finance" },
+        { "type": "file", "file": "sustainable-finance/content/12-regulatory-landscape-sustainable-finance.md", "label": "Regulatory Landscape" }
+      ]
+    },
+    {
+      "id": "sec-sf-qa",
+      "label": "Practice Q&A",
+      "items": [
+        { "type": "file", "file": "sustainable-finance/content/13-qa-basic.md", "label": "Basic — Q1 to Q70" },
+        { "type": "file", "file": "sustainable-finance/content/14-qa-intermediate.md", "label": "Intermediate — Q71 to Q140" },
+        { "type": "file", "file": "sustainable-finance/content/15-qa-advanced.md", "label": "Advanced — Q141 to Q210" }
+      ]
+    }
+  ],
+  "defaultFile": "sustainable-finance/README.md"
+}

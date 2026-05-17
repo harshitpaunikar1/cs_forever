@@ -1,0 +1,61 @@
+{
+  "sections": [
+    {
+      "id": "sec-pm-overview",
+      "label": "Overview",
+      "items": [
+        { "type": "file", "file": "project-management/README.md", "label": "Study Guide" }
+      ]
+    },
+    {
+      "id": "sec-pm-fundamentals",
+      "label": "Project Fundamentals",
+      "items": [
+        { "type": "file", "file": "project-management/content/01-project-management-principles.md", "label": "PM Principles" },
+        { "type": "file", "file": "project-management/content/02-project-planning-and-initiation.md", "label": "Planning & Initiation" },
+        { "type": "file", "file": "project-management/content/03-stakeholder-management.md", "label": "Stakeholder Management" },
+        { "type": "file", "file": "project-management/content/04-project-scope-definition.md", "label": "Scope Definition" }
+      ]
+    },
+    {
+      "id": "sec-pm-execution",
+      "label": "Project Execution",
+      "items": [
+        { "type": "file", "file": "project-management/content/05-resource-allocation.md", "label": "Resource Allocation" },
+        { "type": "file", "file": "project-management/content/06-team-building-and-leadership.md", "label": "Team & Leadership" },
+        { "type": "file", "file": "project-management/content/07-risk-management.md", "label": "Risk Management" },
+        { "type": "file", "file": "project-management/content/08-quality-control.md", "label": "Quality Control" }
+      ]
+    },
+    {
+      "id": "sec-pm-monitoring",
+      "label": "Project Monitoring",
+      "items": [
+        { "type": "file", "file": "project-management/content/09-performance-tracking.md", "label": "Performance Tracking" },
+        { "type": "file", "file": "project-management/content/10-schedule-management.md", "label": "Schedule Management" },
+        { "type": "file", "file": "project-management/content/11-cost-control.md", "label": "Cost Control" },
+        { "type": "file", "file": "project-management/content/12-change-management.md", "label": "Change Management" }
+      ]
+    },
+    {
+      "id": "sec-pm-advanced",
+      "label": "Advanced Topics",
+      "items": [
+        { "type": "file", "file": "project-management/content/13-agile-project-management.md", "label": "Agile PM" },
+        { "type": "file", "file": "project-management/content/14-critical-path-method.md", "label": "Critical Path Method" },
+        { "type": "file", "file": "project-management/content/15-project-closure.md", "label": "Project Closure" },
+        { "type": "file", "file": "project-management/content/16-lessons-learned-documentation.md", "label": "Lessons Learned" }
+      ]
+    },
+    {
+      "id": "sec-pm-qa",
+      "label": "Practice Q&A",
+      "items": [
+        { "type": "file", "file": "project-management/content/17-qa-basic.md",        "label": "Basic \u2014 Q1 to Q70" },
+        { "type": "file", "file": "project-management/content/18-qa-intermediate.md", "label": "Intermediate \u2014 Q71 to Q140" },
+        { "type": "file", "file": "project-management/content/19-qa-advanced.md",     "label": "Advanced \u2014 Q141 to Q210" }
+      ]
+    }
+  ],
+  "defaultFile": "project-management/README.md"
+}

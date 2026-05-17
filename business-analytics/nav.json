@@ -1,0 +1,63 @@
+{
+  "sections": [
+    {
+      "id": "sec-ba-overview",
+      "label": "Overview",
+      "items": [
+        { "type": "file", "file": "business-analytics/README.md", "label": "Study Guide" }
+      ]
+    },
+    {
+      "id": "sec-ba-foundations",
+      "label": "Analytics Foundations",
+      "items": [
+        { "type": "file", "file": "business-analytics/content/01-introduction-to-business-analytics.md", "label": "Introduction" },
+        { "type": "file", "file": "business-analytics/content/02-descriptive-analytics.md", "label": "Descriptive Analytics" }
+      ]
+    },
+    {
+      "id": "sec-ba-types",
+      "label": "Analytics Types",
+      "items": [
+        { "type": "file", "file": "business-analytics/content/03-diagnostic-analytics.md", "label": "Diagnostic Analytics" },
+        { "type": "file", "file": "business-analytics/content/04-predictive-analytics.md", "label": "Predictive Analytics" },
+        { "type": "file", "file": "business-analytics/content/05-prescriptive-analytics.md", "label": "Prescriptive Analytics" }
+      ]
+    },
+    {
+      "id": "sec-ba-tools",
+      "label": "Tools & Methods",
+      "items": [
+        { "type": "file", "file": "business-analytics/content/06-data-visualization-storytelling.md", "label": "Visualization & Storytelling" },
+        { "type": "file", "file": "business-analytics/content/07-statistical-thinking-managers.md", "label": "Statistical Thinking" },
+        { "type": "file", "file": "business-analytics/content/08-regression-analysis-business.md", "label": "Regression Analysis" }
+      ]
+    },
+    {
+      "id": "sec-ba-applied",
+      "label": "Applied Analytics",
+      "items": [
+        { "type": "file", "file": "business-analytics/content/09-customer-analytics.md", "label": "Customer Analytics" },
+        { "type": "file", "file": "business-analytics/content/10-operations-analytics.md", "label": "Operations Analytics" },
+        { "type": "file", "file": "business-analytics/content/11-financial-analytics.md", "label": "Financial Analytics" }
+      ]
+    },
+    {
+      "id": "sec-ba-ethics",
+      "label": "Ethics",
+      "items": [
+        { "type": "file", "file": "business-analytics/content/12-ethics-governance-analytics.md", "label": "Ethics & Governance" }
+      ]
+    },
+    {
+      "id": "sec-ba-qa",
+      "label": "Practice Q&A",
+      "items": [
+        { "type": "file", "file": "business-analytics/content/13-qa-basic.md", "label": "Basic — Q1 to Q70" },
+        { "type": "file", "file": "business-analytics/content/14-qa-intermediate.md", "label": "Intermediate — Q71 to Q140" },
+        { "type": "file", "file": "business-analytics/content/15-qa-advanced.md", "label": "Advanced — Q141 to Q210" }
+      ]
+    }
+  ],
+  "defaultFile": "business-analytics/README.md"
+}

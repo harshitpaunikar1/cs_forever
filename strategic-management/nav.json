@@ -1,0 +1,52 @@
+{
+  "sections": [
+    {
+      "id": "sec-sm-overview",
+      "label": "Overview",
+      "items": [
+        { "type": "file", "file": "strategic-management/README.md", "label": "Study Guide" }
+      ]
+    },
+    {
+      "id": "sec-sm-module1",
+      "label": "Module I — Competitive Strategy",
+      "items": [
+        { "type": "file", "file": "strategic-management/content/01-sm-foundations.md",        "label": "SM Foundations" },
+        { "type": "file", "file": "strategic-management/content/02-external-environment.md",  "label": "External Environment" },
+        { "type": "file", "file": "strategic-management/content/03-industry-analysis.md",     "label": "Industry Analysis" },
+        { "type": "file", "file": "strategic-management/content/04-internal-analysis.md",     "label": "Internal Analysis" },
+        { "type": "file", "file": "strategic-management/content/05-business-strategy.md",     "label": "Business-Level Strategy" },
+        { "type": "file", "file": "strategic-management/content/06-corporate-global-strategy.md", "label": "Corporate & Global Strategy" }
+      ]
+    },
+    {
+      "id": "sec-sm-module2",
+      "label": "Module II — Corporate Strategy",
+      "items": [
+        { "type": "file", "file": "strategic-management/content/07-corporate-strategy-2.md",       "label": "Corporate Strategy Framework" },
+        { "type": "file", "file": "strategic-management/content/08-alliances-ma.md",               "label": "Alliances, M&A & Divestitures" },
+        { "type": "file", "file": "strategic-management/content/09-strategy-review-innovation.md", "label": "Strategy Review & Innovation" },
+        { "type": "file", "file": "strategic-management/content/10-strategy-execution.md",         "label": "Execution & Governance" }
+      ]
+    },
+    {
+      "id": "sec-sm-qa1",
+      "label": "Practice Q&A — Module I",
+      "items": [
+        { "type": "file", "file": "strategic-management/content/11-qa-sm1-basic.md",        "label": "Basic — Q1 to Q70" },
+        { "type": "file", "file": "strategic-management/content/12-qa-sm1-intermediate.md", "label": "Intermediate — Q71 to Q140" },
+        { "type": "file", "file": "strategic-management/content/13-qa-sm1-advanced.md",     "label": "Advanced — Q141 to Q210" }
+      ]
+    },
+    {
+      "id": "sec-sm-qa2",
+      "label": "Practice Q&A — Module II",
+      "items": [
+        { "type": "file", "file": "strategic-management/content/14-qa-sm2-basic.md",        "label": "Basic — Q1 to Q70" },
+        { "type": "file", "file": "strategic-management/content/16-qa-sm2-intermediate.md", "label": "Intermediate — Q71 to Q140" },
+        { "type": "file", "file": "strategic-management/content/15-qa-sm2-advanced.md",     "label": "Advanced — Q141+" }
+      ]
+    }
+  ],
+  "defaultFile": "strategic-management/README.md"
+}

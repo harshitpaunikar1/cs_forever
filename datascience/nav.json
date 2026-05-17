@@ -1,0 +1,60 @@
+{
+  "sections": [
+    {
+      "id": "sec-ds-overview",
+      "label": "Overview",
+      "items": [
+        { "type": "file", "file": "datascience/README.md", "label": "Study Guide" }
+      ]
+    },
+    {
+      "id": "sec-ds-foundations",
+      "label": "ML & AI Foundations",
+      "items": [
+        { "type": "pdf", "file": "datascience/ai-ml-dl-overview.pdf",              "label": "AI, ML, DL & Data Science",       "topic": "Differences between AI, ML, DL and Data Science; foundational concepts" },
+        { "type": "pdf", "file": "datascience/logistic-regression.pdf",            "label": "Logistic Regression",             "topic": "Binary classification, sigmoid function, log-loss, model output" },
+        { "type": "pdf", "file": "datascience/regression-heteroscedasticity.pdf",  "label": "Regression & Heteroscedasticity", "topic": "OLS assumptions, heteroscedasticity, residuals, error distribution" },
+        { "type": "pdf", "file": "datascience/imbalanced-data-sampling.pdf",       "label": "Imbalanced Data & Sampling",      "topic": "Upsampling, downsampling, SMOTE, class imbalance strategies" },
+        { "type": "pdf", "file": "datascience/neural-network-training-epochs.pdf", "label": "Neural Network Training & Epochs","topic": "Epochs, batches, underfitting, training dynamics" },
+        { "type": "pdf", "file": "datascience/nlp-fundamentals-libraries.pdf",     "label": "NLP Fundamentals & Libraries",    "topic": "NLP concepts, NLTK, SpaCy, TextBlob, Gensim, CoreNLP" },
+        { "type": "pdf", "file": "datascience/time-series-stationarity.pdf",       "label": "Time Series & Stationarity",      "topic": "Differencing, stationarity, transformations, AR models" },
+        { "type": "pdf", "file": "datascience/tensorflow-dl-frameworks.pdf",       "label": "TensorFlow & DL Frameworks",      "topic": "TensorFlow, Keras, PyTorch, model building, deep learning tools" },
+        { "type": "pdf", "file": "datascience/machine-learning-fundamentals.pdf",  "label": "Machine Learning Fundamentals",   "topic": "ML definition, learning from data, patterns, supervised learning" },
+        { "type": "pdf", "file": "datascience/recommender-systems.pdf",            "label": "Recommender Systems",             "topic": "Collaborative filtering, content-based, personality-based, deployment" }
+      ]
+    },
+    {
+      "id": "sec-ds-dl-nlp",
+      "label": "Deep Learning & NLP",
+      "items": [
+        { "type": "pdf", "file": "datascience/tensors-deep-learning-concepts.pdf",    "label": "Tensors & Deep Learning Concepts",   "topic": "Tensors, multidimensional arrays, GPU vs CPU, deep layer representation" },
+        { "type": "pdf", "file": "datascience/confusion-matrix-metrics.pdf",          "label": "Confusion Matrix & Metrics",         "topic": "Precision, recall, F1, accuracy, ROC-AUC, imbalanced evaluation" },
+        { "type": "pdf", "file": "datascience/autoregression-time-series-models.pdf", "label": "Autoregression & Time Series Models", "topic": "AR model, autoregressive processes, economics and finance applications" },
+        { "type": "pdf", "file": "datascience/cnn-alexnet-architectures.pdf",         "label": "CNN Architectures — AlexNet",         "topic": "AlexNet, ImageNet, convolutional layers, GPU training, ILSVRC" },
+        { "type": "pdf", "file": "datascience/autoencoders-unsupervised-learning.pdf","label": "Autoencoders & Unsupervised Learning", "topic": "Autoencoder, encoder-decoder, identity function, hidden representation" },
+        { "type": "pdf", "file": "datascience/statistical-learning-theory.pdf",       "label": "Statistical Learning Theory",        "topic": "Supervised vs unsupervised statistical learning, f(X) + ε framework" },
+        { "type": "pdf", "file": "datascience/empirical-risk-minimization.pdf",       "label": "Empirical Risk Minimization",        "topic": "ERM principle, true risk vs empirical risk, generalization bounds" },
+        { "type": "pdf", "file": "datascience/string-metrics-nlp-algorithms.pdf",     "label": "String Metrics & NLP Algorithms",    "topic": "Levenshtein distance, edit distance, string similarity measures" },
+        { "type": "pdf", "file": "datascience/latent-semantic-indexing-svd.pdf",      "label": "Latent Semantic Indexing & SVD",     "topic": "LSI, SVD, document-term matrix, semantic patterns in text" },
+        { "type": "pdf", "file": "datascience/nlp-commonsense-reasoning.pdf",         "label": "NLP Commonsense Reasoning",          "topic": "Event2Mind, commonsense inference, intents, reactions from text" }
+      ]
+    },
+    {
+      "id": "sec-ds-advanced-cv",
+      "label": "Advanced CV & Research",
+      "items": [
+        { "type": "pdf", "file": "datascience/grad-cam-cnn-interpretability.pdf",  "label": "Grad-CAM & CNN Interpretability",  "topic": "Gradient-weighted Class Activation Mapping, visual explanations, CNN transparency" },
+        { "type": "pdf", "file": "datascience/vnet-biomedical-segmentation.pdf",   "label": "V-Net & Biomedical Segmentation",  "topic": "V-Net, 3D volumetric convolution, MRI segmentation, prostate detection" },
+        { "type": "pdf", "file": "datascience/overfeat-object-detection.pdf",      "label": "OverFeat & Object Detection",      "topic": "OverFeat, sliding window, classification + localization + detection" },
+        { "type": "pdf", "file": "datascience/spatial-transformer-networks.pdf",   "label": "Spatial Transformer Networks",     "topic": "STN, spatial transformations, rotation and scale invariance, localization" },
+        { "type": "pdf", "file": "datascience/wide-residual-networks.pdf",         "label": "Wide Residual Networks",           "topic": "WRN, width vs depth tradeoff, ResNet improvements, shallow wide networks" },
+        { "type": "pdf", "file": "datascience/dcgans-generative-models.pdf",       "label": "DCGANs & Generative Models",       "topic": "GANs, DCGAN, generator vs discriminator, image synthesis, Ian Goodfellow" },
+        { "type": "pdf", "file": "datascience/image-captioning-visual-ai.pdf",     "label": "Image Captioning & Visual AI",     "topic": "Visual understanding, automatic image captioning, vision + language" },
+        { "type": "pdf", "file": "datascience/3d-shape-structural-learning.pdf",   "label": "3D Shape & Structural Learning",   "topic": "StructEdit, 3D shape variations, part-based shape representation" },
+        { "type": "pdf", "file": "datascience/superglue-graph-neural-networks.pdf","label": "SuperGlue & Graph Neural Networks","topic": "Feature matching, GNNs, SLAM, SfM, correspondence estimation" },
+        { "type": "pdf", "file": "datascience/face-recognition-final-project.pdf", "label": "Face Recognition — Final Project", "topic": "Attendance system, face detection, project-based Q&A, interview wrap-up" }
+      ]
+    }
+  ],
+  "defaultFile": "datascience/README.md"
+}

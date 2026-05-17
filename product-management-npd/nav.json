@@ -1,0 +1,61 @@
+{
+  "sections": [
+    {
+      "id": "sec-pm-overview",
+      "label": "Overview",
+      "items": [
+        { "type": "file", "file": "product-management-npd/README.md", "label": "Study Guide" }
+      ]
+    },
+    {
+      "id": "sec-pm-fundamentals",
+      "label": "Product Management Fundamentals",
+      "items": [
+        { "type": "file", "file": "product-management-npd/content/01-role-of-product-managers.md", "label": "Role of Product Managers" },
+        { "type": "file", "file": "product-management-npd/content/02-market-analysis-white-spaces.md", "label": "Market Analysis & White Spaces" },
+        { "type": "file", "file": "product-management-npd/content/03-introduction-to-product-management.md", "label": "Intro to Product Management" },
+        { "type": "file", "file": "product-management-npd/content/04-product-ideation-techniques.md", "label": "Product Ideation Techniques" }
+      ]
+    },
+    {
+      "id": "sec-pm-development",
+      "label": "Product Development Process",
+      "items": [
+        { "type": "file", "file": "product-management-npd/content/05-product-service-development-stages.md", "label": "Development Stages" },
+        { "type": "file", "file": "product-management-npd/content/06-npd-organizational-structures.md", "label": "NPD Organizational Structures" },
+        { "type": "file", "file": "product-management-npd/content/07-low-cost-manufacture-design.md", "label": "Low-Cost Manufacture Design" },
+        { "type": "file", "file": "product-management-npd/content/08-product-opportunities-identification.md", "label": "Product Opportunities" }
+      ]
+    },
+    {
+      "id": "sec-pm-strategy",
+      "label": "Product Strategy",
+      "items": [
+        { "type": "file", "file": "product-management-npd/content/09-product-pricing-strategies.md", "label": "Product Pricing Strategies" },
+        { "type": "file", "file": "product-management-npd/content/10-clv-and-gtm-strategy.md", "label": "CLV & Go-To-Market Strategy" },
+        { "type": "file", "file": "product-management-npd/content/11-product-lifecycle-management.md", "label": "Product Lifecycle Management" },
+        { "type": "file", "file": "product-management-npd/content/12-agile-product-development.md", "label": "Agile Product Development" }
+      ]
+    },
+    {
+      "id": "sec-pm-advanced",
+      "label": "Advanced Concepts",
+      "items": [
+        { "type": "file", "file": "product-management-npd/content/13-product-analytics-data-driven.md", "label": "Product Analytics" },
+        { "type": "file", "file": "product-management-npd/content/14-growth-mindset-product-teams.md", "label": "Growth Mindset Teams" },
+        { "type": "file", "file": "product-management-npd/content/15-time-to-market-reduction.md", "label": "Time-to-Market Reduction" },
+        { "type": "file", "file": "product-management-npd/content/16-cross-functional-projects-risks.md", "label": "Cross-Functional Projects" }
+      ]
+    },
+    {
+      "id": "sec-pm-qa",
+      "label": "Practice Q&A",
+      "items": [
+        { "type": "file", "file": "product-management-npd/content/17-qa-basic.md",        "label": "Basic — Q1 to Q70" },
+        { "type": "file", "file": "product-management-npd/content/18-qa-intermediate.md", "label": "Intermediate — Q71 to Q140" },
+        { "type": "file", "file": "product-management-npd/content/19-qa-advanced.md",     "label": "Advanced — Q141 to Q210" }
+      ]
+    }
+  ],
+  "defaultFile": "product-management-npd/README.md"
+}

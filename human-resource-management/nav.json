@@ -1,0 +1,66 @@
+{
+  "sections": [
+    {
+      "id": "sec-hrm-overview",
+      "label": "Overview",
+      "items": [
+        { "type": "file", "file": "human-resource-management/README.md", "label": "Study Guide" }
+      ]
+    },
+    {
+      "id": "sec-hrm-foundations",
+      "label": "Foundations",
+      "items": [
+        { "type": "file", "file": "human-resource-management/content/01-overview-hrm.md",       "label": "Overview of HRM" },
+        { "type": "file", "file": "human-resource-management/content/02-strategic-hrm.md",      "label": "Strategic HRM" },
+        { "type": "file", "file": "human-resource-management/content/03-hr-planning.md",        "label": "HR Planning" },
+        { "type": "file", "file": "human-resource-management/content/04-job-analysis.md",       "label": "Job Analysis" }
+      ]
+    },
+    {
+      "id": "sec-hrm-talent",
+      "label": "Talent Acquisition",
+      "items": [
+        { "type": "file", "file": "human-resource-management/content/05-recruitment.md",        "label": "Recruitment" },
+        { "type": "file", "file": "human-resource-management/content/06-selection.md",          "label": "Selection" }
+      ]
+    },
+    {
+      "id": "sec-hrm-performance",
+      "label": "Performance & Development",
+      "items": [
+        { "type": "file", "file": "human-resource-management/content/07-performance-management.md", "label": "Performance Management" },
+        { "type": "file", "file": "human-resource-management/content/08-performance-review.md",     "label": "Performance Review & Feedback" },
+        { "type": "file", "file": "human-resource-management/content/09-employee-development-1.md", "label": "Employee Development I" },
+        { "type": "file", "file": "human-resource-management/content/10-employee-development-2.md", "label": "Employee Development II" }
+      ]
+    },
+    {
+      "id": "sec-hrm-rewards",
+      "label": "Engagement & Rewards",
+      "items": [
+        { "type": "file", "file": "human-resource-management/content/11-employee-engagement.md",    "label": "Employee Engagement" },
+        { "type": "file", "file": "human-resource-management/content/12-job-evaluation.md",         "label": "Job Evaluation" },
+        { "type": "file", "file": "human-resource-management/content/13-compensation-benefits.md",  "label": "Compensation & Benefits" }
+      ]
+    },
+    {
+      "id": "sec-hrm-relations",
+      "label": "Employee Relations",
+      "items": [
+        { "type": "file", "file": "human-resource-management/content/14-employee-separation.md",    "label": "Employee Separation" },
+        { "type": "file", "file": "human-resource-management/content/15-influencing-employees.md",  "label": "Influencing Employees" }
+      ]
+    },
+    {
+      "id": "sec-hrm-qa",
+      "label": "Practice Q&A",
+      "items": [
+        { "type": "file", "file": "human-resource-management/content/16-qa-basic.md",        "label": "Basic — Q1 to Q70" },
+        { "type": "file", "file": "human-resource-management/content/17-qa-intermediate.md", "label": "Intermediate — Q71 to Q140" },
+        { "type": "file", "file": "human-resource-management/content/18-qa-advanced.md",     "label": "Advanced — Q141 to Q210" }
+      ]
+    }
+  ],
+  "defaultFile": "human-resource-management/README.md"
+}

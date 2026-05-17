@@ -1,0 +1,57 @@
+{
+  "sections": [
+    {
+      "id": "sec-iapm-overview",
+      "label": "Overview",
+      "items": [
+        { "type": "file", "file": "investment-analysis-portfolio/README.md", "label": "Study Guide" }
+      ]
+    },
+    {
+      "id": "sec-iapm-foundations",
+      "label": "Investment Foundations",
+      "items": [
+        { "type": "file", "file": "investment-analysis-portfolio/content/01-introduction-investment-analysis.md", "label": "Introduction" },
+        { "type": "file", "file": "investment-analysis-portfolio/content/02-time-value-of-money.md", "label": "Time Value of Money" },
+        { "type": "file", "file": "investment-analysis-portfolio/content/03-risk-return-fundamentals.md", "label": "Risk & Return" }
+      ]
+    },
+    {
+      "id": "sec-iapm-security",
+      "label": "Security Analysis",
+      "items": [
+        { "type": "file", "file": "investment-analysis-portfolio/content/04-security-valuation.md", "label": "Security Valuation" },
+        { "type": "file", "file": "investment-analysis-portfolio/content/05-equity-analysis.md", "label": "Equity Analysis" },
+        { "type": "file", "file": "investment-analysis-portfolio/content/06-fixed-income-analysis.md", "label": "Fixed-Income" }
+      ]
+    },
+    {
+      "id": "sec-iapm-portfolio",
+      "label": "Portfolio Theory",
+      "items": [
+        { "type": "file", "file": "investment-analysis-portfolio/content/07-modern-portfolio-theory.md", "label": "Modern Portfolio Theory" },
+        { "type": "file", "file": "investment-analysis-portfolio/content/08-capital-asset-pricing-model.md", "label": "CAPM" },
+        { "type": "file", "file": "investment-analysis-portfolio/content/09-portfolio-construction-diversification.md", "label": "Construction & Diversification" }
+      ]
+    },
+    {
+      "id": "sec-iapm-advanced",
+      "label": "Advanced Topics",
+      "items": [
+        { "type": "file", "file": "investment-analysis-portfolio/content/10-technical-analysis.md", "label": "Technical Analysis" },
+        { "type": "file", "file": "investment-analysis-portfolio/content/11-behavioral-finance.md", "label": "Behavioral Finance" },
+        { "type": "file", "file": "investment-analysis-portfolio/content/12-portfolio-performance-evaluation.md", "label": "Performance Evaluation" }
+      ]
+    },
+    {
+      "id": "sec-iapm-qa",
+      "label": "Practice Q&A",
+      "items": [
+        { "type": "file", "file": "investment-analysis-portfolio/content/13-qa-basic.md", "label": "Basic — Q1 to Q70" },
+        { "type": "file", "file": "investment-analysis-portfolio/content/14-qa-intermediate.md", "label": "Intermediate — Q71 to Q140" },
+        { "type": "file", "file": "investment-analysis-portfolio/content/15-qa-advanced.md", "label": "Advanced — Q141 to Q210" }
+      ]
+    }
+  ],
+  "defaultFile": "investment-analysis-portfolio/README.md"
+}

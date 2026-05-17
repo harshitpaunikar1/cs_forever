@@ -1,0 +1,215 @@
+{
+  "sections": [
+    {
+      "id": "sec-ne-overview",
+      "label": "Overview",
+      "items": [
+        {
+          "type": "file",
+          "file": "NuclearEnergy/README.md",
+          "label": "Study Guide"
+        },
+        {
+          "type": "file",
+          "file": "NuclearEnergy/NAVIGATION.md",
+          "label": "Navigation Map"
+        },
+        {
+          "type": "file",
+          "file": "NuclearEnergy/Nuclear_Energy_Premium_Course_Module.md",
+          "label": "Premium Course Module"
+        }
+      ]
+    },
+    {
+      "id": "sec-ne-foundation",
+      "label": "Foundation",
+      "items": [
+        {
+          "type": "file",
+          "file": "NuclearEnergy/01_Foundation/00_Overview.md",
+          "label": "Foundation"
+        },
+        {
+          "type": "file",
+          "file": "NuclearEnergy/01_Foundation/01_Start_Here/01_Curriculum_Overview.md",
+          "label": "Curriculum Overview"
+        },
+        {
+          "type": "file",
+          "file": "NuclearEnergy/01_Foundation/01_Start_Here/02_Learning_Roadmap.md",
+          "label": "Learning Roadmap"
+        },
+        {
+          "type": "file",
+          "file": "NuclearEnergy/01_Foundation/02_Plant_and_Energy_Basics/01_How_Nuclear_Power_Plants_Work.md",
+          "label": "How Nuclear Power Plants Work"
+        },
+        {
+          "type": "file",
+          "file": "NuclearEnergy/01_Foundation/03_Nuclear_Science_Fundamentals/01_Reactor_Physics_Kinetics_and_Reactivity_Control.md",
+          "label": "Reactor Physics, Kinetics, and Reactivity Control"
+        },
+        {
+          "type": "file",
+          "file": "NuclearEnergy/01_Foundation/04_Tools_and_Computing/01_Python_Linux_and_Text_First_Engineering_Workflow.md",
+          "label": "Python, Linux, and Text-First Engineering Workflow"
+        },
+        {
+          "type": "file",
+          "file": "NuclearEnergy/01_Foundation/05_Control_Fundamentals/01_Control_Systems_Sensors_and_PID_Basics.md",
+          "label": "Control Systems, Sensors, and PID Basics"
+        },
+        {
+          "type": "file",
+          "file": "NuclearEnergy/01_Foundation/06_Safety_Culture/01_Nuclear_Safety_Culture_Defense_in_Depth_and_Human_Performance.md",
+          "label": "Nuclear Safety Culture, Defense in Depth, and Human Performance"
+        }
+      ]
+    },
+    {
+      "id": "sec-ne-core",
+      "label": "Core Nuclear",
+      "items": [
+        {
+          "type": "file",
+          "file": "NuclearEnergy/02_Core_Nuclear/00_Overview.md",
+          "label": "Core Nuclear"
+        },
+        {
+          "type": "file",
+          "file": "NuclearEnergy/02_Core_Nuclear/01_Reactor_Engineering/01_Reactor_Physics_Fuel_Burnup_and_Core_Monitoring.md",
+          "label": "Reactor Physics, Fuel Burnup, and Core Monitoring"
+        },
+        {
+          "type": "file",
+          "file": "NuclearEnergy/02_Core_Nuclear/01_Reactor_Engineering/02_Thermal_Hydraulics_Cooling_Loops_and_Heat_Removal.md",
+          "label": "Thermal Hydraulics, Cooling Loops, and Heat Removal"
+        },
+        {
+          "type": "file",
+          "file": "NuclearEnergy/02_Core_Nuclear/02_Plant_Systems/01_Steam_Turbine_Condenser_and_Feedwater_Systems.md",
+          "label": "Steam Turbine, Condenser, and Feedwater Systems"
+        },
+        {
+          "type": "file",
+          "file": "NuclearEnergy/02_Core_Nuclear/02_Plant_Systems/02_Pumps_Valves_Heat_Exchangers_and_Maintenance_Systems.md",
+          "label": "Pumps, Valves, Heat Exchangers, and Maintenance Systems"
+        },
+        {
+          "type": "file",
+          "file": "NuclearEnergy/02_Core_Nuclear/03_I_and_C_Automation/01_Instrumentation_DCS_PLC_SCADA_and_HMI_in_Nuclear_Plants.md",
+          "label": "Instrumentation, DCS, PLC, SCADA, and HMI in Nuclear Plants"
+        },
+        {
+          "type": "file",
+          "file": "NuclearEnergy/02_Core_Nuclear/03_I_and_C_Automation/02_Trips_Permissives_Alarm_Management_and_Control_Room_Operations.md",
+          "label": "Trips, Permissives, Alarm Management, and Control Room Operations"
+        },
+        {
+          "type": "file",
+          "file": "NuclearEnergy/02_Core_Nuclear/04_Chemistry_Radiation_Electrical/01_Radiation_Protection_Water_Chemistry_and_Materials_Reliability.md",
+          "label": "Radiation Protection, Water Chemistry, and Materials Reliability"
+        },
+        {
+          "type": "file",
+          "file": "NuclearEnergy/02_Core_Nuclear/04_Chemistry_Radiation_Electrical/02_Generator_Grid_Switchyard_and_Protection_Systems.md",
+          "label": "Generator, Grid, Switchyard, and Protection Systems"
+        }
+      ]
+    },
+    {
+      "id": "sec-ne-advanced",
+      "label": "Advanced",
+      "items": [
+        {
+          "type": "file",
+          "file": "NuclearEnergy/03_Advanced/00_Overview.md",
+          "label": "Advanced"
+        },
+        {
+          "type": "file",
+          "file": "NuclearEnergy/03_Advanced/01_Simulation_and_Analysis/01_OpenMC_PyNE_and_Reactor_Modeling_Workflows.md",
+          "label": "OpenMC, PyNE, and Reactor Modeling Workflows"
+        },
+        {
+          "type": "file",
+          "file": "NuclearEnergy/03_Advanced/01_Simulation_and_Analysis/02_Digital_Twins_Thermal_Fluid_Simulation_and_Code_Saturne.md",
+          "label": "Digital Twins, Thermal-Fluid Simulation, and Code_Saturne"
+        },
+        {
+          "type": "file",
+          "file": "NuclearEnergy/03_Advanced/02_Digital_Operations/01_Historians_OPC_UA_Modbus_and_Industrial_Data_Pipelines.md",
+          "label": "Historians, OPC UA, Modbus, and Industrial Data Pipelines"
+        },
+        {
+          "type": "file",
+          "file": "NuclearEnergy/03_Advanced/02_Digital_Operations/02_Predictive_Maintenance_Anomaly_Detection_and_Asset_Health.md",
+          "label": "Predictive Maintenance, Anomaly Detection, and Asset Health"
+        },
+        {
+          "type": "file",
+          "file": "NuclearEnergy/03_Advanced/03_Safety_Security_and_Regulation/01_Functional_Safety_Validation_and_OT_Cybersecurity.md",
+          "label": "Functional Safety, Validation, and OT Cybersecurity"
+        },
+        {
+          "type": "file",
+          "file": "NuclearEnergy/03_Advanced/04_Industry_and_Future/01_India_Nuclear_Path_DAE_BARC_NPCIL_IGCAR_and_AERB.md",
+          "label": "India Nuclear Path: DAE, BARC, NPCIL, IGCAR, and AERB"
+        },
+        {
+          "type": "file",
+          "file": "NuclearEnergy/03_Advanced/04_Industry_and_Future/02_Advanced_Reactors_Fuel_Cycle_and_2026_Plus_Trends.md",
+          "label": "Advanced Reactors, Fuel Cycle, and 2026+ Trends"
+        }
+      ]
+    },
+    {
+      "id": "sec-ne-projects",
+      "label": "Projects",
+      "items": [
+        {
+          "type": "file",
+          "file": "NuclearEnergy/04_Projects/00_Overview.md",
+          "label": "Projects"
+        },
+        {
+          "type": "file",
+          "file": "NuclearEnergy/04_Projects/Beginner/01_Beginner_Project_Path.md",
+          "label": "Beginner Project Path"
+        },
+        {
+          "type": "file",
+          "file": "NuclearEnergy/04_Projects/Intermediate/01_Intermediate_Project_Path.md",
+          "label": "Intermediate Project Path"
+        },
+        {
+          "type": "file",
+          "file": "NuclearEnergy/04_Projects/Advanced/01_Advanced_Project_Path.md",
+          "label": "Advanced Project Path"
+        }
+      ]
+    },
+    {
+      "id": "sec-ne-resources",
+      "label": "Resources",
+      "items": [
+        {
+          "type": "file",
+          "file": "NuclearEnergy/05_Resources/Cheatsheets/Image_Index.md",
+          "label": "Image Index"
+        },
+        {
+          "type": "file",
+          "file": "NuclearEnergy/05_Resources/Cheatsheets/PDF_Index.md",
+          "label": "PDF Index"
+        },
+        {
+          "type": "file",
+          "file": "NuclearEnergy/05_Resources/Cheatsheets/Source_Notes_Index.md",
+          "label": "Source Notes Index"
+        }
+      ]
+    }
+  ]
+}

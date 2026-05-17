@@ -1,0 +1,57 @@
+{
+  "sections": [
+    {
+      "id": "sec-ss-overview",
+      "label": "Overview",
+      "items": [
+        { "type": "file", "file": "six-sigma/README.md", "label": "Study Guide" }
+      ]
+    },
+    {
+      "id": "sec-ss-foundations",
+      "label": "Six Sigma Foundations",
+      "items": [
+        { "type": "file", "file": "six-sigma/content/01-introduction-six-sigma.md", "label": "Introduction" },
+        { "type": "file", "file": "six-sigma/content/02-dmaic-framework.md", "label": "DMAIC Framework" }
+      ]
+    },
+    {
+      "id": "sec-ss-dmaic",
+      "label": "DMAIC Phases",
+      "items": [
+        { "type": "file", "file": "six-sigma/content/03-define-phase.md", "label": "Define" },
+        { "type": "file", "file": "six-sigma/content/04-measure-phase.md", "label": "Measure" },
+        { "type": "file", "file": "six-sigma/content/05-analyze-phase.md", "label": "Analyze" },
+        { "type": "file", "file": "six-sigma/content/06-improve-phase.md", "label": "Improve" },
+        { "type": "file", "file": "six-sigma/content/07-control-phase.md", "label": "Control" }
+      ]
+    },
+    {
+      "id": "sec-ss-lean",
+      "label": "Lean & Statistics",
+      "items": [
+        { "type": "file", "file": "six-sigma/content/08-lean-six-sigma.md", "label": "Lean Six Sigma" },
+        { "type": "file", "file": "six-sigma/content/09-statistical-process-control.md", "label": "SPC" },
+        { "type": "file", "file": "six-sigma/content/10-process-capability-analysis.md", "label": "Process Capability" }
+      ]
+    },
+    {
+      "id": "sec-ss-tools",
+      "label": "Tools & Career",
+      "items": [
+        { "type": "file", "file": "six-sigma/content/11-root-cause-analysis-tools.md", "label": "Root Cause Analysis" },
+        { "type": "file", "file": "six-sigma/content/12-six-sigma-project-management.md", "label": "Project Mgmt & Certs" }
+      ]
+    },
+    {
+      "id": "sec-ss-qa",
+      "label": "Practice Q&A",
+      "items": [
+        { "type": "file", "file": "six-sigma/content/13-qa-basic.md", "label": "Basic — Q1 to Q70" },
+        { "type": "file", "file": "six-sigma/content/14-qa-intermediate.md", "label": "Intermediate — Q71 to Q140" },
+        { "type": "file", "file": "six-sigma/content/15-qa-advanced.md", "label": "Advanced — Q141 to Q210" }
+      ]
+    }
+  ],
+  "defaultFile": "six-sigma/README.md"
+}

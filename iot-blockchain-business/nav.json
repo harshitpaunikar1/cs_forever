@@ -1,0 +1,61 @@
+{
+  "sections": [
+    {
+      "id": "sec-iot-overview",
+      "label": "Overview",
+      "items": [
+        { "type": "file", "file": "iot-blockchain-business/README.md", "label": "Study Guide" }
+      ]
+    },
+    {
+      "id": "sec-iot-fundamentals",
+      "label": "IoT Fundamentals",
+      "items": [
+        { "type": "file", "file": "iot-blockchain-business/content/01-introduction-to-iot.md", "label": "Introduction to IoT" },
+        { "type": "file", "file": "iot-blockchain-business/content/02-iot-architecture.md", "label": "IoT Architecture" },
+        { "type": "file", "file": "iot-blockchain-business/content/03-sensors-and-devices.md", "label": "Sensors and Devices" },
+        { "type": "file", "file": "iot-blockchain-business/content/04-data-collection-and-connectivity.md", "label": "Data Collection & Connectivity" }
+      ]
+    },
+    {
+      "id": "sec-iot-blockchain",
+      "label": "Blockchain Basics",
+      "items": [
+        { "type": "file", "file": "iot-blockchain-business/content/05-blockchain-technology-fundamentals.md", "label": "Blockchain Fundamentals" },
+        { "type": "file", "file": "iot-blockchain-business/content/06-smart-contracts.md", "label": "Smart Contracts" },
+        { "type": "file", "file": "iot-blockchain-business/content/07-cryptocurrency-and-bitcoin.md", "label": "Cryptocurrency & Bitcoin" },
+        { "type": "file", "file": "iot-blockchain-business/content/08-decentralized-finance.md", "label": "Decentralized Finance (DeFi)" }
+      ]
+    },
+    {
+      "id": "sec-iot-applications",
+      "label": "Business Applications",
+      "items": [
+        { "type": "file", "file": "iot-blockchain-business/content/09-iot-in-supply-chain.md", "label": "IoT in Supply Chain" },
+        { "type": "file", "file": "iot-blockchain-business/content/10-blockchain-in-finance.md", "label": "Blockchain in Finance" },
+        { "type": "file", "file": "iot-blockchain-business/content/11-industry-4-and-digital-twins.md", "label": "Industry 4.0 & Digital Twins" },
+        { "type": "file", "file": "iot-blockchain-business/content/12-iot-and-blockchain-integration.md", "label": "IoT & Blockchain Integration" }
+      ]
+    },
+    {
+      "id": "sec-iot-strategic",
+      "label": "Strategic Implementation",
+      "items": [
+        { "type": "file", "file": "iot-blockchain-business/content/13-iot-business-models.md", "label": "IoT Business Models" },
+        { "type": "file", "file": "iot-blockchain-business/content/14-blockchain-use-cases.md", "label": "Blockchain Use Cases" },
+        { "type": "file", "file": "iot-blockchain-business/content/15-data-security-and-privacy.md", "label": "Data Security & Privacy" },
+        { "type": "file", "file": "iot-blockchain-business/content/16-regulatory-considerations.md", "label": "Regulatory Considerations" }
+      ]
+    },
+    {
+      "id": "sec-iot-qa",
+      "label": "Practice Q&A",
+      "items": [
+        { "type": "file", "file": "iot-blockchain-business/content/17-qa-basic.md",        "label": "Basic — Q1 to Q70" },
+        { "type": "file", "file": "iot-blockchain-business/content/18-qa-intermediate.md", "label": "Intermediate — Q71 to Q140" },
+        { "type": "file", "file": "iot-blockchain-business/content/19-qa-advanced.md",     "label": "Advanced — Q141 to Q210" }
+      ]
+    }
+  ],
+  "defaultFile": "iot-blockchain-business/README.md"
+}

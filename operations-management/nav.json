@@ -1,0 +1,69 @@
+{
+  "sections": [
+    {
+      "id": "sec-om-overview",
+      "label": "Overview",
+      "items": [
+        { "type": "file", "file": "operations-management/README.md", "label": "Study Guide" }
+      ]
+    },
+    {
+      "id": "sec-om-fundamentals",
+      "label": "Operations Fundamentals",
+      "items": [
+        { "type": "file", "file": "operations-management/content/01-what-is-operations-management.md", "label": "What Operations Management Is" },
+        { "type": "file", "file": "operations-management/content/02-operations-performance-measures.md", "label": "Operations Performance Measures" },
+        { "type": "file", "file": "operations-management/content/03-process-and-process-mapping.md",    "label": "Process & Process Mapping" },
+        { "type": "file", "file": "operations-management/content/04-flow-throughput-littles-law.md",    "label": "Flow, Throughput & Little's Law" },
+        { "type": "file", "file": "operations-management/content/05-capacity-utilization-bottlenecks.md","label": "Capacity, Utilization & Bottlenecks" },
+        { "type": "file", "file": "operations-management/content/06-variability-and-waiting.md",        "label": "Variability & Waiting" },
+        { "type": "file", "file": "operations-management/content/07-batching-operations.md",            "label": "Batching Operations" }
+      ]
+    },
+    {
+      "id": "sec-om-process-design",
+      "label": "Process Design & Service",
+      "items": [
+        { "type": "file", "file": "operations-management/content/08-improving-processes-lean.md",  "label": "Improving Processes (Lean)" },
+        { "type": "file", "file": "operations-management/content/09-assembly-line-design.md",      "label": "Assembly Line Design" },
+        { "type": "file", "file": "operations-management/content/10-facility-layout-for-flow.md",  "label": "Facility Layout for Flow" },
+        { "type": "file", "file": "operations-management/content/11-service-vs-manufacturing.md",  "label": "Service vs Manufacturing" },
+        { "type": "file", "file": "operations-management/content/12-service-production-line.md",   "label": "Service Production Line Approach" }
+      ]
+    },
+    {
+      "id": "sec-om-inventory",
+      "label": "Inventory Management",
+      "items": [
+        { "type": "file", "file": "operations-management/content/13-inventory-management.md",              "label": "Inventory Management" },
+        { "type": "file", "file": "operations-management/content/14-inventory-costs.md",                   "label": "Inventory Costs" },
+        { "type": "file", "file": "operations-management/content/15-abc-analysis.md",                      "label": "ABC Analysis" },
+        { "type": "file", "file": "operations-management/content/16-eoq-model.md",                         "label": "EOQ Model" },
+        { "type": "file", "file": "operations-management/content/17-review-period-system.md",              "label": "Review Period System (P-System)" },
+        { "type": "file", "file": "operations-management/content/18-inventory-control-under-uncertainty.md","label": "Inventory Under Uncertainty" },
+        { "type": "file", "file": "operations-management/content/19-service-level.md",                     "label": "Service Level & Fill Rate" }
+      ]
+    },
+    {
+      "id": "sec-om-queueing",
+      "label": "Queueing & Technology",
+      "items": [
+        { "type": "file", "file": "operations-management/content/20-queueing-theory-basics.md",     "label": "Queueing Theory Basics" },
+        { "type": "file", "file": "operations-management/content/21-single-server-model-mm1.md",    "label": "Single Server Model (M/M/1)" },
+        { "type": "file", "file": "operations-management/content/22-multiple-server-model-mms.md",  "label": "Multiple Server Model (M/M/s)" },
+        { "type": "file", "file": "operations-management/content/23-waiting-line-management.md",    "label": "Waiting Line Management" },
+        { "type": "file", "file": "operations-management/content/24-technology-in-operations.md",   "label": "Technology in Operations (Industry 4.0)" }
+      ]
+    },
+    {
+      "id": "sec-om-qa",
+      "label": "Practice Q&A",
+      "items": [
+        { "type": "file", "file": "operations-management/content/25-qa-basic.md",        "label": "Basic — Q1 to Q70" },
+        { "type": "file", "file": "operations-management/content/26-qa-intermediate.md", "label": "Intermediate — Q71 to Q140" },
+        { "type": "file", "file": "operations-management/content/27-qa-advanced.md",     "label": "Advanced — Q141 to Q210" }
+      ]
+    }
+  ],
+  "defaultFile": "operations-management/README.md"
+}

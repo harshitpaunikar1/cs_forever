@@ -1,0 +1,57 @@
+{
+  "sections": [
+    {
+      "id": "sec-di-overview",
+      "label": "Overview",
+      "items": [
+        { "type": "file", "file": "diversity-inclusion/README.md", "label": "Study Guide" }
+      ]
+    },
+    {
+      "id": "sec-di-foundations",
+      "label": "D&I Foundations",
+      "items": [
+        { "type": "file", "file": "diversity-inclusion/content/01-understanding-diversity-inclusion.md", "label": "Understanding D&I" },
+        { "type": "file", "file": "diversity-inclusion/content/02-unconscious-bias-workplace.md", "label": "Unconscious Bias" },
+        { "type": "file", "file": "diversity-inclusion/content/03-building-inclusive-culture.md", "label": "Inclusive Culture" }
+      ]
+    },
+    {
+      "id": "sec-di-dimensions",
+      "label": "Dimensions of Diversity",
+      "items": [
+        { "type": "file", "file": "diversity-inclusion/content/04-gender-equity-glass-ceiling.md", "label": "Gender Equity" },
+        { "type": "file", "file": "diversity-inclusion/content/05-racial-ethnic-diversity.md", "label": "Racial & Ethnic Diversity" },
+        { "type": "file", "file": "diversity-inclusion/content/06-generational-diversity.md", "label": "Generational Diversity" }
+      ]
+    },
+    {
+      "id": "sec-di-practices",
+      "label": "Inclusive Practices",
+      "items": [
+        { "type": "file", "file": "diversity-inclusion/content/07-disability-inclusion-accessibility.md", "label": "Disability & Accessibility" },
+        { "type": "file", "file": "diversity-inclusion/content/08-lgbtq-inclusion.md", "label": "LGBTQ+ Inclusion" },
+        { "type": "file", "file": "diversity-inclusion/content/09-intersectionality-workplace.md", "label": "Intersectionality" }
+      ]
+    },
+    {
+      "id": "sec-di-leadership",
+      "label": "Leadership & Governance",
+      "items": [
+        { "type": "file", "file": "diversity-inclusion/content/10-inclusive-leadership.md", "label": "Inclusive Leadership" },
+        { "type": "file", "file": "diversity-inclusion/content/11-diversity-metrics-accountability.md", "label": "Metrics & Accountability" },
+        { "type": "file", "file": "diversity-inclusion/content/12-legal-framework-workplace-diversity.md", "label": "Legal Framework" }
+      ]
+    },
+    {
+      "id": "sec-di-qa",
+      "label": "Practice Q&A",
+      "items": [
+        { "type": "file", "file": "diversity-inclusion/content/13-qa-basic.md", "label": "Basic — Q1 to Q70" },
+        { "type": "file", "file": "diversity-inclusion/content/14-qa-intermediate.md", "label": "Intermediate — Q71 to Q140" },
+        { "type": "file", "file": "diversity-inclusion/content/15-qa-advanced.md", "label": "Advanced — Q141 to Q210" }
+      ]
+    }
+  ],
+  "defaultFile": "diversity-inclusion/README.md"
+}

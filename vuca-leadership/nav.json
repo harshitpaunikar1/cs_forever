@@ -1,0 +1,57 @@
+{
+  "sections": [
+    {
+      "id": "sec-vuca-overview",
+      "label": "Overview",
+      "items": [
+        { "type": "file", "file": "vuca-leadership/README.md", "label": "Study Guide" }
+      ]
+    },
+    {
+      "id": "sec-vuca-foundations",
+      "label": "VUCA Foundations",
+      "items": [
+        { "type": "file", "file": "vuca-leadership/content/01-understanding-vuca.md", "label": "Understanding VUCA" },
+        { "type": "file", "file": "vuca-leadership/content/02-adaptive-leadership.md", "label": "Adaptive Leadership" },
+        { "type": "file", "file": "vuca-leadership/content/03-strategic-agility.md", "label": "Strategic Agility" }
+      ]
+    },
+    {
+      "id": "sec-vuca-personal",
+      "label": "Personal Leadership",
+      "items": [
+        { "type": "file", "file": "vuca-leadership/content/04-leading-through-uncertainty.md", "label": "Leading Through Uncertainty" },
+        { "type": "file", "file": "vuca-leadership/content/05-resilience-grit.md", "label": "Resilience & Grit" },
+        { "type": "file", "file": "vuca-leadership/content/06-emotional-intelligence-vuca.md", "label": "Emotional Intelligence" }
+      ]
+    },
+    {
+      "id": "sec-vuca-organizational",
+      "label": "Organizational Leadership",
+      "items": [
+        { "type": "file", "file": "vuca-leadership/content/07-change-management.md", "label": "Change Management" },
+        { "type": "file", "file": "vuca-leadership/content/08-crisis-leadership.md", "label": "Crisis Leadership" },
+        { "type": "file", "file": "vuca-leadership/content/09-collaborative-leadership.md", "label": "Collaborative Leadership" }
+      ]
+    },
+    {
+      "id": "sec-vuca-thriving",
+      "label": "Thriving in VUCA",
+      "items": [
+        { "type": "file", "file": "vuca-leadership/content/10-innovation-under-pressure.md", "label": "Innovation Under Pressure" },
+        { "type": "file", "file": "vuca-leadership/content/11-communication-turbulent-times.md", "label": "Communication in Turbulence" },
+        { "type": "file", "file": "vuca-leadership/content/12-antifragile-organizations.md", "label": "Antifragile Organizations" }
+      ]
+    },
+    {
+      "id": "sec-vuca-qa",
+      "label": "Practice Q&A",
+      "items": [
+        { "type": "file", "file": "vuca-leadership/content/13-qa-basic.md", "label": "Basic — Q1 to Q70" },
+        { "type": "file", "file": "vuca-leadership/content/14-qa-intermediate.md", "label": "Intermediate — Q71 to Q140" },
+        { "type": "file", "file": "vuca-leadership/content/15-qa-advanced.md", "label": "Advanced — Q141 to Q210" }
+      ]
+    }
+  ],
+  "defaultFile": "vuca-leadership/README.md"
+}

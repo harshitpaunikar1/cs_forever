@@ -1,0 +1,28 @@
+================================================================================
+NUCLEAR ENERGY STUDY GUIDE BUILD LOG
+================================================================================
+Started: 2026-04-17
+Last Updated: 2026-04-17
+Scope: Create a new `NuclearEnergy` curriculum package following the same local
+       guide pattern as `Computer_Science`, while keeping all work contained
+       inside `NuclearEnergy`.
+
+STATUS SUMMARY
+================================================================================
+Completed visible guide pages in this pass: 35
+Tracked scope: root guide pages, Foundation, Core Nuclear, Advanced, Projects,
+               and the three resource index pages.
+
+CONTENT STANDARD USED
+================================================================================
+- practical plant-first explanations
+- text-based diagrams where useful
+- project-oriented learning outputs
+- 2026-aware official-source references where relevant
+- navigation-friendly file naming and numbering
+
+NOTES
+================================================================================
+- The package is centered on plant operation, automation, simulation, and
+  India-specific nuclear pathways.
+- Time-sensitive claims were checked against official sources during this pass.

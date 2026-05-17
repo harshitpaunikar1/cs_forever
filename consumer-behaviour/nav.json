@@ -1,0 +1,61 @@
+{
+  "sections": [
+    {
+      "id": "sec-cb-overview",
+      "label": "Overview",
+      "items": [
+        { "type": "file", "file": "consumer-behaviour/README.md", "label": "Study Guide" }
+      ]
+    },
+    {
+      "id": "sec-cb-psychology",
+      "label": "Consumer Psychology",
+      "items": [
+        { "type": "file", "file": "consumer-behaviour/content/01-introduction-to-consumer-behavior.md", "label": "Intro to Consumer Behavior" },
+        { "type": "file", "file": "consumer-behaviour/content/02-consumer-decision-making-process.md", "label": "Decision-Making Process" },
+        { "type": "file", "file": "consumer-behaviour/content/03-perception-and-learning-about-brands.md", "label": "Perception & Learning" },
+        { "type": "file", "file": "consumer-behaviour/content/04-brand-associations-formation.md", "label": "Brand Associations" }
+      ]
+    },
+    {
+      "id": "sec-cb-segmentation",
+      "label": "Market Segmentation",
+      "items": [
+        { "type": "file", "file": "consumer-behaviour/content/05-marketing-mix-and-consumer-linkages.md", "label": "Marketing Mix Linkages" },
+        { "type": "file", "file": "consumer-behaviour/content/06-segmentation-targeting-and-positioning.md", "label": "Segmentation, Targeting & Positioning" },
+        { "type": "file", "file": "consumer-behaviour/content/07-lifestyle-and-brand-differentiation.md", "label": "Lifestyle & Brand Differentiation" },
+        { "type": "file", "file": "consumer-behaviour/content/08-digital-interface-in-consumer-behavior.md", "label": "Digital Interface" }
+      ]
+    },
+    {
+      "id": "sec-cb-research",
+      "label": "Consumer Research",
+      "items": [
+        { "type": "file", "file": "consumer-behaviour/content/09-consumer-research-methods.md", "label": "Research Methods" },
+        { "type": "file", "file": "consumer-behaviour/content/10-understanding-why-consumers-buy.md", "label": "Why Consumers Buy" },
+        { "type": "file", "file": "consumer-behaviour/content/11-cultural-dimensions-in-marketing.md", "label": "Cultural Dimensions" },
+        { "type": "file", "file": "consumer-behaviour/content/12-consumer-behavior-in-digital-marketing.md", "label": "Digital Marketing Behavior" }
+      ]
+    },
+    {
+      "id": "sec-cb-applications",
+      "label": "Applications",
+      "items": [
+        { "type": "file", "file": "consumer-behaviour/content/13-practical-utility-of-consumer-behavior-concepts.md", "label": "Practical Utility" },
+        { "type": "file", "file": "consumer-behaviour/content/14-industry-expert-perspectives.md", "label": "Industry Expert Perspectives" },
+        { "type": "file", "file": "consumer-behaviour/content/15-retailing-and-consumer-psychology.md", "label": "Retailing & Psychology" },
+        { "type": "file", "file": "consumer-behaviour/content/16-sales-management-applications.md", "label": "Sales Management" }
+      ]
+    },
+    {
+      "id": "sec-cb-qa",
+      "label": "Practice Q&A",
+      "items": [
+        { "type": "file", "file": "consumer-behaviour/content/17-qa-basic.md",        "label": "Basic — Q1 to Q70" },
+        { "type": "file", "file": "consumer-behaviour/content/18-qa-intermediate.md", "label": "Intermediate — Q71 to Q140" },
+        { "type": "file", "file": "consumer-behaviour/content/19-qa-advanced.md",     "label": "Advanced — Q141 to Q210" }
+      ]
+    }
+  ],
+  "defaultFile": "consumer-behaviour/README.md"
+}

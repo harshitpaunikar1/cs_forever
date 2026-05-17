@@ -1,0 +1,71 @@
+{
+  "sections": [
+    {
+      "id": "sec-dms-overview",
+      "label": "Overview",
+      "items": [
+        { "type": "file", "file": "digital-marketing-strategy/README.md", "label": "Study Guide" }
+      ]
+    },
+    {
+      "id": "sec-dms-foundations",
+      "label": "Digital Marketing Foundations",
+      "items": [
+        { "type": "file", "file": "digital-marketing-strategy/content/01-digital-marketing-ecosystem.md", "label": "Digital Marketing Ecosystem" },
+        { "type": "file", "file": "digital-marketing-strategy/content/02-marketing-mix-in-digital-era.md", "label": "Marketing Mix in Digital Era" },
+        { "type": "file", "file": "digital-marketing-strategy/content/03-consumer-behavior-online.md", "label": "Consumer Behavior Online" },
+        { "type": "file", "file": "digital-marketing-strategy/content/04-digital-customer-journey.md", "label": "Digital Customer Journey" }
+      ]
+    },
+    {
+      "id": "sec-dms-channels",
+      "label": "Digital Channels",
+      "items": [
+        { "type": "file", "file": "digital-marketing-strategy/content/05-search-engine-optimization.md", "label": "SEO" },
+        { "type": "file", "file": "digital-marketing-strategy/content/06-search-engine-marketing.md", "label": "SEM" },
+        { "type": "file", "file": "digital-marketing-strategy/content/07-social-media-marketing.md", "label": "Social Media Marketing" },
+        { "type": "file", "file": "digital-marketing-strategy/content/08-content-marketing.md", "label": "Content Marketing" }
+      ]
+    },
+    {
+      "id": "sec-dms-analytics",
+      "label": "Analytics and Measurement",
+      "items": [
+        { "type": "file", "file": "digital-marketing-strategy/content/09-web-analytics.md", "label": "Web Analytics" },
+        { "type": "file", "file": "digital-marketing-strategy/content/10-marketing-automation.md", "label": "Marketing Automation" },
+        { "type": "file", "file": "digital-marketing-strategy/content/11-ab-testing-and-split-testing.md", "label": "A/B Testing" },
+        { "type": "file", "file": "digital-marketing-strategy/content/12-campaign-performance-metrics.md", "label": "Campaign Metrics (CPM, CPC, CPA)" }
+      ]
+    },
+    {
+      "id": "sec-dms-emerging",
+      "label": "Emerging Technologies",
+      "items": [
+        { "type": "file", "file": "digital-marketing-strategy/content/13-ai-in-marketing.md", "label": "AI in Marketing" },
+        { "type": "file", "file": "digital-marketing-strategy/content/14-iot-for-marketing-automation.md", "label": "IoT for Marketing" },
+        { "type": "file", "file": "digital-marketing-strategy/content/15-mobile-marketing-analytics.md", "label": "Mobile Marketing Analytics" },
+        { "type": "file", "file": "digital-marketing-strategy/content/16-real-time-marketing.md", "label": "Real-Time Marketing" }
+      ]
+    },
+    {
+      "id": "sec-dms-strategy",
+      "label": "Strategy and Integration",
+      "items": [
+        { "type": "file", "file": "digital-marketing-strategy/content/17-integrated-digital-marketing-strategies.md", "label": "Integrated Strategies" },
+        { "type": "file", "file": "digital-marketing-strategy/content/18-roi-optimization.md", "label": "ROI Optimization" },
+        { "type": "file", "file": "digital-marketing-strategy/content/19-customer-acquisition-cost.md", "label": "Customer Acquisition Cost" },
+        { "type": "file", "file": "digital-marketing-strategy/content/20-marketing-attribution-models.md", "label": "Attribution Models" }
+      ]
+    },
+    {
+      "id": "sec-dms-qa",
+      "label": "Practice Q&A",
+      "items": [
+        { "type": "file", "file": "digital-marketing-strategy/content/21-qa-basic.md", "label": "Basic — Q1 to Q70" },
+        { "type": "file", "file": "digital-marketing-strategy/content/22-qa-intermediate.md", "label": "Intermediate — Q71 to Q140" },
+        { "type": "file", "file": "digital-marketing-strategy/content/23-qa-advanced.md", "label": "Advanced — Q141 to Q210" }
+      ]
+    }
+  ],
+  "defaultFile": "digital-marketing-strategy/README.md"
+}

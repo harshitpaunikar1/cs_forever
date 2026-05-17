@@ -1,0 +1,51 @@
+{
+  "sections": [
+    {
+      "id": "sec-bma-overview",
+      "label": "Overview",
+      "items": [
+        { "type": "file", "file": "business-model-advance/README.md", "label": "Study Guide" }
+      ]
+    },
+    {
+      "id": "sec-bma-advanced-models",
+      "label": "Advanced Business Models",
+      "items": [
+        { "type": "file", "file": "business-model-advance/content/01-network-effects-and-platforms.md", "label": "Network Effects and Platforms" },
+        { "type": "file", "file": "business-model-advance/content/02-ecosystem-design.md", "label": "Ecosystem Design" },
+        { "type": "file", "file": "business-model-advance/content/03-data-driven-business-models.md", "label": "Data-Driven Business Models" },
+        { "type": "file", "file": "business-model-advance/content/04-api-economy.md", "label": "API Economy" }
+      ]
+    },
+    {
+      "id": "sec-bma-evolution",
+      "label": "Business Model Evolution",
+      "items": [
+        { "type": "file", "file": "business-model-advance/content/05-business-model-pivots.md", "label": "Business Model Pivots" },
+        { "type": "file", "file": "business-model-advance/content/06-adjacency-expansion.md", "label": "Adjacency Expansion" },
+        { "type": "file", "file": "business-model-advance/content/07-portfolio-of-business-models.md", "label": "Portfolio of Business Models" },
+        { "type": "file", "file": "business-model-advance/content/08-hybrid-models.md", "label": "Hybrid Models" }
+      ]
+    },
+    {
+      "id": "sec-bma-implementation",
+      "label": "Implementation",
+      "items": [
+        { "type": "file", "file": "business-model-advance/content/09-organizational-alignment.md", "label": "Organizational Alignment" },
+        { "type": "file", "file": "business-model-advance/content/10-metrics-and-kpis.md", "label": "Metrics and KPIs" },
+        { "type": "file", "file": "business-model-advance/content/11-business-model-experiments.md", "label": "Business Model Experiments" },
+        { "type": "file", "file": "business-model-advance/content/12-rapid-prototyping.md", "label": "Rapid Prototyping" }
+      ]
+    },
+    {
+      "id": "sec-bma-qa",
+      "label": "Practice Q&A",
+      "items": [
+        { "type": "file", "file": "business-model-advance/content/13-qa-basic.md", "label": "Basic — Q1 to Q70" },
+        { "type": "file", "file": "business-model-advance/content/14-qa-intermediate.md", "label": "Intermediate — Q71 to Q140" },
+        { "type": "file", "file": "business-model-advance/content/15-qa-advanced.md", "label": "Advanced — Q141 to Q210" }
+      ]
+    }
+  ],
+  "defaultFile": "business-model-advance/README.md"
+}

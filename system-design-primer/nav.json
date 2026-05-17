@@ -1,0 +1,53 @@
+{
+  "sections": [
+    {
+      "id": "sec-docs",
+      "label": "Documents",
+      "items": [
+        { "type": "file", "file": "system-design-primer/README.md", "label": "Primer (English)" },
+        { "type": "file", "file": "system-design-primer/CONTRIBUTING.md", "label": "Contributing" }
+      ]
+    },
+    {
+      "id": "sec-topics",
+      "label": "Topics",
+      "items": [
+        { "type": "anchor", "anchor": "motivation", "label": "Motivation", "readme": "system-design-primer/README.md" },
+        { "type": "anchor", "anchor": "study-guide", "label": "Study Guide", "readme": "system-design-primer/README.md" },
+        { "type": "anchor", "anchor": "how-to-approach-a-system-design-interview-question", "label": "Interview Approach", "readme": "system-design-primer/README.md" },
+        { "type": "anchor", "anchor": "system-design-interview-questions-with-solutions", "label": "Interview Questions", "readme": "system-design-primer/README.md" },
+        { "type": "anchor", "anchor": "system-design-topics-start-here", "label": "Getting Started", "readme": "system-design-primer/README.md" },
+        { "type": "anchor", "anchor": "performance-vs-scalability", "label": "Performance vs Scalability", "readme": "system-design-primer/README.md" },
+        { "type": "anchor", "anchor": "latency-vs-throughput", "label": "Latency vs Throughput", "readme": "system-design-primer/README.md" },
+        { "type": "anchor", "anchor": "availability-vs-consistency", "label": "Availability vs Consistency", "readme": "system-design-primer/README.md" },
+        { "type": "anchor", "anchor": "consistency-patterns", "label": "Consistency Patterns", "readme": "system-design-primer/README.md" },
+        { "type": "anchor", "anchor": "availability-patterns", "label": "Availability Patterns", "readme": "system-design-primer/README.md" },
+        { "type": "anchor", "anchor": "domain-name-system", "label": "DNS", "readme": "system-design-primer/README.md" },
+        { "type": "anchor", "anchor": "content-delivery-network", "label": "CDN", "readme": "system-design-primer/README.md" },
+        { "type": "anchor", "anchor": "load-balancer", "label": "Load Balancer", "readme": "system-design-primer/README.md" },
+        { "type": "anchor", "anchor": "reverse-proxy-web-server", "label": "Reverse Proxy", "readme": "system-design-primer/README.md" },
+        { "type": "anchor", "anchor": "application-layer", "label": "Application Layer", "readme": "system-design-primer/README.md" },
+        { "type": "anchor", "anchor": "database", "label": "Database", "readme": "system-design-primer/README.md" },
+        { "type": "anchor", "anchor": "cache", "label": "Cache", "readme": "system-design-primer/README.md" },
+        { "type": "anchor", "anchor": "asynchronism", "label": "Asynchronism", "readme": "system-design-primer/README.md" },
+        { "type": "anchor", "anchor": "communication", "label": "Communication", "readme": "system-design-primer/README.md" },
+        { "type": "anchor", "anchor": "security", "label": "Security", "readme": "system-design-primer/README.md" }
+      ]
+    },
+    {
+      "id": "sec-solutions",
+      "label": "Solutions",
+      "items": [
+        { "type": "file", "file": "system-design-primer/solutions/system_design/mint/README.md", "label": "Mint.com" },
+        { "type": "file", "file": "system-design-primer/solutions/system_design/pastebin/README.md", "label": "Pastebin" },
+        { "type": "file", "file": "system-design-primer/solutions/system_design/query_cache/README.md", "label": "Query Cache" },
+        { "type": "file", "file": "system-design-primer/solutions/system_design/sales_rank/README.md", "label": "Sales Rank" },
+        { "type": "file", "file": "system-design-primer/solutions/system_design/scaling_aws/README.md", "label": "Scaling AWS" },
+        { "type": "file", "file": "system-design-primer/solutions/system_design/social_graph/README.md", "label": "Social Graph" },
+        { "type": "file", "file": "system-design-primer/solutions/system_design/twitter/README.md", "label": "Twitter" },
+        { "type": "file", "file": "system-design-primer/solutions/system_design/web_crawler/README.md", "label": "Web Crawler" }
+      ]
+    }
+  ],
+  "defaultFile": "system-design-primer/README.md"
+}

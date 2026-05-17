@@ -1,0 +1,53 @@
+{
+  "sections": [
+    {
+      "id": "sec-mm-overview",
+      "label": "Overview",
+      "items": [
+        { "type": "file", "file": "marketing-management/README.md", "label": "Study Guide" }
+      ]
+    },
+    {
+      "id": "sec-mm1-topics",
+      "label": "Module I — Foundations & Strategy",
+      "items": [
+        { "type": "file", "file": "marketing-management/content/01-mm1-fundamentals.md",          "label": "Marketing Fundamentals" },
+        { "type": "file", "file": "marketing-management/content/02-mm1-core-marketing.md",        "label": "Core Marketing Concepts" },
+        { "type": "file", "file": "marketing-management/content/03-mm1-markets-and-brands.md",    "label": "Markets, Segmentation & Brands" },
+        { "type": "file", "file": "marketing-management/content/04-mm1-product-price-place.md",   "label": "Product, Price & Place" },
+        { "type": "file", "file": "marketing-management/content/05-mm1-communications-growth.md", "label": "Communications, NPD & Global" }
+      ]
+    },
+    {
+      "id": "sec-mm2-topics",
+      "label": "Module II — Execution & Management",
+      "items": [
+        { "type": "file", "file": "marketing-management/content/06-mm2-products-and-brands.md",       "label": "Products, Brands & Services" },
+        { "type": "file", "file": "marketing-management/content/07-mm2-pricing-and-channels.md",      "label": "Pricing & Channel Management" },
+        { "type": "file", "file": "marketing-management/content/08-mm2-digital-and-strategy.md",      "label": "Digital Media & Strategy" },
+        { "type": "file", "file": "marketing-management/content/09-mm2-customers-stp-brands.md",      "label": "Customers, STP & Brand Mgmt" },
+        { "type": "file", "file": "marketing-management/content/10-mm2-product-price-channels.md",    "label": "Product, Price & Channels" },
+        { "type": "file", "file": "marketing-management/content/11-mm2-communications-global.md",     "label": "Communications, NPD & Global" }
+      ]
+    },
+    {
+      "id": "sec-mm-qa1",
+      "label": "Practice Q&A — Module I",
+      "items": [
+        { "type": "file", "file": "marketing-management/content/12-qa-mm1-basic.md",        "label": "Basic — Q1 to Q70" },
+        { "type": "file", "file": "marketing-management/content/13-qa-mm1-intermediate.md", "label": "Intermediate — Q71 to Q140" },
+        { "type": "file", "file": "marketing-management/content/14-qa-mm1-advanced.md",     "label": "Advanced — Q141 to Q210" }
+      ]
+    },
+    {
+      "id": "sec-mm-qa2",
+      "label": "Practice Q&A — Module II",
+      "items": [
+        { "type": "file", "file": "marketing-management/content/15-qa-mm2-basic.md",        "label": "Basic — Q1 to Q70" },
+        { "type": "file", "file": "marketing-management/content/16-qa-mm2-intermediate.md", "label": "Intermediate — Q71 to Q140" },
+        { "type": "file", "file": "marketing-management/content/17-qa-mm2-advanced.md",     "label": "Advanced — Q141 to Q210" }
+      ]
+    }
+  ],
+  "defaultFile": "marketing-management/README.md"
+}

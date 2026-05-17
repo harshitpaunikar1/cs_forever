@@ -1,0 +1,57 @@
+{
+  "sections": [
+    {
+      "id": "sec-cab-overview",
+      "label": "Overview",
+      "items": [
+        { "type": "file", "file": "causal-analysis-business/README.md", "label": "Study Guide" }
+      ]
+    },
+    {
+      "id": "sec-cab-foundations",
+      "label": "Causal Foundations",
+      "items": [
+        { "type": "file", "file": "causal-analysis-business/content/01-causation-vs-correlation.md", "label": "Causation vs Correlation" },
+        { "type": "file", "file": "causal-analysis-business/content/02-randomized-controlled-experiments.md", "label": "Randomized Experiments" },
+        { "type": "file", "file": "causal-analysis-business/content/03-ab-testing-business.md", "label": "A/B Testing" }
+      ]
+    },
+    {
+      "id": "sec-cab-econometric",
+      "label": "Econometric Methods",
+      "items": [
+        { "type": "file", "file": "causal-analysis-business/content/04-regression-causal-inference.md", "label": "Regression for Causality" },
+        { "type": "file", "file": "causal-analysis-business/content/05-difference-in-differences.md", "label": "Difference-in-Differences" },
+        { "type": "file", "file": "causal-analysis-business/content/06-instrumental-variables.md", "label": "Instrumental Variables" }
+      ]
+    },
+    {
+      "id": "sec-cab-advanced",
+      "label": "Advanced Designs",
+      "items": [
+        { "type": "file", "file": "causal-analysis-business/content/07-regression-discontinuity-design.md", "label": "Regression Discontinuity" },
+        { "type": "file", "file": "causal-analysis-business/content/08-propensity-score-matching.md", "label": "Propensity Matching" },
+        { "type": "file", "file": "causal-analysis-business/content/09-natural-experiments.md", "label": "Natural Experiments" }
+      ]
+    },
+    {
+      "id": "sec-cab-application",
+      "label": "Integration & Application",
+      "items": [
+        { "type": "file", "file": "causal-analysis-business/content/10-mediation-moderation-analysis.md", "label": "Mediation & Moderation" },
+        { "type": "file", "file": "causal-analysis-business/content/11-structural-equation-modeling.md", "label": "Structural Equations" },
+        { "type": "file", "file": "causal-analysis-business/content/12-applying-causal-methods-decisions.md", "label": "Applying to Decisions" }
+      ]
+    },
+    {
+      "id": "sec-cab-qa",
+      "label": "Practice Q&A",
+      "items": [
+        { "type": "file", "file": "causal-analysis-business/content/13-qa-basic.md", "label": "Basic — Q1 to Q70" },
+        { "type": "file", "file": "causal-analysis-business/content/14-qa-intermediate.md", "label": "Intermediate — Q71 to Q140" },
+        { "type": "file", "file": "causal-analysis-business/content/15-qa-advanced.md", "label": "Advanced — Q141 to Q210" }
+      ]
+    }
+  ],
+  "defaultFile": "causal-analysis-business/README.md"
+}

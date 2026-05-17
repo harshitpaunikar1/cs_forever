@@ -1,0 +1,51 @@
+{
+  "sections": [
+    {
+      "id": "sec-bv-overview",
+      "label": "Overview",
+      "items": [
+        { "type": "file", "file": "business-valuation/README.md", "label": "Study Guide" }
+      ]
+    },
+    {
+      "id": "sec-bv-fundamentals",
+      "label": "Valuation Fundamentals",
+      "items": [
+        { "type": "file", "file": "business-valuation/content/01-balance-sheet-analysis.md", "label": "Balance Sheet Analysis" },
+        { "type": "file", "file": "business-valuation/content/02-income-statement-interpretation.md", "label": "Income Statement" },
+        { "type": "file", "file": "business-valuation/content/03-cash-flow-valuation.md", "label": "Cash Flow Valuation" },
+        { "type": "file", "file": "business-valuation/content/04-time-value-of-money.md", "label": "Time Value of Money" }
+      ]
+    },
+    {
+      "id": "sec-bv-methods",
+      "label": "Valuation Methods",
+      "items": [
+        { "type": "file", "file": "business-valuation/content/05-discounted-cash-flow-dcf-models.md", "label": "DCF Models" },
+        { "type": "file", "file": "business-valuation/content/06-wacc-calculations.md", "label": "WACC Calculations" },
+        { "type": "file", "file": "business-valuation/content/07-comparable-company-analysis.md", "label": "Comparable Company Analysis" },
+        { "type": "file", "file": "business-valuation/content/08-precedent-transaction-analysis.md", "label": "Precedent Transactions" }
+      ]
+    },
+    {
+      "id": "sec-bv-advanced",
+      "label": "Advanced Applications",
+      "items": [
+        { "type": "file", "file": "business-valuation/content/09-valuation-for-m-and-a.md", "label": "Valuation for M&A" },
+        { "type": "file", "file": "business-valuation/content/10-leveraged-buyout-lbo-analysis.md", "label": "LBO Analysis" },
+        { "type": "file", "file": "business-valuation/content/11-start-up-valuation.md", "label": "Start-Up Valuation" },
+        { "type": "file", "file": "business-valuation/content/12-enterprise-value-vs-equity-value.md", "label": "EV vs. Equity Value" }
+      ]
+    },
+    {
+      "id": "sec-bv-qa",
+      "label": "Practice Q&A",
+      "items": [
+        { "type": "file", "file": "business-valuation/content/13-qa-basic.md",        "label": "Basic — Q1 to Q70" },
+        { "type": "file", "file": "business-valuation/content/14-qa-intermediate.md", "label": "Intermediate — Q71 to Q140" },
+        { "type": "file", "file": "business-valuation/content/15-qa-advanced.md",     "label": "Advanced — Q141 to Q210" }
+      ]
+    }
+  ],
+  "defaultFile": "business-valuation/README.md"
+}

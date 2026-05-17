@@ -1,0 +1,51 @@
+{
+  "sections": [
+    {
+      "id": "sec-devops-overview",
+      "label": "Overview",
+      "items": [
+        { "type": "file", "file": "devops/content/README.md", "label": "DevOps Roadmap" }
+      ]
+    },
+    {
+      "id": "sec-devops-fundamentals",
+      "label": "Fundamentals",
+      "items": [
+        { "type": "file", "file": "devops/content/01-programming-languages.md", "label": "Programming Languages" },
+        { "type": "file", "file": "devops/content/02-operating-systems.md", "label": "Operating Systems & Linux" },
+        { "type": "file", "file": "devops/content/03-terminal-scripting.md", "label": "Terminal & Bash Scripting" },
+        { "type": "file", "file": "devops/content/04-version-control.md", "label": "Version Control (Git)" },
+        { "type": "file", "file": "devops/content/05-networking.md", "label": "Networking & Protocols" }
+      ]
+    },
+    {
+      "id": "sec-devops-infrastructure",
+      "label": "Infrastructure",
+      "items": [
+        { "type": "file", "file": "devops/content/06-web-servers.md", "label": "Web Servers & Proxies" },
+        { "type": "file", "file": "devops/content/07-containers.md", "label": "Containers & Docker" },
+        { "type": "file", "file": "devops/content/08-cloud-providers.md", "label": "Cloud Providers" },
+        { "type": "file", "file": "devops/content/10-infrastructure-as-code.md", "label": "Infrastructure as Code" },
+        { "type": "file", "file": "devops/content/11-configuration-management.md", "label": "Configuration Management" }
+      ]
+    },
+    {
+      "id": "sec-devops-cicd",
+      "label": "CI/CD & Orchestration",
+      "items": [
+        { "type": "file", "file": "devops/content/09-cicd.md", "label": "CI/CD Pipelines" },
+        { "type": "file", "file": "devops/content/12-kubernetes.md", "label": "Kubernetes" },
+        { "type": "file", "file": "devops/content/15-serverless.md", "label": "Serverless Computing" }
+      ]
+    },
+    {
+      "id": "sec-devops-operations",
+      "label": "Operations & Security",
+      "items": [
+        { "type": "file", "file": "devops/content/13-monitoring-logging.md", "label": "Monitoring & Logging" },
+        { "type": "file", "file": "devops/content/14-security.md", "label": "Security & Secrets" }
+      ]
+    }
+  ],
+  "defaultFile": "devops/content/README.md"
+}

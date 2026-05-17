@@ -1,0 +1,71 @@
+{
+  "sections": [
+    {
+      "id": "sec-aiml-overview",
+      "label": "Overview",
+      "items": [
+        { "type": "file", "file": "ai-ml-business/README.md", "label": "Study Guide" }
+      ]
+    },
+    {
+      "id": "sec-aiml-foundations",
+      "label": "AI/ML Foundations",
+      "items": [
+        { "type": "file", "file": "ai-ml-business/content/01-introduction-to-ai-and-ml.md", "label": "Introduction to AI and ML" },
+        { "type": "file", "file": "ai-ml-business/content/02-statistics-and-probability.md", "label": "Statistics and Probability" },
+        { "type": "file", "file": "ai-ml-business/content/03-python-programming-basics.md", "label": "Python Programming Basics" },
+        { "type": "file", "file": "ai-ml-business/content/04-data-handling-and-preprocessing.md", "label": "Data Handling and Preprocessing" }
+      ]
+    },
+    {
+      "id": "sec-aiml-ml-techniques",
+      "label": "Machine Learning Techniques",
+      "items": [
+        { "type": "file", "file": "ai-ml-business/content/05-supervised-learning.md", "label": "Supervised Learning" },
+        { "type": "file", "file": "ai-ml-business/content/06-unsupervised-learning.md", "label": "Unsupervised Learning" },
+        { "type": "file", "file": "ai-ml-business/content/07-artificial-neural-networks.md", "label": "Artificial Neural Networks" },
+        { "type": "file", "file": "ai-ml-business/content/08-deep-learning-frameworks.md", "label": "Deep Learning Frameworks" }
+      ]
+    },
+    {
+      "id": "sec-aiml-advanced-ai",
+      "label": "Advanced AI",
+      "items": [
+        { "type": "file", "file": "ai-ml-business/content/09-convolutional-neural-networks.md", "label": "CNNs" },
+        { "type": "file", "file": "ai-ml-business/content/10-recurrent-neural-networks.md", "label": "RNNs and LSTM" },
+        { "type": "file", "file": "ai-ml-business/content/11-transformers-and-generative-ai.md", "label": "Transformers and Generative AI" },
+        { "type": "file", "file": "ai-ml-business/content/12-natural-language-processing.md", "label": "Natural Language Processing" }
+      ]
+    },
+    {
+      "id": "sec-aiml-business-apps",
+      "label": "Business Applications",
+      "items": [
+        { "type": "file", "file": "ai-ml-business/content/13-predictive-and-prescriptive-analytics.md", "label": "Predictive and Prescriptive Analytics" },
+        { "type": "file", "file": "ai-ml-business/content/14-marketing-analytics-with-ml.md", "label": "Marketing Analytics with ML" },
+        { "type": "file", "file": "ai-ml-business/content/15-ai-in-operations.md", "label": "AI in Operations" },
+        { "type": "file", "file": "ai-ml-business/content/16-mlops-and-model-deployment.md", "label": "MLOps and Model Deployment" }
+      ]
+    },
+    {
+      "id": "sec-aiml-strategic",
+      "label": "Strategic AI Adoption",
+      "items": [
+        { "type": "file", "file": "ai-ml-business/content/17-ai-strategy-and-governance.md", "label": "AI Strategy and Governance" },
+        { "type": "file", "file": "ai-ml-business/content/18-ethical-ai-and-responsible-deployment.md", "label": "Ethical AI" },
+        { "type": "file", "file": "ai-ml-business/content/19-data-visualization-and-storytelling.md", "label": "Data Visualization and Storytelling" },
+        { "type": "file", "file": "ai-ml-business/content/20-roi-of-ai-projects.md", "label": "ROI of AI Projects" }
+      ]
+    },
+    {
+      "id": "sec-aiml-qa",
+      "label": "Practice Q&A",
+      "items": [
+        { "type": "file", "file": "ai-ml-business/content/21-qa-basic.md", "label": "Basic — Q1 to Q70" },
+        { "type": "file", "file": "ai-ml-business/content/22-qa-intermediate.md", "label": "Intermediate — Q71 to Q140" },
+        { "type": "file", "file": "ai-ml-business/content/23-qa-advanced.md", "label": "Advanced — Q141 to Q210" }
+      ]
+    }
+  ],
+  "defaultFile": "ai-ml-business/README.md"
+}

@@ -1,0 +1,47 @@
+{
+  "sections": [
+    {
+      "id": "sec-fm-overview",
+      "label": "Overview",
+      "items": [
+        { "type": "file", "file": "financial-management/README.md", "label": "Study Guide" }
+      ]
+    },
+    {
+      "id": "sec-fm-foundations",
+      "label": "Foundations",
+      "items": [
+        { "type": "file", "file": "financial-management/content/01-foundations.md",       "label": "FM Foundations" },
+        { "type": "file", "file": "financial-management/content/02-valuation-basics.md",  "label": "Valuation & Risk Basics" }
+      ]
+    },
+    {
+      "id": "sec-fm-core",
+      "label": "Core Finance",
+      "items": [
+        { "type": "file", "file": "financial-management/content/03-financial-environment.md", "label": "Financial Environment & Statements" },
+        { "type": "file", "file": "financial-management/content/04-markets-valuation.md",     "label": "Markets, Valuation & Options" },
+        { "type": "file", "file": "financial-management/content/05-capital-decisions.md",     "label": "Capital Decisions & Planning" },
+        { "type": "file", "file": "financial-management/content/06-corporate-finance.md",     "label": "Corporate Finance Decisions" }
+      ]
+    },
+    {
+      "id": "sec-fm-advanced",
+      "label": "Advanced Topics",
+      "items": [
+        { "type": "file", "file": "financial-management/content/07-advanced-topics.md", "label": "Advanced Financing & Restructuring" },
+        { "type": "file", "file": "financial-management/content/08-special-topics.md",  "label": "Portfolio Theory & Special Topics" }
+      ]
+    },
+    {
+      "id": "sec-fm-qa",
+      "label": "Practice Q&A",
+      "items": [
+        { "type": "file", "file": "financial-management/content/09-qa-basic.md",        "label": "Basic — Q1 to Q70" },
+        { "type": "file", "file": "financial-management/content/10-qa-intermediate.md", "label": "Intermediate — Q72 to Q140" },
+        { "type": "file", "file": "financial-management/content/11-qa-advanced.md",     "label": "Advanced — Q141 to Q210" }
+      ]
+    }
+  ],
+  "defaultFile": "financial-management/README.md"
+}

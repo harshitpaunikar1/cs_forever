@@ -1,0 +1,25 @@
+{
+  "domain": "robotics",
+  "focus": [
+    "ros2",
+    "simulation",
+    "navigation",
+    "manipulation",
+    "ros2_control",
+    "perception",
+    "embedded",
+    "industrial robotics",
+    "drones",
+    "robot learning"
+  ],
+  "project_paths": [
+    "beginner",
+    "intermediate",
+    "advanced"
+  ],
+  "status_note": {
+    "verified_date": "2026-04-17",
+    "latest_stable_ros2": "Kilted Kaiju",
+    "current_lts_ros2": "Jazzy Jalisco"
+  }
+}

@@ -1,0 +1,13 @@
+# License Notice
+
+This file is a local compatibility placeholder for copied repository patterns that expect a root `LICENSE` file.
+
+## Important Distinction
+
+- This folder contains original curriculum writing plus links to third-party public sources.
+- External documents, manuals, standards, and course materials retain their own licensing and attribution requirements.
+
+## Use This File As
+
+- a local landing point so app navigation does not break
+- a reminder to respect source-specific terms when reusing external material

@@ -1,0 +1,51 @@
+{
+  "sections": [
+    {
+      "id": "sec-pr-overview",
+      "label": "Overview",
+      "items": [
+        { "type": "file", "file": "people-resources/README.md", "label": "Study Guide" }
+      ]
+    },
+    {
+      "id": "sec-pr-strategy",
+      "label": "HR Strategy",
+      "items": [
+        { "type": "file", "file": "people-resources/content/01-strategic-human-resource-management.md", "label": "Strategic HRM" },
+        { "type": "file", "file": "people-resources/content/02-workforce-planning.md", "label": "Workforce Planning" },
+        { "type": "file", "file": "people-resources/content/03-talent-acquisition-strategies.md", "label": "Talent Acquisition" },
+        { "type": "file", "file": "people-resources/content/04-employer-branding.md", "label": "Employer Branding" }
+      ]
+    },
+    {
+      "id": "sec-pr-performance",
+      "label": "Performance Management",
+      "items": [
+        { "type": "file", "file": "people-resources/content/05-performance-appraisal-systems.md", "label": "Performance Appraisal" },
+        { "type": "file", "file": "people-resources/content/06-goal-setting-frameworks.md", "label": "Goal Setting Frameworks" },
+        { "type": "file", "file": "people-resources/content/07-continuous-feedback.md", "label": "Continuous Feedback" },
+        { "type": "file", "file": "people-resources/content/08-development-conversations.md", "label": "Development Conversations" }
+      ]
+    },
+    {
+      "id": "sec-pr-org-dev",
+      "label": "Organizational Development",
+      "items": [
+        { "type": "file", "file": "people-resources/content/09-organizational-culture.md", "label": "Organizational Culture" },
+        { "type": "file", "file": "people-resources/content/10-change-management.md", "label": "Change Management" },
+        { "type": "file", "file": "people-resources/content/11-leadership-development.md", "label": "Leadership Development" },
+        { "type": "file", "file": "people-resources/content/12-succession-planning.md", "label": "Succession Planning" }
+      ]
+    },
+    {
+      "id": "sec-pr-qa",
+      "label": "Practice Q&A",
+      "items": [
+        { "type": "file", "file": "people-resources/content/13-qa-basic.md",        "label": "Basic — Q1 to Q70" },
+        { "type": "file", "file": "people-resources/content/14-qa-intermediate.md", "label": "Intermediate — Q71 to Q140" },
+        { "type": "file", "file": "people-resources/content/15-qa-advanced.md",     "label": "Advanced — Q141 to Q210" }
+      ]
+    }
+  ],
+  "defaultFile": "people-resources/README.md"
+}

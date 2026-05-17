@@ -1,0 +1,51 @@
+{
+  "sections": [
+    {
+      "id": "sec-mc-overview",
+      "label": "Overview",
+      "items": [
+        { "type": "file", "file": "management-consulting/README.md", "label": "Study Guide" }
+      ]
+    },
+    {
+      "id": "sec-mc-fundamentals",
+      "label": "Consulting Fundamentals",
+      "items": [
+        { "type": "file", "file": "management-consulting/content/01-role-of-management-consultants.md", "label": "Role of Consultants" },
+        { "type": "file", "file": "management-consulting/content/02-consulting-project-lifecycle.md", "label": "Project Lifecycle" },
+        { "type": "file", "file": "management-consulting/content/03-problem-structuring.md", "label": "Problem Structuring" },
+        { "type": "file", "file": "management-consulting/content/04-client-relationship-management.md", "label": "Client Relationship Mgmt" }
+      ]
+    },
+    {
+      "id": "sec-mc-frameworks",
+      "label": "Analytical Frameworks",
+      "items": [
+        { "type": "file", "file": "management-consulting/content/05-swot-pest-porters-5-forces.md", "label": "SWOT, PEST, Porter's 5 Forces" },
+        { "type": "file", "file": "management-consulting/content/06-mckinsey-7s-framework.md", "label": "McKinsey 7S Framework" },
+        { "type": "file", "file": "management-consulting/content/07-benchmarking.md", "label": "Benchmarking" },
+        { "type": "file", "file": "management-consulting/content/08-best-practices-identification.md", "label": "Best Practices" }
+      ]
+    },
+    {
+      "id": "sec-mc-skills",
+      "label": "Consulting Skills",
+      "items": [
+        { "type": "file", "file": "management-consulting/content/09-stakeholder-management.md", "label": "Stakeholder Management" },
+        { "type": "file", "file": "management-consulting/content/10-presentation-skills.md", "label": "Presentation Skills" },
+        { "type": "file", "file": "management-consulting/content/11-report-writing.md", "label": "Report Writing" },
+        { "type": "file", "file": "management-consulting/content/12-change-management-consulting.md", "label": "Change Management" }
+      ]
+    },
+    {
+      "id": "sec-mc-qa",
+      "label": "Practice Q&A",
+      "items": [
+        { "type": "file", "file": "management-consulting/content/13-qa-basic.md",        "label": "Basic — Q1 to Q70" },
+        { "type": "file", "file": "management-consulting/content/14-qa-intermediate.md", "label": "Intermediate — Q71 to Q140" },
+        { "type": "file", "file": "management-consulting/content/15-qa-advanced.md",     "label": "Advanced — Q141 to Q210" }
+      ]
+    }
+  ],
+  "defaultFile": "management-consulting/README.md"
+}

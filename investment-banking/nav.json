@@ -1,0 +1,61 @@
+{
+  "sections": [
+    {
+      "id": "sec-ib-overview",
+      "label": "Overview",
+      "items": [
+        { "type": "file", "file": "investment-banking/README.md", "label": "Study Guide" }
+      ]
+    },
+    {
+      "id": "sec-ib-fundamentals",
+      "label": "Investment Banking Fundamentals",
+      "items": [
+        { "type": "file", "file": "investment-banking/content/01-role-of-investment-banks.md", "label": "Role of Investment Banks" },
+        { "type": "file", "file": "investment-banking/content/02-capital-markets-overview.md", "label": "Capital Markets Overview" },
+        { "type": "file", "file": "investment-banking/content/03-ipo-process-and-valuation.md", "label": "IPO Process & Valuation" },
+        { "type": "file", "file": "investment-banking/content/04-investor-positioning-strategies.md", "label": "Investor Positioning" }
+      ]
+    },
+    {
+      "id": "sec-ib-modeling",
+      "label": "Financial Modeling",
+      "items": [
+        { "type": "file", "file": "investment-banking/content/05-dcf-modeling.md", "label": "DCF Modeling" },
+        { "type": "file", "file": "investment-banking/content/06-comparable-company-analysis.md", "label": "Comparable Company Analysis" },
+        { "type": "file", "file": "investment-banking/content/07-precedent-transactions.md", "label": "Precedent Transactions" },
+        { "type": "file", "file": "investment-banking/content/08-football-field-charts.md", "label": "Football Field Charts" }
+      ]
+    },
+    {
+      "id": "sec-ib-ma",
+      "label": "M&A Advisory",
+      "items": [
+        { "type": "file", "file": "investment-banking/content/09-ma-deal-structuring.md", "label": "M&A Deal Structuring" },
+        { "type": "file", "file": "investment-banking/content/10-fairness-opinions.md", "label": "Fairness Opinions" },
+        { "type": "file", "file": "investment-banking/content/11-synergy-analysis.md", "label": "Synergy Analysis" },
+        { "type": "file", "file": "investment-banking/content/12-accretion-dilution-analysis.md", "label": "Accretion/Dilution Analysis" }
+      ]
+    },
+    {
+      "id": "sec-ib-capital",
+      "label": "Capital Raising",
+      "items": [
+        { "type": "file", "file": "investment-banking/content/13-equity-capital-markets.md", "label": "Equity Capital Markets" },
+        { "type": "file", "file": "investment-banking/content/14-debt-capital-markets.md", "label": "Debt Capital Markets" },
+        { "type": "file", "file": "investment-banking/content/15-leveraged-finance.md", "label": "Leveraged Finance" },
+        { "type": "file", "file": "investment-banking/content/16-pitch-deck-creation.md", "label": "Pitch Deck Creation" }
+      ]
+    },
+    {
+      "id": "sec-ib-qa",
+      "label": "Practice Q&A",
+      "items": [
+        { "type": "file", "file": "investment-banking/content/17-qa-basic.md",        "label": "Basic — Q1 to Q70" },
+        { "type": "file", "file": "investment-banking/content/18-qa-intermediate.md", "label": "Intermediate — Q71 to Q140" },
+        { "type": "file", "file": "investment-banking/content/19-qa-advanced.md",     "label": "Advanced — Q141 to Q210" }
+      ]
+    }
+  ],
+  "defaultFile": "investment-banking/README.md"
+}
