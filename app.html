@@ -1371,12 +1371,12 @@
     //  its folder with nav.json + content. That's it.
     // ══════════════════════════════════════════════════════════
     var CATEGORIES = [
-      { id: 'system-design',            label: 'System\nDesign',      icon: 'fa-solid fa-network-wired',  navFile: 'system-design-primer/nav.json' },
       { id: 'Computer_Science',         label: 'Computer\nScience',   icon: 'fa-solid fa-microchip',      navFile: 'Computer_Science/nav.json' },
+      { id: 'devops',                   label: 'DevOps',              icon: 'fa-solid fa-terminal',       navFile: 'devops/nav.json' },
+      { id: 'system-design',            label: 'System\nDesign',      icon: 'fa-solid fa-network-wired',  navFile: 'system-design-primer/nav.json' },
       { id: 'NuclearEnergy',            label: 'Nuclear\nEnergy',     icon: 'fa-solid fa-atom',           navFile: 'NuclearEnergy/nav.json' },
       { id: 'robotics',                 label: 'Robotics',            icon: 'fa-solid fa-robot',          navFile: 'robotics/nav.json' },
       { id: 'DronesUAV',                label: 'Drones\nUAV',         icon: 'fa-solid fa-plane-up',       navFile: 'DronesUAV/nav.json' },
-      { id: 'devops',                   label: 'DevOps',              icon: 'fa-solid fa-terminal',       navFile: 'devops/nav.json' },
       { id: 'datascience',              label: 'Data\nScience',       icon: 'fa-solid fa-flask',          navFile: 'datascience/nav.json' },
       { id: 'interview-prep',           label: 'Interview\nPrep',     icon: 'fa-solid fa-user-tie',       navFile: 'interview-prep/nav.json' },
       { id: 'marketing-research',       label: 'Marketing\nResearch', icon: 'fa-solid fa-chart-line',     navFile: 'marketing-research/nav.json' },
@@ -1952,7 +1952,7 @@
     // ══════════════════════════════════════════════════════════
     //  CATEGORY GROUPS
     // ══════════════════════════════════════════════════════════
-    var CS_IDS = ['system-design', 'Computer_Science', 'devops', 'datascience', 'interview-prep'];
+    var CS_IDS = ['Computer_Science', 'devops', 'system-design', 'datascience', 'interview-prep'];
     var NUCLEAR_IDS = ['NuclearEnergy'];
     var DRONES_IDS = ['DronesUAV'];
     var ROBOTICS_IDS = ['robotics'];
@@ -2026,7 +2026,7 @@
     renderCategoryBar();
     renderIconBar();
     switchGroup('cs');
-    switchCategory('system-design');
+    switchCategory('Computer_Science');
   </script>
 </body>
 </html>
