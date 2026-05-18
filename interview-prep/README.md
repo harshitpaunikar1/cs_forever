@@ -33,3 +33,7 @@ This section contains the interview question bank from `LLM_Azure_AI_Interview_7
 - [Artificial Intelligence](content/artificial-intelligence.md) - 200 questions
 - [Machine Learning](content/machine-learning.md) - 200 questions
 - [Scalability of AI Deployments](content/scalability-of-ai-deployments.md) - 200 questions
+- [.NET C#](content/dotnet-csharp.md) - 300 questions
+- [ReactJS](content/reactjs.md) - 300 questions
+- [Node.js and Express.js](content/nodejs-expressjs.md) - 300 questions
+- [PostgreSQL](content/postgresql.md) - 300 questions

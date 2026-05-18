@@ -149,6 +149,26 @@
                       "type":  "file",
                       "file":  "interview-prep/content/scalability-of-ai-deployments.md",
                       "label":  "Scalability of AI Deployments"
+                  },
+                  {
+                      "type":  "file",
+                      "file":  "interview-prep/content/dotnet-csharp.md",
+                      "label":  ".NET C#"
+                  },
+                  {
+                      "type":  "file",
+                      "file":  "interview-prep/content/reactjs.md",
+                      "label":  "ReactJS"
+                  },
+                  {
+                      "type":  "file",
+                      "file":  "interview-prep/content/nodejs-expressjs.md",
+                      "label":  "Node.js and Express.js"
+                  },
+                  {
+                      "type":  "file",
+                      "file":  "interview-prep/content/postgresql.md",
+                      "label":  "PostgreSQL"
                   }
               ],
     "defaultFile":  "interview-prep/README.md"
