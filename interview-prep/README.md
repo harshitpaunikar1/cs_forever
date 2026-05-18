@@ -28,3 +28,8 @@ This section contains the interview question bank from `LLM_Azure_AI_Interview_7
 - [Kubernetes](content/kubernetes.md) - 200 questions
 - [Helm Charts](content/helmcharts.md) - 200 questions
 - [DevSecOps](content/devsecops.md) - 200 questions
+- [n8n](content/n8n.md) - 200 questions
+- [Data Science](content/data-science.md) - 200 questions
+- [Artificial Intelligence](content/artificial-intelligence.md) - 200 questions
+- [Machine Learning](content/machine-learning.md) - 200 questions
+- [Scalability of AI Deployments](content/scalability-of-ai-deployments.md) - 200 questions
